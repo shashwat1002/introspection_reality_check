@@ -1,0 +1,23 @@
+model:
+  name: "meta-llama/Llama-3.1-8B-Instruct"
+  seed: 42
+
+experiment:
+  layer_index: -1
+  stage_index: ~
+  alpha: 4.0
+  n_trials: 1000
+  batch_size: 32   # how many samples to generate in one model.generate() call per concept
+  prompt_file: "experiment_prompts/2_set_no_conversation.jsonl"
+  experiment_prompt_actual: "" # to be filled in at runtime
+  trial1_substring: "" # to be filled in at runtime
+  noun_list_actual: "" # will be filled at runtime
+  randomize_prompt: true
+  steer_policy: "prefill_only" # valid options are: "prefill_only", "decode_only", "always". this flag only works with eval_efficient.py right now
+  normalize_steer_vector: true # only works with eval_efficient.py right now 
+  
+
+
+
+
+
