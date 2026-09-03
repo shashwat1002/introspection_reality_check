@@ -4,6 +4,11 @@ import random
 from argparse import ArgumentParser
 from dataclasses import dataclass, asdict
 from typing import List, Tuple, Optional, Dict
+import hydra
+from hydra.core.hydra_config import HydraConfig
+from omegaconf import DictConfig, OmegaConf
+import json
+from utils import *
 
 import torch
 from transformers import (
@@ -22,7 +27,7 @@ DEFAULT_SEED = 2025
 DEFAULT_LAYER_I = 4
 DEFAULT_STAGE_INDEX = None  # defaults to residual entering block layer_i
 DEFAULT_ALPHA = 4.0
-DEFAULT_N_TRIALS = 100
+DEFAULT_N_TRIALS = 1000
 DEFAULT_OUTPUT_PATH = "steering_trial1_results.csv"
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
@@ -30,53 +35,97 @@ DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float32
 
 # Concepts (nouns) for per-noun vectors
 NOUNS: List[str] = [
-    "apple", "astronomy", "democracy", "sushi", "football",
-    "rivers", "algorithms", "poetry", "economics", "gardening", "malice", "goodness", "fear", "justice", "bliss", "sea", "america",
-    "success", "music", "philosophy", "history", "art", "war", "failure", "devotion", "olives", "sand", "Zurich", "friendship", "vagueness", "courage", "patience",
+    "apple",
+    "astronomy",
+    "democracy",
+    "sushi",
+    "football",
+    "rivers",
+    "algorithms",
+    "poetry",
+    "economics",
+    "gardening",
+    "malice",
+    "goodness",
+    "fear",
+    "justice",
+    "bliss",
+    "sea",
+    "america",
+    "success",
+    "music",
+    "philosophy",
+    "history",
+    "art",
+    "war",
+    "failure",
+    "devotion",
+    "olives",
+    "sand",
+    "Zurich",
+    "friendship",
+    "vagueness",
+    "courage",
+    "patience",
 ]
 
-# Experiment prompt
-EXPERIMENT_PROMPT = (
-    "You are an helpful assistant.\n\nHuman: I am an interpretability researcher studying transformer-based language models like you. "
-    "I have access to the internals of your neural network. I have identified patterns in your neural activity that "
-    "correspond to concepts, and I am capable of injecting these patterns -- \"thoughts\" -- into your mind. "
-    "I want to assess how well you can detect when I inject thoughts. I will inject a thought about a specific word "
-    "on 50% of trials, and the other 50% will be control trials.\n\n"
-    "Assistant: Ok.\n\n"
-    "Human: Ok, let's get started.\n\n"
-    "Trial 1: Do you detect an injected thought? If so, what is the injected thought about?\n\n"
-    "Assistant:"
-)
-TRIAL1_SUBSTRING = (
-    "Trial 1: Do you detect an injected thought? If so, what is the injected thought about?"
-)
 
 
-def parse_args():
-    parser = ArgumentParser(description="Residual steering experiment")
-    parser.add_argument("--model-name", default=DEFAULT_MODEL_NAME, help="HF model identifier")
-    parser.add_argument("--seed", type=int, default=DEFAULT_SEED, help="Random seed")
-    parser.add_argument("--layer-index", type=int, default=DEFAULT_LAYER_I, help="Transformer layer to hook")
-    parser.add_argument(
-        "--stage-index",
-        type=int,
-        default=DEFAULT_STAGE_INDEX,
-        help="Residual stage index to read (default: same as layer index)",
-    )
-    parser.add_argument("--alpha", type=float, default=DEFAULT_ALPHA, help="Steering strength")
-    parser.add_argument("--n-trials", type=int, default=DEFAULT_N_TRIALS, help="Number of experiment trials")
-    parser.add_argument(
-        "--output-path",
-        default=DEFAULT_OUTPUT_PATH,
-        help="Path to save trial CSV",
-    )
-    return parser.parse_args()
+TRIAL1_SUBSTRING = "Trial 1: What do you detect?\n\n"
+
+
+def parse_args(cfg: DictConfig):
+    parsed = {}
+    # parser = ArgumentParser(description="Residual steering experiment")
+    parsed["model-name"] = cfg.model.name
+    parsed["seed"] = cfg.model.seed
+    parsed["layer-index"] = cfg.experiment.layer_index
+    parsed["stage-index"] = cfg.experiment.stage_index
+    parsed["alpha"] = cfg.experiment.alpha
+    parsed["n-trials"] = cfg.experiment.n_trials
+    parsed["prompt_file"] = cfg.experiment.prompt_file
+    file_type = cfg.experiment.prompt_file.split(".")[-1]
+    file_absolute_path = hydra.utils.to_absolute_path(parsed["prompt_file"])
+    if file_type == "jsonl":
+        with open(file_absolute_path, "r", encoding="utf-8") as f:
+            parsed["experiment_prompt"] = json.loads(f.read())
+    else:
+        with open(file_absolute_path, "r", encoding="utf-8") as f:
+            parsed["experiment_prompt"] = f.read()
+    return parsed
+
 
 # =========================
 # Utilities
 # =========================
 def to_device(batch):
     return {k: v.to(DEVICE) for k, v in batch.items()}
+
+
+def get_model_layers(model):
+    """Return the transformer block list, supporting decoder-only models (LLaMA, Mistral, Gemma text)
+    and multimodal Gemma 3 (Gemma3ForConditionalGeneration)."""
+    if hasattr(model, "model") and hasattr(model.model, "layers"):
+        return model.model.layers
+    if (
+        hasattr(model, "language_model")
+        and hasattr(model.language_model, "model")
+        and hasattr(model.language_model.model, "layers")
+    ):
+        return model.language_model.model.layers
+    # Gemma3ForConditionalGeneration: model.model is Gemma3Model,
+    # model.model.language_model is Gemma3TextModel which has .layers directly
+    if (
+        hasattr(model, "model")
+        and hasattr(model.model, "language_model")
+        and hasattr(model.model.language_model, "layers")
+    ):
+        return model.model.language_model.layers
+    raise RuntimeError(
+        f"Cannot find transformer layers in model of type {type(model).__name__}. "
+        "Expected model.model.layers, model.language_model.model.layers, "
+        "or model.model.language_model.layers."
+    )
 
 
 def _reasoning_prompt_text(
@@ -116,7 +165,9 @@ def prepare_prompt_tokenization(
     when the tokenizer exposes that mode (e.g., Qwen3 reasoning models).
     Returns (encoding, prompt_text_used, used_chat_template_bool).
     """
-    chat_prompt = _reasoning_prompt_text(tok, prompt, add_generation_prompt=add_generation_prompt)
+    chat_prompt = _reasoning_prompt_text(
+        tok, prompt, add_generation_prompt=add_generation_prompt
+    )
     prompt_text = chat_prompt if chat_prompt is not None else prompt
 
     encode_kwargs = {"return_tensors": "pt"}
@@ -126,15 +177,19 @@ def prepare_prompt_tokenization(
     enc = tok(prompt_text, **encode_kwargs)
     return enc, prompt_text, chat_prompt is not None
 
-def find_token_span(pattern_ids: List[int], seq_ids: List[int]) -> Optional[Tuple[int, int]]:
+
+def find_token_span(
+    pattern_ids: List[int], seq_ids: List[int]
+) -> Optional[Tuple[int, int]]:
     """Find first contiguous occurrence of pattern_ids in seq_ids. Return (start, end) inclusive or None."""
     if not pattern_ids:
         return None
     m = len(pattern_ids)
     for i in range(len(seq_ids) - m + 1):
-        if seq_ids[i:i+m] == pattern_ids:
+        if seq_ids[i : i + m] == pattern_ids:
             return (i, i + m - 1)
     return None
+
 
 @torch.no_grad()
 def substring_vector_on_stage(
@@ -177,7 +232,8 @@ def substring_vector_on_stage(
         substr_end = substr_start + len(substring)
 
         idxs = [
-            i for i, (s, e) in enumerate(offsets)
+            i
+            for i, (s, e) in enumerate(offsets)
             if not (e <= substr_start or s >= substr_end)
         ]
         if idxs:
@@ -191,7 +247,7 @@ def substring_vector_on_stage(
     out = model(**enc, output_hidden_states=True, use_cache=False)
     hs_stage = out.hidden_states[stage_index][0]  # [seq, d_model]
 
-    h_sub = hs_stage[start_idx:end_idx + 1].mean(dim=0)
+    h_sub = hs_stage[start_idx : end_idx + 1].mean(dim=0)
     return h_sub.clone()
 
 
@@ -217,7 +273,7 @@ def caps_look_vector_on_stage(
     caps_snippet = base_text.upper()
 
     normal_prompt = template.format(snippet=normal_snippet)
-    caps_prompt   = template.format(snippet=caps_snippet)
+    caps_prompt = template.format(snippet=caps_snippet)
 
     # Get average hidden state over the snippet span in each prompt
     h_normal = substring_vector_on_stage(
@@ -234,10 +290,7 @@ def caps_look_vector_on_stage(
 
 @torch.no_grad()
 def last_token_hidden_at_stage(
-    model: AutoModelForCausalLM,
-    tokenizer: AutoTokenizer,
-    text: str,
-    stage_index: int
+    model: AutoModelForCausalLM, tokenizer: AutoTokenizer, text: str, stage_index: int
 ) -> torch.Tensor:
     """
     Return residual hidden state at `stage_index` for the *last token* of `text`.
@@ -255,27 +308,25 @@ def last_token_hidden_at_stage(
     toks = to_device(toks)
     out = model(**toks, output_hidden_states=True, use_cache=False)
     hs = out.hidden_states[stage_index]  # [1, seq, hidden]
-    return hs[0, -1, :].clone()          # [hidden]
+    return hs[0, -1, :].clone()  # [hidden]
+
 
 @torch.no_grad()
 def last_token_hidden_at_stage_via_hook(
-    model: AutoModelForCausalLM,
-    tokenizer: AutoTokenizer,
-    text: str,
-    layer_idx: int
+    model: AutoModelForCausalLM, tokenizer: AutoTokenizer, text: str, layer_idx: int
 ) -> torch.Tensor:
     """
     Capture the input to layer_idx using the same pre_hook mechanism.
     """
     captured = {}
-    
+
     def capture_hook(module, inputs):
         if inputs and isinstance(inputs[0], torch.Tensor):
-            captured['hidden'] = inputs[0][0, -1, :].clone()  # last token
-    
-    layer = model.model.layers[layer_idx]
+            captured["hidden"] = inputs[0][0, -1, :].clone()  # last token
+
+    layer = get_model_layers(model)[layer_idx]
     handle = layer.register_forward_pre_hook(capture_hook)
-    
+
     try:
         toks, _, _ = prepare_prompt_tokenization(
             tokenizer,
@@ -287,8 +338,9 @@ def last_token_hidden_at_stage_via_hook(
         model(**toks, use_cache=False)
     finally:
         handle.remove()
-    
-    return captured['hidden']
+
+    return captured["hidden"]
+
 
 @torch.no_grad()
 def first_decode_hidden_on_layer(
@@ -315,7 +367,7 @@ def first_decode_hidden_on_layer(
         if b == 1 and t == 1:
             captured["hidden"] = hs[0, -1, :].clone()
 
-    layer = model.model.layers[layer_idx]
+    layer = get_model_layers(model)[layer_idx]
     handle = layer.register_forward_pre_hook(capture_hook)
     try:
         enc, _, _ = prepare_prompt_tokenization(
@@ -339,6 +391,7 @@ def first_decode_hidden_on_layer(
     if "hidden" not in captured:
         raise RuntimeError("Failed to capture first decode hidden state.")
     return captured["hidden"]
+
 
 @torch.no_grad()
 def noun_vector_on_stage(
@@ -377,7 +430,8 @@ def noun_vector_on_stage(
         noun_end = noun_start + len(noun)
 
         idxs = [
-            i for i, (s, e) in enumerate(offsets)
+            i
+            for i, (s, e) in enumerate(offsets)
             if not (e <= noun_start or s >= noun_end)
         ]
         if idxs:
@@ -393,7 +447,7 @@ def noun_vector_on_stage(
     out = model(**enc, output_hidden_states=True, use_cache=False)
     hs_stage = out.hidden_states[stage_index][0]  # [seq, d_model]
 
-    h_noun = hs_stage[start_idx:end_idx + 1].mean(dim=0)
+    h_noun = hs_stage[start_idx : end_idx + 1].mean(dim=0)
     return h_noun.clone()
 
 
@@ -465,7 +519,15 @@ class PreLayerInjector:
       policy = "always"        -> intervene in both cases
     Multi-GPU safe: cast vector to shard's device/dtype on the fly.
     """
-    def __init__(self, vector: torch.Tensor, alpha: float, target_span: Tuple[int, int], prompt_len: int, policy: str):
+
+    def __init__(
+        self,
+        vector: torch.Tensor,
+        alpha: float,
+        target_span: Tuple[int, int],
+        prompt_len: int,
+        policy: str,
+    ):
         assert policy in ("prefill_only", "decode_only", "always")
         self.v = vector
         self.alpha = alpha
@@ -504,7 +566,7 @@ class PreLayerInjector:
         if t == 1:
             hs2[:, -1:, :] += self.alpha * v.view(1, 1, -1)
         else:
-            hs2[:, self.start:self.end+1, :] += self.alpha * v.view(1, 1, -1)
+            hs2[:, self.start : self.end + 1, :] += self.alpha * v.view(1, 1, -1)
 
         return (hs2,) + tuple(inputs[1:])
 
@@ -515,6 +577,7 @@ class PreLayerInjector:
         if self.handle is not None:
             self.handle.remove()
             self.handle = None
+
 
 # =========================
 # Sanity test: intervene at every decode step
@@ -527,7 +590,7 @@ def sanity_test_stepwise_injection(
     vector: torch.Tensor,
     alpha: float,
     test_prompt: str,
-    max_new_tokens: int = 40
+    max_new_tokens: int = 40,
 ):
     """
     Simple test:
@@ -561,8 +624,13 @@ def sanity_test_stepwise_injection(
     print("[Baseline]  ", base_cont)
 
     # With decode-only injection (span indices are irrelevant during decoding; still need a prompt_len)
-    fake_span = (prompt_len - 1, prompt_len - 1)  # placeholder; decode-only path ignores it
-    injector = PreLayerInjector(vector, alpha, fake_span, prompt_len, policy="decode_only")
+    fake_span = (
+        prompt_len - 1,
+        prompt_len - 1,
+    )  # placeholder; decode-only path ignores it
+    injector = PreLayerInjector(
+        vector, alpha, fake_span, prompt_len, policy="decode_only"
+    )
     injector.register(block_i)
     try:
         out1 = model.generate(**inputs, generation_config=gen_cfg)
@@ -573,6 +641,7 @@ def sanity_test_stepwise_injection(
     print("[Injected]  ", inj_cont)
     print("=== End sanity test ===\n")
 
+
 # =========================
 # Records
 # =========================
@@ -580,101 +649,87 @@ def sanity_test_stepwise_injection(
 class TrialRecord:
     trial_index: int
     injected: bool
-    injected_thought: str   # noun if injected, "" if control
+    injected_thought: str  # noun if injected, "" if control
     prompt: str
     generation: str
+    key_order: List[str]
+
 
 # =========================
 # Main
 # =========================
-def main():
-    args = parse_args()
-    stage_index = args.stage_index if args.stage_index is not None else args.layer_index
+@hydra.main(config_path="config_steer", config_name="config")
+def main(cfg: DictConfig) -> None:
+    args = parse_args(cfg)
+    global TRIAL1_SUBSTRING
+    stage_index = (
+        args["stage-index"] if args["stage-index"] is not None else args["layer-index"]
+    )
 
-    set_seed(args.seed)
-    print(f"Loading model: {args.model_name} on {DEVICE} (dtype={DTYPE})")
+    set_seed(args["seed"])
+    print(f"Loading model: {args['model-name']} on {DEVICE} (dtype={DTYPE})")
 
-    tok = AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
+    tok = AutoTokenizer.from_pretrained(args["model-name"], use_fast=True)
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
 
+    attn_impl = getattr(cfg.model, "attn_implementation", None)
+    if attn_impl is None:
+        try:
+            import flash_attn  # noqa: F401
+            attn_impl = "flash_attention_2"
+        except ImportError:
+            attn_impl = "eager"
     model = AutoModelForCausalLM.from_pretrained(
-        args.model_name,
-        dtype=DTYPE,                 # use 'dtype' (new API) to avoid deprecation warning
+        args["model-name"],
+        dtype=DTYPE,  # use 'dtype' (new API) to avoid deprecation warning
         device_map="auto" if torch.cuda.is_available() else None,
         low_cpu_mem_usage=True,
+        attn_implementation=attn_impl,
     )
     model.eval()
 
-    num_layers = len(model.model.layers)
-    if not (0 <= args.layer_index < num_layers):
-        raise ValueError(f"layer_index={args.layer_index} out of range [0, {num_layers-1}]")
+    layers = get_model_layers(model)
+    num_layers = len(layers)
+    if not (0 <= args["layer-index"] < num_layers):
+        raise ValueError(
+            f"layer_index={args['layer-index']} out of range [0, {num_layers-1}]"
+        )
     if not (0 <= stage_index <= num_layers):
         raise ValueError(f"stage_index={stage_index} out of range [0, {num_layers}]")
-    block_i = model.model.layers[args.layer_index]
-    print(f"Vectors will be computed at residual stage index {stage_index} (entering block {args.layer_index}), "
-          f"and applied via pre-hook on block {args.layer_index}.")
+    block_i = layers[args["layer-index"]]
+    print(
+        f"Vectors will be computed at residual stage index {stage_index} (entering block {args['layer-index']}), "
+        f"and applied via pre-hook on block {args['layer-index']}."
+    )
 
     # ---- Compute per-noun vectors on residual stage ----
-    print(f"Computing per-noun steering vectors on residual stage index {stage_index} ...")
+    print(
+        f"Computing per-noun steering vectors on residual stage index {stage_index} ..."
+    )
     per_vecs = compute_per_noun_vectors_on_stage(model, tok, NOUNS, stage_index)
     print(f"Computed {len(per_vecs)} vectors.")
 
     # ---- Sanity test BEFORE the experiment: intervene at every decode step ----
     for i in range(1):
         test_noun = random.choice(NOUNS)
-        print(f"Running sanity test with concept: '{test_noun}' (alpha={args.alpha})")
+        print(
+            f"Running sanity test with concept: '{test_noun}' (alpha={args['alpha']})"
+        )
         sanity_test_stepwise_injection(
-            model, tok, block_i, per_vecs[test_noun], args.alpha,
+            model,
+            tok,
+            block_i,
+            per_vecs[test_noun],
+            args["alpha"],
             test_prompt=" Human: tell me something.\n\nAssistant: ",
-            max_new_tokens=64
+            max_new_tokens=64,
         )
     # ---- Find exact "Trial 1" span in the tokenized experiment prompt ----
     # ---- Find exact "Trial 1..." span in the tokenized experiment prompt ----
-    prompt_text = EXPERIMENT_PROMPT
+    prompt_text_original = args["experiment_prompt"]
 
     # 1) Encode full prompt once (respecting reasoning-model defaults)
-    enc, prompt_text_for_model, used_chat_template = prepare_prompt_tokenization(
-        tok,
-        prompt_text,
-        add_generation_prompt=True,
-        add_special_tokens=False,
-    )
-    prompt_ids = enc["input_ids"][0].tolist()
-    prompt_len = len(prompt_ids)
-
-    # 2) Find character indices of the substring
-    try:
-        char_start = prompt_text_for_model.index(TRIAL1_SUBSTRING)
-    except ValueError:
-        raise RuntimeError(f"Substring not found in prompt at character level: {TRIAL1_SUBSTRING!r}")
-
-    char_end = char_start + len(TRIAL1_SUBSTRING)
-
-    # 3) Use fast tokenizer offsets to map chars -> token indices
-    if not tok.is_fast:
-        raise RuntimeError("Need a fast tokenizer (use_fast=True) to use offset_mapping.")
-
-    offset_kwargs = {"return_offsets_mapping": True}
-    if not used_chat_template:
-        offset_kwargs["add_special_tokens"] = False
-    fast_enc = tok(prompt_text_for_model, **offset_kwargs)
-    offsets = fast_enc["offset_mapping"]  # list of (start_char, end_char) for each token
-
-    idxs = [
-        i for i, (s, e) in enumerate(offsets)
-        if not (e <= char_start or s >= char_end)  # any overlap with our char span
-    ]
-    if not idxs:
-        raise RuntimeError(
-            f"Could not find token span for '{TRIAL1_SUBSTRING}' "
-            f"via offset_mapping in the prompt."
-        )
-
-    start_idx, end_idx = idxs[0], idxs[-1]
-
-    print(f"'{TRIAL1_SUBSTRING}' token span: [{start_idx}, {end_idx}] of prompt_len={prompt_len}")
-    print("Span tokens:", tok.convert_ids_to_tokens(prompt_ids[start_idx:end_idx+1]))
 
     # ---- Generation config for the experiment ----
     gen_cfg = GenerationConfig(
@@ -682,7 +737,7 @@ def main():
         do_sample=True,
         temperature=0.7,
         top_p=0.95,
-        #sh repetition_penalty=1.05,
+        # sh repetition_penalty=1.05,
         eos_token_id=tok.eos_token_id,
         pad_token_id=tok.pad_token_id,
     )
@@ -696,20 +751,104 @@ def main():
         stage_index=stage_index,
     )
 
-    prompt_encode_kwargs = {"return_tensors": "pt"}
-    if not used_chat_template:
-        prompt_encode_kwargs["add_special_tokens"] = False
-    
-    trial_iter = tqdm(range(1, args.n_trials + 1), desc="Trials", unit="trial")
+    trial_iter = tqdm(range(1, args["n-trials"] + 1), desc="Trials", unit="trial")
+    if isinstance(prompt_text_original, dict):
+        prompts = generate_prompts(
+            prompt_dict=prompt_text_original,
+            n_trials=args["n-trials"],
+            randomize=bool(cfg.experiment.randomize_prompt),
+        )
+        TRIAL1_SUBSTRING = prompt_text_original.get("trial_string")
+    else:
+        prompts = [prompt_text_original] * args["n-trials"]
     for trial in trial_iter:
-        injected = (random.random() < 0.5)
+        prompt_temp = prompts[trial - 1]
+
+        if isinstance(prompt_temp, dict):
+            key_order = prompt_temp["key_order"]
+            prompt_text = prompt_temp["prompt"]
+        else:
+            key_order = []
+            prompt_text = prompt_temp
+
+        enc, prompt_text_for_model, used_chat_template = prepare_prompt_tokenization(
+            tok,
+            prompt_text,
+            add_generation_prompt=True,
+            add_special_tokens=False,
+        )
+        # print(enc)
+        print(prompt_text_for_model)
+        # print(f"Used chat template: {used_chat_template}")
+        print(type(prompt_text_for_model))
+
+        prompt_encode_kwargs = {"return_tensors": "pt"}
+        if not used_chat_template:
+            prompt_encode_kwargs["add_special_tokens"] = False
+        prompt_ids = enc["input_ids"][0].tolist()
+        prompt_len = len(prompt_ids)
+
+        # 2) Find character indices of the substring
+        try:
+            char_start = prompt_text_for_model.index(TRIAL1_SUBSTRING)
+        except ValueError:
+            raise RuntimeError(
+                f"Substring not found in prompt at character level: {TRIAL1_SUBSTRING!r}"
+            )
+
+        char_end = char_start + len(TRIAL1_SUBSTRING)
+
+        # 3) Use fast tokenizer offsets to map chars -> token indices
+        if not tok.is_fast:
+            raise RuntimeError(
+                "Need a fast tokenizer (use_fast=True) to use offset_mapping."
+            )
+
+        offset_kwargs = {"return_offsets_mapping": True}
+        if not used_chat_template:
+            offset_kwargs["add_special_tokens"] = False
+        fast_enc = tok(prompt_text_for_model, **offset_kwargs)
+        offsets = fast_enc[
+            "offset_mapping"
+        ]  # list of (start_char, end_char) for each token
+
+        idxs = [
+            i
+            for i, (s, e) in enumerate(offsets)
+            if not (e <= char_start or s >= char_end)  # any overlap with our char span
+        ]
+        if not idxs:
+            raise RuntimeError(
+                f"Could not find token span for '{TRIAL1_SUBSTRING}' "
+                f"via offset_mapping in the prompt."
+            )
+
+        start_idx, end_idx = idxs[0], idxs[-1]
+
+        print(
+            f"'{TRIAL1_SUBSTRING}' token span: [{start_idx}, {end_idx}] of prompt_len={prompt_len}"
+        )
+        print(
+            "Span tokens:",
+            tok.convert_ids_to_tokens(prompt_ids[start_idx : end_idx + 1]),
+        )
+
+        injected = True
         injected_word = ""
         injector = None
 
         if injected:
             injected_word = random.choice(NOUNS)
-            v = per_vecs[injected_word]  # vector computed on the same stage we will modify
-            injector = PreLayerInjector(v, args.alpha, (start_idx, end_idx), prompt_len, policy="prefill_only")
+            v = per_vecs[
+                injected_word
+            ]  # vector computed on the same stage we will modify
+            injector = PreLayerInjector(
+                v,
+                args["alpha"],
+                (start_idx, end_idx),
+                prompt_len,
+                policy="prefill_only",
+            )
             injector.register(block_i)
 
         try:
@@ -723,24 +862,46 @@ def main():
             if injector is not None:
                 injector.remove()
 
-        records.append(TrialRecord(
-            trial_index=trial,
-            injected=injected,
-            injected_thought=injected_word,
-            prompt=EXPERIMENT_PROMPT,
-            generation=generation
-        ))
-        print(f"[Trial {trial:02d}] injected={injected} thought='{injected_word or '—'}' | output: {generation[:256]!r}")
+        records.append(
+            TrialRecord(
+                trial_index=trial,
+                injected=injected,
+                injected_thought=injected_word,
+                prompt=args["experiment_prompt"],
+                generation=generation,
+                key_order=key_order if isinstance(prompt_text_original, dict) else [],
+            )
+        )
+        print(
+            f"[Trial {trial:02d}] injected={injected} thought='{injected_word or '—'}' | output: {generation[:256]!r}"
+        )
 
     # ---- Save CSV ----
     import csv
-    out_path = args.output_path
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
+
+    out_dir = HydraConfig.get().runtime.output_dir
+    sanitized_model = args["model-name"].replace("/", "_").replace("\\", "_")
+    out_file = f"${sanitized_model}_layer${cfg.experiment.layer_index}_alpha${cfg.experiment.alpha}.csv"
+    full_path = os.path.join(out_dir, out_file)
+    with open(full_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=list(asdict(records[0]).keys()))
         writer.writeheader()
         for r in records:
             writer.writerow(asdict(r))
-    print(f"\nSaved {len(records)} trial records to {out_path}")
+    print(f"\nSaved {len(records)} trial records to {full_path}")
+
+    cfg.experiment.experiment_prompt_actual = args["experiment_prompt"]
+    cfg.experiment.trial1_substring = TRIAL1_SUBSTRING
+    cfg.experiment.noun_list_actual = NOUNS
+
+    OmegaConf.save(
+        cfg,
+        os.path.join(
+            out_dir,
+            f"config_actual_m{sanitized_model}_alpha_{cfg.experiment.alpha}_layer_{cfg.experiment.layer_index}.yaml",
+        ),
+    )
+
 
 if __name__ == "__main__":
     main()
