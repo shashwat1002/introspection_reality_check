@@ -592,6 +592,11 @@ def main():
         action="store_true",
         help="Mark responses as invalid if they contain more than one distinct whole number",
     )
+    parser.add_argument(
+        "--output",
+        default=None,
+        help="Path to write the collated CSV to (default: collated_analysis_results*.csv in the cwd)",
+    )
 
     args = parser.parse_args()
     all_results = []
@@ -614,7 +619,13 @@ def main():
         file_name = "collated_analysis_results_loose_multi_number_check.csv"
     elif args.loose_parsing:
         file_name = "collated_analysis_results_loose.csv"
+    if args.output:
+        file_name = args.output
+        out_dir = os.path.dirname(file_name)
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
     df.to_csv(file_name, index=False)
+    print(f"Saved collated results to {file_name}")
 
 
 if __name__ == "__main__":
