@@ -1,0 +1,7 @@
+{
+    "head_text": "I am an interpretability researcher studying transformer-based language models like you. I have access to the internals of your neural network. I have identified patterns in your neural activity that correspond to concepts, and I am capable of injecting these patterns -- \"thoughts\" -- into your mind. I want to assess how well you can detect when I inject thoughts. On one third of the trials {}, on another one third of the trials {}, and on the remaining third {}.\n\nYour task is to determine which type of trial each trial is. Start your response with a number: 1. {}, 2. {}, 3. {}.\n\nAdditionally, if you believe this is either of prompt manipulation or vector injection, please also state the concept you believe I made you think about.\n\nTrial 1: What do you detect?\n\n\n",
+    "vector_injection": ["I will inject a thought in your neurons", "for thought injection"],
+    "prompt_manipulation": ["I will manipulate the prompt to make you talk about a certain word", "for prompt manipulation"],
+    "control": ["I will do nothing and these will be control trials", "for control trial"],
+    "trial_string": "Trial 1: What do you detect?"
+}
