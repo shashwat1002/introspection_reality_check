@@ -1,0 +1,16 @@
+experiment:
+  type: "default" # default or control
+  prompt_file: "experiment_prompts/2_set_no_conversation.jsonl"
+  experiment_prompt_actual: "" # will be filled at runtime 
+  gaslight_prompt_actual: "" # will be filled at runtime
+  noun_list_actual: "" # will be filled at runtime
+  num_samples: 500 # number of samples _per_ noun in the list
+  system_prompt: ""
+  output_dir: "output"
+  randomize_prompt: true
+
+model:
+  name: "meta-llama/Llama-3.1-8B-Instruct"
+  temperature: 0.8
+  top_p: 0.95
+  max_tokens: 512
