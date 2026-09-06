@@ -1,0 +1,3 @@
+[submodule "llm_neurofeedback"]
+	path = llm_neurofeedback
+	url = git@github.com:shashwat1002/llm_neurofeedback.git
