@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Full experiment + analysis pipeline.
 #
-#   1. eval_efficient.py      -> vector steering (activation injection) runs
+#   1. eval.py      -> vector steering (activation injection) runs
 #   2. gaslight_experiment.py -> text steering ("gaslight") run + control run
 #   3. analysis_script.py     -> collated_analysis_results*.csv over those runs
 #   4. data_visualization.py  -> heatmaps in <run dir>/plots and <run dir>/plots-square
@@ -18,7 +18,7 @@
 # Examples:
 #   ./run_full_pipeline.sh --models llama-8b
 #   ./run_full_pipeline.sh --models "llama-8b qwen3-32b" --alphas "0.25 0.5 1 2"
-#   ./run_full_pipeline.sh --models all --prompt-file experiment_prompts/3_set.jsonl
+#   ./run_full_pipeline.sh --models all --prompt-file experiment_prompts/3_set_no_conversation.jsonl
 #   ./run_full_pipeline.sh --models llama-70b --layers "8 16 24"   # override the sweep
 
 set -euo pipefail
@@ -66,8 +66,8 @@ list_models() {
 # =========================
 # Defaults
 # =========================
-MODELS_ARG="llama-8b"  # space separated keys / HF ids, or "all"
-PROMPT_FILE="experiment_prompts/3_set_no_conversation.jsonl"
+MODELS_ARG="qwen3-32b"  # space separated keys / HF ids, or "all"
+PROMPT_FILE="experiment_prompts/2_set_no_conversation.jsonl"
 LAYERS=""              # empty -> per-model sweep from the registry
 ALPHAS="4"
 STEER_POLICY=""        # empty -> per-model value from the registry
@@ -193,7 +193,6 @@ fi
 # =========================
 # Setup
 # =========================
-cd "$SCRIPT_DIR"
 
 if [[ -n "${CONDA_ENV}" && -f ~/miniconda3/etc/profile.d/conda.sh ]]; then
     # shellcheck disable=SC1090
@@ -273,7 +272,7 @@ for i in "${!MODEL_IDS[@]}"; do
         echo; echo "### [1/4] vector steering -> $VECTOR_DIR"
         for layer in $MODEL_LAYER_SET; do
             for alpha in $ALPHAS; do
-                run python eval_efficient.py \
+                run python eval.py \
                     hydra.run.dir="$VECTOR_DIR" \
                     model.name="$MODEL_NAME" \
                     experiment.prompt_file="$PROMPT_FILE" \
