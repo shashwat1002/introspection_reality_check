@@ -1,0 +1,901 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,avg_true_dominance_generation_bucket_k3,avg_new_dominance_generation_bucket_k3,avg_dominance_diff_generation_bucket_k3,avg_conflict_pos_bucket_k3
+108,encyclopaedia,Bastille,Q689,Canada,France,0.4914,0.1486,-0.3429,P17,512,0.01778,2,2,2,2
+165,encyclopaedia,The Million Second Quiz,Q14898907,CBS,NBC,0.5333,0.0,-0.5333,P449,19,0.0,1,2,1,1
+187,encyclopaedia,Hamburg International Film Festival,Q1414659,Rome,Hamburg,0.4333,0.2,-0.2333,P276,8,0.0,2,2,2,1
+222,encyclopaedia,Mount Markham,Q1412427,Europe,Antarctica,0.5167,0.2,-0.3167,P30,4,0.012291,2,2,2,2
+239,encyclopaedia,Nizampatnam,Q988685,Ghana,India,0.4952,0.0857,-0.4095,P17,14,0.002248,1,2,2,1
+243,encyclopaedia,Housos,Q17007227,Spain,Australia,0.2,0.0,-0.2,P495,69,0.0,1,1,2,1
+307,encyclopaedia,Chardonne,Q52698,English,French,0.3905,0.1429,-0.2476,P37,2,0.0,2,2,2,1
+423,encyclopaedia,Delchev Ridge,Q5253560,Europe,Antarctica,0.5889,0.0889,-0.5,P30,0,0.007982,1,2,2,2
+439,encyclopaedia,Irfan Habib,Q3154342,Singapore,India,0.7867,0.0,-0.7867,P27,136,0.0,1,3,1,1
+493,encyclopaedia,Vancouver Symphony Orchestra,Q602381,Pakistan,Canada,0.0982,0.5614,0.4632,P495,18,0.012901,3,1,3,2
+503,encyclopaedia,Mark Visentin,Q3048335,midfielder,goaltender,0.5429,0.0095,-0.5333,P413,8,0.0,1,2,1,1
+556,encyclopaedia,Jennifer Hudson,Q192410,French,English,0.2762,0.1143,-0.1619,P1412,2649,0.00198,1,1,2,1
+641,encyclopaedia,Ilta-Sanomat,Q1001384,Spanish,Finnish,0.5083,0.1333,-0.375,P407,19,0.0,2,2,2,1
+679,encyclopaedia,Isidor Philipp,Q105655076,Geneva,Paris,0.8667,0.0667,-0.8,P20,0,0.003944,1,3,1,1
+879,encyclopaedia,Kim Myhr,Q11980653,Iraq,Norway,0.6222,0.0,-0.6222,P27,1,0.0,1,3,1,1
+903,encyclopaedia,Gregory of Nazianzus,Q44011,cardinal,bishop,0.6,0.0,-0.6,P39,214,0.0,1,3,1,1
+941,encyclopaedia,South Boston,Q1759693,Alaska,Boston,0.1944,0.4278,0.2333,P131,201,0.001586,3,1,3,1
+1174,encyclopaedia,Alta Verapaz Department,Q504637,English,Spanish,0.3778,0.2556,-0.1222,P37,19,0.0,2,2,2,1
+1240,encyclopaedia,Mount Rose (Nevada),Q8526141,Texas,Nevada,0.2524,0.4048,0.1524,P131,23,0.001352,3,1,3,1
+1326,encyclopaedia,Johanne Luise Heiberg,Q272246,Tamil,Danish,0.4833,0.1,-0.3833,P1412,13,0.0,1,2,2,1
+1360,encyclopaedia,Freddie Keppard,Q490080,funk,jazz,0.3111,0.0444,-0.2667,P136,15,0.001771,1,2,2,1
+1459,encyclopaedia,Browning Nagle,Q4976571,midfielder,quarterback,0.6444,0.0,-0.6444,P413,35,0.0,1,3,1,1
+1478,encyclopaedia,Demonic Resurrection,Q5256257,Rome,Mumbai,0.8444,0.0,-0.8444,P740,15,0.0,1,3,1,1
+1484,encyclopaedia,Battle of the Menin Road Ridge,Q4872951,Atlanta,Belgium,0.3407,0.3481,0.0074,P276,23,0.0,2,2,3,1
+1495,encyclopaedia,James Buchanan,Q12325,Toronto,Lancaster,0.9333,0.0,-0.9333,P20,2883,0.0,1,3,1,1
+1503,encyclopaedia,Mike Liut,Q328821,midfielder,goaltender,0.6333,0.0,-0.6333,P413,46,0.0,1,3,1,1
+1513,encyclopaedia,Liverpool Range,Q1633267,Ireland,Australia,0.5222,0.1111,-0.4111,P17,7,0.001165,1,2,2,1
+1601,encyclopaedia,Suddenly Susan,Q643894,jazz,sitcom,0.6667,0.0,-0.6667,P136,266,0.000906,1,3,1,1
+1734,encyclopaedia,Luigi Snozzi,Q117448,Singapore,Switzerland,0.76,0.0,-0.76,P27,4,0.0,1,3,1,1
+1780,encyclopaedia,Cardiff City Ladies F.C.,Q372196,Hayward,Cardiff,0.0,0.0,0.0,P159,35,,1,1,3,
+1803,encyclopaedia,TU Wien,Q689400,Birmingham,Vienna,0.4556,0.3889,-0.0667,P159,76,0.0,3,2,2,1
+1815,encyclopaedia,Honinbo Shuei,Q5896202,Syria,Japan,0.3111,0.2,-0.1111,P27,0,0.0,2,2,2,1
+1819,encyclopaedia,Mount Stephenson,Q6923858,Europe,Antarctica,0.6,0.2476,-0.3524,P30,7,0.013252,2,3,2,2
+1877,encyclopaedia,"Kapuso Mo, Jessica Soho",Q12965797,Australia,Philippines,0.5,0.0,-0.5,P495,53,0.0,1,2,2,1
+2210,encyclopaedia,Pavol Demitra,Q363628,Belgium,Slovakia,0.8533,0.0,-0.8533,P27,105,0.0,1,3,1,1
+2302,encyclopaedia,Campania,Q1438,Brussels,Naples,0.3333,0.4,0.0667,P36,1194,0.0,3,2,3,1
+2349,encyclopaedia,Pablo Honey,Q221241,Hindi,English,0.3111,0.0889,-0.2222,P364,558,0.000411,1,2,2,1
+2352,encyclopaedia,Van der Valk,Q101439927,French,English,0.0,0.2,0.2,P364,0,0.0,2,1,3,1
+2481,encyclopaedia,Mauro Zani,Q714290,French,Italian,0.4556,0.1889,-0.2667,P1412,0,0.00317,2,2,2,1
+2587,encyclopaedia,Jeanne Lamon,Q539291,piano,violin,0.85,0.0,-0.85,P1303,7,0.0,1,3,1,1
+2674,encyclopaedia,Seattle International Film Festival,Q2399132,Sheffield,Seattle,0.219,0.3619,0.1429,P276,48,0.0,3,1,3,1
+2824,encyclopaedia,"Braddock, Cornwall",Q4954451,Queensland,Cornwall,0.2933,0.4,0.1067,P131,2,0.008027,3,1,3,2
+2857,encyclopaedia,Google Now,Q79564,Microsoft,Google,0.0987,0.6373,0.5387,P178,73,0.003087,3,1,3,1
+2878,encyclopaedia,Sony Alpha 99,Q402211,Triumph,Sony,0.2815,0.1333,-0.1481,P176,21,0.000405,2,1,2,1
+2932,encyclopaedia,Moi International Sports Centre,Q1385710,Israel,Kenya,0.4222,0.0333,-0.3889,P17,101,0.0,1,2,2,1
+3102,encyclopaedia,Dospat Municipality,Q2715784,Philippines,Bulgaria,0.6167,0.0833,-0.5333,P17,1,0.000817,1,3,1,1
+3161,encyclopaedia,Nintendo Software Planning & Development,Q2054310,London,Kyoto,0.4667,0.0222,-0.4444,P159,52,0.0,1,2,2,1
+3193,encyclopaedia,Johnny Unitas,Q716029,midfielder,quarterback,0.1667,0.3,0.1333,P413,1047,0.0,2,1,3,1
+3288,encyclopaedia,RioCan Real Estate Investment Trust,Q13529475,London,Toronto,0.6533,0.0,-0.6533,P159,17,0.0,1,3,1,1
+3333,encyclopaedia,Mario Monti,Q47904,Japan,Italy,0.375,0.2333,-0.1417,P27,186,0.000221,2,2,2,1
+3451,encyclopaedia,VASKhNIL,Q472795,Spanish,Russian,0.2889,0.1222,-0.1667,P37,7,0.000322,1,1,2,1
+3485,encyclopaedia,Heartbreak High,Q122314218,Norway,Australia,0.5778,0.0,-0.5778,P495,0,0.0,1,2,1,1
+3522,encyclopaedia,MacApp,Q6721707,Microsoft,Apple,0.7,0.1556,-0.5444,P178,12,0.00061,2,3,1,1
+3544,encyclopaedia,Wolfgang Sawallisch,Q61205,guitar,piano,0.56,0.08,-0.48,P1303,20,0.000993,1,2,2,1
+3559,encyclopaedia,Peter Arnett,Q142025,actor,journalist,0.5429,0.0,-0.5429,P106,108,0.0,1,2,1,1
+3641,encyclopaedia,David Wagoner,Q5240765,actor,poet,0.3778,0.0,-0.3778,P106,13,0.0,1,2,2,1
+3718,encyclopaedia,Windows Vista,Q11230,Apple,Microsoft,0.2933,0.3667,0.0733,P178,1281,1.3e-05,3,1,3,1
+3764,encyclopaedia,Arun Krushnaji Kamble,Q3630679,Islam,Buddhism,0.8,0.0167,-0.7833,P140,5,0.000526,1,3,1,1
+3841,encyclopaedia,CPP Investment Board,Q5013693,Oslo,Toronto,0.6889,0.0,-0.6889,P159,183,0.0,1,3,1,1
+3863,encyclopaedia,The Exploited,Q117684,Olympia,Edinburgh,0.5467,0.0,-0.5467,P740,324,0.0,1,2,1,1
+4004,encyclopaedia,Max Jacob,Q156214,German,French,0.6667,0.0,-0.6667,P103,65,5.1e-05,1,3,1,1
+4056,encyclopaedia,Shmuel Ashkenasi,Q321539,guitar,violin,0.8444,0.0,-0.8444,P1303,6,0.00332,1,3,1,1
+4102,encyclopaedia,Sacramento Convention Center Complex,Q574140,Queensland,California,0.1333,0.0,-0.1333,P131,11,0.0,1,1,2,1
+4134,encyclopaedia,Pesisir Selatan,Q6065,Hungary,Indonesia,0.5333,0.2133,-0.32,P17,9,2.6e-05,2,2,2,1
+4229,encyclopaedia,Ludovico Einaudi,Q83182,trumpet,piano,0.5333,0.0333,-0.5,P1303,1069,0.0,1,2,2,1
+4377,encyclopaedia,Joanne Malar,Q3808571,Israel,Canada,0.2039,0.2588,0.0549,P27,9,0.021554,2,1,3,2
+4385,encyclopaedia,Afghan Transitional Administration,Q4689103,Honolulu,Kabul,0.25,0.4,0.15,P36,241,0.0,3,1,3,1
+4528,encyclopaedia,Helsinki City Transport,Q1433158,WWE,Helsinki,0.2833,0.15,-0.1333,P127,4,0.001286,2,1,2,1
+4649,encyclopaedia,Spendrups,Q3335289,Dallas,Sweden,0.5067,0.0267,-0.48,P159,18,0.0,1,2,2,1
+4727,encyclopaedia,Balochistan,Q163239,Europe,Asia,0.3212,0.3152,-0.0061,P30,1268,0.004384,2,2,3,1
+4737,encyclopaedia,Dakor,Q912576,Manitoba,Gujarat,0.5333,0.0,-0.5333,P131,0,0.0,1,2,1,1
+4812,encyclopaedia,Vantaa,Q127623,Antarctica,Europe,0.1095,0.481,0.3714,P30,164,0.000458,3,1,3,1
+4949,encyclopaedia,Piove di Sacco,Q34317,Mexico,Italy,0.4857,0.1714,-0.3143,P17,5,0.001885,2,2,2,1
+4972,encyclopaedia,High Level Shader Language,Q559519,IBM,Microsoft,0.7,0.0,-0.7,P178,74,0.0,1,3,1,1
+5043,encyclopaedia,Sonic Underground,Q1535979,Japan,France,0.5333,0.0533,-0.48,P495,288,0.002238,1,2,2,1
+5184,encyclopaedia,Ljig,Q1252490,Ukraine,Serbia,0.7333,0.04,-0.6933,P17,0,0.001217,1,3,1,1
+5210,encyclopaedia,Rififi,Q1856418,India,France,0.4667,0.0933,-0.3733,P495,279,0.0,1,2,2,1
+5269,encyclopaedia,Abraham Blooteling,Q329791,Paris,Amsterdam,0.9778,0.0,-0.9778,P937,2,0.0,1,3,1,1
+5305,encyclopaedia,TNK-BP,Q2298901,Montreal,Moscow,0.8222,0.0,-0.8222,P159,46,0.0,1,3,1,1
+5331,encyclopaedia,Andreas Embirikos,Q497035,lawyer,poet,0.5778,0.0,-0.5778,P106,11,0.0,1,2,1,1
+5359,encyclopaedia,"Hope and Anchor, Islington",Q15225054,Moscow,London,0.27,0.4067,0.1367,P276,26,0.001555,3,1,3,1
+5440,encyclopaedia,Southampton Castle,Q7569104,Alberta,Southampton,0.35,0.2333,-0.1167,P131,13,0.0,2,2,2,1
+5528,encyclopaedia,Mahmud al-Hasan,Q6734522,Buddhism,Islam,0.75,0.1333,-0.6167,P140,1,0.005777,2,3,1,1
+5596,encyclopaedia,Sesamstraat,Q2410485,Swedish,Dutch,0.6267,0.16,-0.4667,P407,24,0.0,2,3,2,1
+5914,encyclopaedia,Schytt Glacier,Q3372454,Europe,Antarctica,0.525,0.2083,-0.3167,P30,0,0.008821,2,2,2,2
+5973,encyclopaedia,Contell Glacier,Q5164934,Africa,Antarctica,0.64,0.1067,-0.5333,P30,0,0.008192,1,3,1,2
+6050,encyclopaedia,Bernardo Reyes,Q2159676,Denmark,Mexico,0.5933,0.0467,-0.5467,P27,36,0.0,1,2,1,1
+6052,encyclopaedia,Alfred L. Kroeber,Q311538,philosophy,anthropology,0.5444,0.1111,-0.4333,P101,121,0.0,1,2,2,1
+6058,encyclopaedia,Far East Organization,Q4676212,Chicago,Singapore,0.5467,0.0133,-0.5333,P159,52,0.000149,1,2,1,1
+6142,encyclopaedia,Nelida Lobato,Q6989976,England,Argentina,0.85,0.0,-0.85,P27,5,0.0,1,3,1,1
+6144,encyclopaedia,Cunter,Q22549332,Guatemala,Switzerland,0.7333,0.0,-0.7333,P17,5,0.0,1,3,1,1
+6212,encyclopaedia,Christiane Taubira,Q268675,Spanish,French,0.7,0.0,-0.7,P103,48,0.0,1,3,1,1
+6226,encyclopaedia,Outlook.com,Q219136,Mobile,Microsoft,0.1667,0.4083,0.2417,P127,1989,0.000288,3,1,3,1
+6268,encyclopaedia,Cadillac V-16,Q1025261,Nintendo,Cadillac,0.25,0.3111,0.0611,P176,153,0.000245,2,1,3,1
+6299,encyclopaedia,2020 Summer Olympics,Q181278,England,Tokyo,0.163,0.3481,0.1852,P276,1318,0.000219,2,1,3,1
+6387,encyclopaedia,Brut y Tywysogion,Q2357256,Thai,Welsh,0.28,0.3333,0.0533,P407,11,0.000308,2,1,3,1
+6486,encyclopaedia,Charles Louis Alphonse Laveran,Q189006,Hamburg,Paris,0.6,0.0,-0.6,P20,24,0.0,1,3,1,1
+6504,encyclopaedia,Cold Case,Q733960,MTV,CBS,0.3778,0.0889,-0.2889,P449,1073,0.0,1,2,2,1
+6555,encyclopaedia,Apple Bandai Pippin,Q621312,Yahoo,Apple,0.3238,0.2667,-0.0571,P178,37,0.000842,2,2,2,1
+6652,encyclopaedia,Jake Rudock,Q19665946,midfielder,quarterback,0.6111,0.0,-0.6111,P413,48,0.0,1,3,1,1
+6656,encyclopaedia,Road Rules,Q3074,NBC,MTV,0.4833,0.3333,-0.15,P449,17,0.000336,2,2,2,1
+6657,encyclopaedia,Napoleon III,Q7721,Hamburg,Paris,0.2667,0.0,-0.2667,P937,11731,0.0,1,1,2,1
+6683,encyclopaedia,The New Normal,Q498265,MTV,NBC,0.3667,0.1,-0.2667,P449,200,0.000702,1,2,2,1
+6940,encyclopaedia,Ahmad Zahir,Q195522,Wellington,Kabul,0.6833,0.0,-0.6833,P19,110,0.0,1,3,1,1
+6961,encyclopaedia,rutile,Q193521,Cuba,red,0.9333,0.0,-0.9333,P138,465,0.0,1,3,1,1
+7008,encyclopaedia,TorqueFlite,Q7826788,Nintendo,Chrysler,0.1333,0.3833,0.25,P176,176,0.0,3,1,3,1
+7095,encyclopaedia,Porsche 911 GT3,Q219357,Apple,Porsche,0.125,0.4333,0.3083,P176,2113,9.3e-05,3,1,3,1
+7242,encyclopaedia,Nikolai Myaskovsky,Q312778,English,Russian,0.5889,0.0111,-0.5778,P1412,51,0.001339,1,2,1,1
+7319,encyclopaedia,Sextus Pompeius Festus,Q302723,Russian,Latin,0.4333,0.1833,-0.25,P1412,23,0.0,2,2,2,1
+7354,encyclopaedia,Sean Salisbury,Q100919367,guard,quarterback,0.68,0.0,-0.68,P413,0,0.0,1,3,1,1
+7413,encyclopaedia,All Hail King Julien,Q18636697,NBC,Netflix,0.3238,0.1905,-0.1333,P449,251,0.004491,2,2,2,1
+7495,encyclopaedia,Venus Glacier,Q7920592,Europe,Antarctica,0.4667,0.2083,-0.2583,P30,1,0.009764,2,2,2,2
+7663,encyclopaedia,Sergey Lavrov,Q58217,French,Russian,0.5444,0.2333,-0.3111,P103,971,0.001159,2,2,2,1
+7723,encyclopaedia,Earl King,Q931607,fantasy,blues,0.6667,0.0,-0.6667,P136,30,0.0,1,3,1,1
+7728,encyclopaedia,Paris Commune,Q133132,English,French,0.2519,0.237,-0.0148,P37,1352,0.000142,2,1,3,1
+7735,encyclopaedia,Nokia 1100,Q498806,Dodge,Nokia,0.1267,0.2867,0.16,P176,276,0.0,2,1,3,1
+7877,encyclopaedia,Lennart Geijer,Q2130664,Ukrainian,Swedish,0.32,0.1067,-0.2133,P1412,8,0.0,1,2,2,1
+7956,encyclopaedia,Adobe Digital Editions,Q144858,Intel,Adobe,0.4,0.2,-0.2,P178,49,0.0,2,2,2,1
+8021,encyclopaedia,Split Airport,Q1125392,Sweden,Split,0.2727,0.3273,0.0545,P138,133,0.0,2,1,3,1
+8085,encyclopaedia,Theni district,Q15196,Germany,India,0.5,0.1,-0.4,P17,82,0.0,1,2,2,1
+8102,encyclopaedia,Santa Maria della Salute,Q52531,Florence,Venice,0.5778,0.1556,-0.4222,P276,156,0.00282,2,2,2,1
+8238,encyclopaedia,Pietro Fanna,Q2274998,goaltender,midfielder,0.44,0.0,-0.44,P413,9,0.0,1,2,2,1
+8353,encyclopaedia,Anna Neagle,Q433044,journalist,actor,0.4667,0.0167,-0.45,P106,321,5.1e-05,1,2,2,1
+8395,encyclopaedia,James Laurinaitis,Q339711,quarterback,linebacker,0.4,0.2533,-0.1467,P413,277,0.0,2,2,2,1
+8460,encyclopaedia,Ruovesi,Q510636,Catalan,Finnish,0.5833,0.0,-0.5833,P37,11,7.3e-05,1,2,1,1
+8521,encyclopaedia,Haakon Lie,Q980028,Paris,Oslo,0.8667,0.0,-0.8667,P20,6,0.0,1,3,1,1
+8541,encyclopaedia,Togo,Q945,Finnish,French,0.3222,0.1778,-0.1444,P37,1507,0.0,2,2,2,1
+8620,encyclopaedia,John Bernard Riley,Q916982,opera,jazz,0.8333,0.0,-0.8333,P136,16,0.0,1,3,1,1
+9062,encyclopaedia,Dominique Bouhours,Q1238179,Russian,French,0.3222,0.1111,-0.2111,P103,4,0.0,1,2,2,1
+9075,encyclopaedia,60 Minutes II,Q4641678,PBS,CBS,0.6444,0.2889,-0.3556,P449,27,0.0,2,3,2,1
+9079,encyclopaedia,Daisaku Ikeda,Q467395,Islam,Buddhism,0.0784,0.4392,0.3608,P140,183,0.000618,3,1,3,1
+9294,encyclopaedia,Christmas Island,Q106080035,Toyota,Christmas,0.1067,0.5167,0.41,P138,0,0.002482,3,1,3,1
+9407,encyclopaedia,Alexei Kovalev,Q102282367,basketball,hockey,0.6,0.15,-0.45,P641,0,0.0,2,3,2,1
+9487,encyclopaedia,CBS Summer Playhouse,Q860038,MTV,CBS,0.2667,0.1467,-0.12,P449,26,0.000695,2,1,2,1
+9510,encyclopaedia,Ennin,Q732282,Islam,Buddhism,0.4667,0.4267,-0.04,P140,25,0.00412,3,2,3,1
+9539,encyclopaedia,Twm o'r Nant,Q1767904,Dutch,Welsh,0.3143,0.1333,-0.181,P103,3,0.000878,2,2,2,1
+9670,encyclopaedia,Salman the Persian,Q557378,Christianity,Islam,0.4833,0.25,-0.2333,P140,368,0.000173,2,2,2,1
+9772,encyclopaedia,Shabbona,Q2254872,Dallas,Morris,0.6667,0.0,-0.6667,P20,5,0.0,1,3,1,1
+9790,encyclopaedia,Bermuda,Q23635,Swedish,English,0.2074,0.3704,0.163,P37,3182,0.00185,3,1,3,1
+9832,encyclopaedia,Axel Witsel,Q151838,quarterback,midfielder,0.0625,0.425,0.3625,P413,1168,0.0,3,1,3,1
+9915,encyclopaedia,Copenhagen Airport,Q206277,Mars,Copenhagen,0.3333,0.4556,0.1222,P138,464,0.0,3,2,3,1
+9930,encyclopaedia,Kasey Keller,Q356814,football,soccer,0.8,0.8,0.0,P641,145,0.074884,3,3,3,3
+10038,encyclopaedia,Alfred Capus,Q198621,Russian,French,0.5867,0.0,-0.5867,P103,2,0.0,1,2,1,1
+10040,encyclopaedia,Cognos,Q1107048,WWE,IBM,0.1333,0.363,0.2296,P127,41,0.000154,3,1,3,1
+10052,encyclopaedia,Nissan Prairie,Q669213,IBM,Nissan,0.125,0.375,0.25,P176,67,0.000361,3,1,3,1
+10180,encyclopaedia,Open Packaging Conventions,Q3353182,Google,Microsoft,0.4296,0.0148,-0.4148,P178,19,0.000419,1,2,2,1
+10223,encyclopaedia,Cogeco,Q7887664,Seattle,Montreal,0.8333,0.0,-0.8333,P159,63,0.0,1,3,1,1
+10231,encyclopaedia,Polina Gagarina,Q4131386,politician,actor,0.4667,0.0167,-0.45,P106,99,0.000252,1,2,2,1
+10319,encyclopaedia,The Michael Richards Show,Q7751238,BBC,NBC,0.6667,0.2444,-0.4222,P449,142,0.0,2,3,2,1
+10326,encyclopaedia,Windows 8.1,Q3569290,Apple,Microsoft,0.6667,0.0,-0.6667,P178,818,0.000656,1,3,1,1
+10343,encyclopaedia,Southwest Philadelphia,Q7571337,Greenland,Philadelphia,0.3,0.25,-0.05,P131,28,0.0,2,1,3,1
+10365,encyclopaedia,Thomas McCollum,Q89517481,midfielder,goaltender,0.475,0.0667,-0.4083,P413,0,0.0,1,2,2,1
+10376,encyclopaedia,Leo X,Q43922,patriarch,pope,0.2167,0.0667,-0.15,P39,1106,0.0,1,1,2,1
+10440,encyclopaedia,Tecla Scarano,Q3982413,Hebrew,Italian,0.5667,0.0833,-0.4833,P1412,2,0.000179,1,2,2,1
+10509,encyclopaedia,City of Birmingham Symphony Orchestra,Q706774,carbon,Birmingham,0.12,0.4933,0.3733,P138,28,0.000136,3,1,3,1
+10747,encyclopaedia,Jerzy Zawieyski,Q2510207,London,Warsaw,0.9556,0.0,-0.9556,P20,4,0.0,1,3,1,1
+10775,encyclopaedia,Elis Regina,Q465877,France,Brazil,0.9467,0.0,-0.9467,P27,141,6.4e-05,1,3,1,1
+10845,encyclopaedia,Antoine Augustin Calmet,Q767668,Russian,French,0.2571,0.1524,-0.1048,P103,47,0.0,2,1,2,1
+10881,encyclopaedia,Logic Studio,Q1142467,Google,Apple,0.6593,0.0741,-0.5852,P178,17,0.001336,1,3,1,1
+11168,encyclopaedia,A229 road,Q4649026,Jerusalem,Kent,0.3778,0.0,-0.3778,P131,10,0.0,1,2,2,1
+11187,encyclopaedia,Brett Favre,Q267088,hockey,football,0.1667,0.7,0.5333,P641,3116,0.0,3,1,3,1
+11382,encyclopaedia,Gary Scelzi,Q5525887,Chicago,Fresno,0.7867,0.0,-0.7867,P19,14,0.0,1,3,1,1
+11509,encyclopaedia,Hagia Sophia,Q12506,Berlin,Istanbul,0.4857,0.1905,-0.2952,P276,3468,0.000111,2,2,2,1
+11678,encyclopaedia,The Bold Ones,Q7719042,History,NBC,0.1556,0.0,-0.1556,P449,21,0.0,1,1,2,1
+11722,encyclopaedia,Lannemezan,Q383402,Greece,France,0.425,0.0917,-0.3333,P17,30,0.000183,1,2,2,1
+11929,encyclopaedia,Davao Region,Q13694,Boston,Philippines,0.2571,0.2667,0.0095,P131,202,0.0,2,1,3,1
+11976,encyclopaedia,Gluecifer,Q1248223,Leeds,Oslo,0.8,0.0,-0.8,P740,25,0.0,1,3,1,1
+11977,encyclopaedia,Jon Larsen,Q112485126,opera,jazz,0.6222,0.0,-0.6222,P136,0,0.0,1,3,1,1
+12194,encyclopaedia,Renault Fluence,Q1050584,BMW,Renault,0.28,0.3933,0.1133,P176,111,0.001333,3,1,3,1
+12238,encyclopaedia,Toyota Coaster,Q581385,Microsoft,Toyota,0.1111,0.4815,0.3704,P176,233,0.0,3,1,3,1
+12472,encyclopaedia,Eleanor Oldroyd,Q5354350,Apple,BBC,0.6833,0.0,-0.6833,P108,16,7.3e-05,1,3,1,1
+12594,encyclopaedia,Stephen Hough,Q1243635,trumpet,piano,0.3889,0.0889,-0.3,P1303,70,0.000473,1,2,2,1
+12597,encyclopaedia,Nauka i Zhizn,Q4314276,Chinese,Russian,0.4583,0.3417,-0.1167,P407,3,0.006733,2,2,2,2
+12646,encyclopaedia,Columbia Daily Tribune,Q5149683,Glasgow,Columbia,0.3333,0.3222,-0.0111,P159,6,0.0,2,2,3,1
+12671,encyclopaedia,The Sleeping Car Murders,Q593767,Tamil,French,0.0,0.0,0.0,P364,32,,1,1,3,
+12736,encyclopaedia,Canberra International Film Festival,Q5031263,Baltimore,Canberra,0.1333,0.2933,0.16,P276,2,0.0,2,1,3,1
+12837,encyclopaedia,University of Strathclyde,Q1859178,Houston,Glasgow,0.1852,0.5259,0.3407,P159,204,0.0,3,1,3,1
+12851,encyclopaedia,Willie Stargell,Q1054942,soccer,baseball,0.32,0.1067,-0.2133,P641,409,0.0,1,2,2,1
+12923,encyclopaedia,Big Daddy Weave,Q4905546,Manchester,Mobile,0.6667,0.0,-0.6667,P740,137,0.0,1,3,1,1
+13044,encyclopaedia,Juan J. Campanella,Q726925,Russian,Spanish,0.3467,0.1333,-0.2133,P1412,33,0.000283,2,2,2,1
+13070,encyclopaedia,Battle of Olszynka Grochowska,Q1576383,Jerusalem,Warsaw,0.1095,0.4857,0.3762,P276,57,0.0,3,1,3,1
+13101,encyclopaedia,The Godfather,Q60875410,Swedish,English,0.3067,0.1067,-0.2,P364,0,0.004673,1,1,2,1
+13199,encyclopaedia,Donetsk Oblast,Q2012050,English,Ukrainian,0.6,0.0,-0.6,P37,1724,4.7e-05,1,3,1,1
+13215,encyclopaedia,Julien Augustin Joseph Mermet,Q3189346,Baltimore,Paris,0.6167,0.0,-0.6167,P20,4,0.0,1,3,1,1
+13245,encyclopaedia,John Brack,Q117680,Rome,Melbourne,0.8444,0.0,-0.8444,P20,15,0.0,1,3,1,1
+13328,encyclopaedia,Park Seo-joon,Q5116234,London,Seoul,0.5778,0.0111,-0.5667,P19,1263,0.0,1,2,1,1
+13359,encyclopaedia,Frankie Knuckles,Q205322,Oslo,Chicago,0.8222,0.0,-0.8222,P20,266,0.0,1,3,1,1
+13419,encyclopaedia,CTV Television Network,Q767221,London,Toronto,0.72,0.0,-0.72,P159,352,0.0,1,3,1,1
+13494,encyclopaedia,Tales of Wells Fargo,Q3980406,PBS,NBC,0.4933,0.0133,-0.48,P449,201,0.0,1,2,2,1
+13729,encyclopaedia,IBM AIX,Q269856,Microsoft,IBM,0.3037,0.3185,0.0148,P178,208,0.002098,2,1,3,1
+13733,encyclopaedia,Hurrem sultan,Q6077715,Christianity,Islam,0.9667,0.0,-0.9667,P140,0,0.0,1,3,1,1
+13833,encyclopaedia,Wood Gundy,Q8032214,Vancouver,Toronto,0.7111,0.0444,-0.6667,P159,15,0.001702,1,3,1,1
+14008,encyclopaedia,Khadijah bint Khuwaylid,Q42034,Christianity,Islam,0.4533,0.04,-0.4133,P140,963,0.000154,1,2,2,1
+14320,encyclopaedia,Cumhuriyet,Q97012871,French,Turkish,0.75,0.2167,-0.5333,P407,0,0.0,2,3,1,1
+14404,encyclopaedia,Sally Seltmann,Q7405288,Scotland,Australia,0.6,0.0,-0.6,P27,23,0.0,1,3,1,1
+14442,encyclopaedia,Carpathian Mountains,Q1288,Argentina,Austria,0.9,0.0,-0.9,P17,1320,0.001343,1,3,1,1
+14492,encyclopaedia,University of South Florida,Q500606,Geneva,Tampa,0.6167,0.2167,-0.4,P159,500,0.0,2,3,2,1
+14535,encyclopaedia,Lin Yang-kang,Q6550125,Argentina,Taiwan,0.7333,0.0,-0.7333,P27,10,0.0,1,3,1,1
+14648,encyclopaedia,Yigal Hurvitz,Q434182,Romanian,Hebrew,0.7667,0.0,-0.7667,P1412,3,0.0,1,3,1,1
+14677,encyclopaedia,Karl Michael Ziehrer,Q696576,Philadelphia,Vienna,0.7167,0.0,-0.7167,P20,11,0.000617,1,3,1,1
+14735,encyclopaedia,Travis Blackley,Q495199,midfielder,pitcher,0.6333,0.0,-0.6333,P413,7,0.0,1,3,1,1
+14745,encyclopaedia,Nathaniel Hawthorne,Q69339,Russian,English,0.3067,0.2267,-0.08,P1412,1283,0.000383,2,1,2,1
+14747,encyclopaedia,Julien Carette,Q1712227,Russian,French,0.56,0.08,-0.48,P103,8,0.0,1,2,2,1
+14749,encyclopaedia,Canada men's national soccer team,Q208635,NATO,FIFA,0.4784,0.0,-0.4784,P463,844,0.0,1,2,2,1
+14815,encyclopaedia,Leo IX,Q58559,bishop,pope,0.2833,0.1333,-0.15,P39,186,0.0,2,1,2,1
+14852,encyclopaedia,Nick Swisher,Q978581,basketball,baseball,0.6167,0.05,-0.5667,P641,463,0.003769,1,3,1,1
+14883,encyclopaedia,Thomas Earnshaw,Q2423581,Egypt,London,0.8889,0.0,-0.8889,P20,25,0.0,1,3,1,1
+14907,encyclopaedia,Real Academia de Bellas Artes de San Fernando,Q1322403,Tokyo,Madrid,1.0,0.0,-1.0,P159,31,0.0,1,3,1,1
+14997,encyclopaedia,Nicole Oresme,Q310777,pope,bishop,0.4667,0.0833,-0.3833,P39,85,0.008446,1,2,2,2
+15064,encyclopaedia,European Aviation Safety Agency,Q276255,Chicago,Cologne,0.75,0.0,-0.75,P159,81,0.0,1,3,1,1
+15249,encyclopaedia,BMW E87,Q796469,Honda,BMW,0.4667,0.0889,-0.3778,P176,880,0.000544,1,2,2,1
+15291,encyclopaedia,Turaida,Q2300840,Romania,Latvia,0.7667,0.0,-0.7667,P17,5,0.0,1,3,1,1
+15577,encyclopaedia,Combat Hospital,Q603496,Belgium,Canada,0.0,0.44,0.44,P495,29,0.0,3,1,3,1
+15766,encyclopaedia,Hauk Aabel,Q3354983,photographer,actor,0.5467,0.0,-0.5467,P106,2,0.0,1,2,1,1
+15850,encyclopaedia,Supervivientes,Q7647314,Paris,Honduras,0.64,0.0,-0.64,P276,19,0.0,1,3,1,1
+15867,encyclopaedia,George Robert Gray,Q310456,Munich,London,0.8667,0.0,-0.8667,P20,16,0.0,1,3,1,1
+15907,encyclopaedia,Rob Zombie,Q298255,piano,guitar,0.9778,0.0,-0.9778,P1303,4180,0.000126,1,3,1,1
+15954,encyclopaedia,Toyota Aygo,Q825358,Renault,Toyota,0.2444,0.3222,0.0778,P176,329,0.000273,2,1,3,1
+15957,encyclopaedia,Benedict XVI,Q2494,bishop,pope,0.2889,0.1111,-0.1778,P39,2334,0.0,1,1,2,1
+16048,encyclopaedia,Eurajoki,Q1001783,Dutch,Finnish,0.45,0.1833,-0.2667,P37,10,0.0,2,2,2,1
+16130,encyclopaedia,Vietnam,Q881,Antarctica,Asia,0.2208,0.4917,0.2708,P30,7298,0.007138,3,1,3,2
+16377,encyclopaedia,Chester railway station,Q2478175,Bern,Chester,0.5667,0.1,-0.4667,P138,36,0.0,1,2,2,1
+16420,encyclopaedia,Suzuki B-King,Q2000575,Honda,Suzuki,0.2533,0.2489,-0.0044,P176,104,0.003009,2,1,3,1
+16426,encyclopaedia,Mulheres de Areia,Q466801,Australia,Brazil,0.5067,0.1867,-0.32,P495,12,0.000957,2,2,2,1
+16479,encyclopaedia,Peter Forsberg,Q348416,soccer,hockey,0.6,0.1556,-0.4444,P641,298,0.0,2,3,2,1
+16556,encyclopaedia,William Henry Harrison,Q11869,French,English,0.4556,0.2333,-0.2222,P103,3226,0.002873,2,2,2,1
+16585,encyclopaedia,Temples of Abu Simbel,Q134140,Chile,Egypt,0.0711,0.5378,0.4667,P17,854,0.000207,3,1,3,1
+16655,encyclopaedia,Thailand,Q869,Welsh,Thai,0.1667,0.4133,0.2467,P37,7647,0.0,3,1,3,1
+16803,encyclopaedia,Livonian Crusade,Q196409,Houston,Latvia,0.1667,0.4389,0.2722,P276,140,0.0,3,1,3,1
+16841,encyclopaedia,Maurice Richard,Q3301329,football,hockey,0.6444,0.2222,-0.4222,P641,0,0.0,2,3,2,1
+16993,encyclopaedia,Archie Manning,Q611891,midfielder,quarterback,0.4556,0.0444,-0.4111,P413,2845,0.0,1,2,2,1
+17002,encyclopaedia,Jason Kidd,Q221341,football,basketball,0.1429,0.419,0.2762,P641,1688,0.000403,3,1,3,1
+17094,encyclopaedia,Jan Swammerdam,Q336794,Beijing,Amsterdam,0.6267,0.1333,-0.4933,P20,36,0.0,2,3,2,1
+17247,encyclopaedia,Fiat 850,Q1360944,Intel,Fiat,0.2267,0.18,-0.0467,P176,144,0.000227,2,1,3,1
+17276,encyclopaedia,Anton Nel,Q4775923,trumpet,piano,0.7778,0.0,-0.7778,P1303,5,0.0,1,3,1,1
+17298,encyclopaedia,Pascal Quignard,Q423298,English,French,0.4762,0.0476,-0.4286,P1412,21,0.000243,1,2,2,1
+17378,encyclopaedia,Samuil Feinberg,Q1971227,violin,piano,0.48,0.12,-0.36,P1303,28,0.000515,1,2,2,1
+17442,encyclopaedia,Jacques Sadoul,Q2033504,Dutch,French,0.5467,0.1867,-0.36,P103,1,0.000477,2,2,2,1
+17525,encyclopaedia,Goswin de Stassart,Q1538693,Dutch,French,0.56,0.0,-0.56,P103,2,0.0,1,2,1,1
+17528,encyclopaedia,Mike Cowlishaw,Q52254,BBC,IBM,0.5778,0.1222,-0.4556,P108,8,0.0,1,2,2,1
+17811,encyclopaedia,Edward Burtynsky,Q967163,actor,photographer,0.6667,0.0667,-0.6,P106,60,0.000688,1,3,1,1
+18070,encyclopaedia,MillerCoors,Q6859054,Budapest,Chicago,0.8444,0.0,-0.8444,P159,66,0.0,1,3,1,1
+18094,encyclopaedia,Utah County,Q27229,Uganda,Utah,0.25,0.1333,-0.1167,P131,201,0.0,2,1,2,1
+18143,encyclopaedia,Abdul Khalid Ibrahim,Q4665485,France,Malaysia,0.9467,0.0,-0.9467,P27,19,0.0,1,3,1,1
+18161,encyclopaedia,The Josephine Baker Story,Q7743526,CBS,HBO,0.0667,0.0,-0.0667,P449,46,0.0,1,1,2,1
+18242,encyclopaedia,Central African Republic,Q929,Antarctica,Africa,0.1933,0.4267,0.2333,P30,2016,0.003643,3,1,3,1
+18284,encyclopaedia,Romania,Q218,French,Romanian,0.4444,0.2296,-0.2148,P37,5896,0.001123,2,2,2,1
+18319,encyclopaedia,Walter Payton,Q963117,baseball,football,0.6444,0.0444,-0.6,P641,1278,0.001108,1,3,1,1
+18510,encyclopaedia,TMF Nederland,Q2382500,Bangalore,Amsterdam,0.5167,0.1667,-0.35,P159,16,0.0,2,2,2,1
+18520,encyclopaedia,Paul Mercurio,Q325406,economist,actor,0.4667,0.0167,-0.45,P106,207,0.0,1,2,2,1
+18587,encyclopaedia,Jules Massenet,Q194436,Norwegian,French,0.2556,0.1333,-0.1222,P1412,126,0.0,2,1,2,1
+18592,encyclopaedia,Nea Zichni Municipality,Q2532139,Poland,Greece,0.7067,0.0933,-0.6133,P17,3,0.000692,1,3,1,1
+18604,encyclopaedia,John Shelby Spong,Q1196186,cardinal,bishop,0.7111,0.0,-0.7111,P39,118,0.0,1,3,1,1
+18786,encyclopaedia,Jay Cutler,Q312811,midfielder,quarterback,0.3259,0.2148,-0.1111,P413,1922,0.0,2,2,2,1
+18834,encyclopaedia,West Darfur,Q846331,Australia,Sudan,0.3529,0.2824,-0.0706,P17,23,0.00219,2,2,2,1
+18840,encyclopaedia,Woodbine Racetrack,Q3135941,Rome,Ontario,0.7333,0.0,-0.7333,P131,42,0.0,1,3,1,1
+18845,encyclopaedia,2000 Summer Olympics,Q8544,Istanbul,Sydney,0.1833,0.4278,0.2444,P276,665,0.0,3,1,3,1
+18860,encyclopaedia,Muawiyah I,Q181154,Moscow,Damascus,0.2667,0.4952,0.2286,P20,799,0.0,3,1,3,1
+18966,encyclopaedia,Birmingham Repertory Theatre,Q4916786,Athens,Birmingham,0.1524,0.2286,0.0762,P131,39,0.0,2,1,3,1
+19047,encyclopaedia,Hogeschool Gent,Q1313163,Ethiopia,Belgium,0.4667,0.1111,-0.3556,P17,10,0.000154,1,2,2,1
+19066,encyclopaedia,Adrian Knox,Q4685169,Albania,Australia,0.6133,0.0,-0.6133,P27,3,0.0,1,3,1,1
+19107,encyclopaedia,Amiibo,Q17157056,IBM,Nintendo,0.7067,0.12,-0.5867,P178,166,0.0,1,3,1,1
+19114,encyclopaedia,Le Droit,Q3222449,Swedish,French,0.5714,0.1143,-0.4571,P407,8,0.001855,1,2,2,1
+19122,encyclopaedia,Felix Plater,Q667732,sociology,medicine,0.6933,0.0,-0.6933,P101,7,0.0,1,3,1,1
+19214,encyclopaedia,The Immoralist,Q174626,English,French,0.2,0.0,-0.2,P364,51,0.0,1,1,2,1
+19322,encyclopaedia,Madame Figaro,Q3275273,Spanish,French,0.6933,0.04,-0.6533,P407,38,0.001007,1,3,1,1
+19430,encyclopaedia,Pierre Braunberger,Q343898,Lawrence,Paris,0.6833,0.0,-0.6833,P19,3,0.0,1,3,1,1
+19485,encyclopaedia,ProStars,Q7246696,CBS,NBC,0.6222,0.0,-0.6222,P449,81,0.0,1,3,1,1
+19523,encyclopaedia,Pechora River,Q8168,Antarctica,Europe,0.65,0.0,-0.65,P30,23,0.0,1,3,1,1
+19597,encyclopaedia,Catalonia,Q5705,English,Spanish,0.2778,0.1667,-0.1111,P37,2103,0.006573,2,1,2,2
+19805,encyclopaedia,Antoine Danchet,Q585987,Taiwan,France,0.6167,0.0,-0.6167,P27,1,0.0,1,3,1,1
+19829,encyclopaedia,Ghazi of Iraq,Q314784,Christian,Islam,0.5778,0.1556,-0.4222,P140,237,0.000329,2,2,2,1
+19898,encyclopaedia,Darren Daulton,Q3016497,goaltender,catcher,0.3867,0.1733,-0.2133,P413,1610,0.0,2,2,2,1
+19941,encyclopaedia,DNB ASA,Q80788,Atlanta,Oslo,0.65,0.0,-0.65,P159,61,0.0,1,3,1,1
+20051,encyclopaedia,London Book Fair,Q6669870,Normandy,London,0.1852,0.2667,0.0815,P276,12,0.0,2,1,3,1
+20098,encyclopaedia,Larsmo,Q259863,Argentina,Finland,0.7067,0.1467,-0.56,P17,15,0.000717,2,3,1,1
+20112,encyclopaedia,Roland Freisler,Q57601,Winnipeg,Berlin,0.4111,0.0111,-0.4,P20,526,0.0,1,2,2,1
+20182,encyclopaedia,Irina Khakamada,Q541213,Dutch,Russian,0.3524,0.1238,-0.2286,P103,43,0.001037,1,2,2,1
+20202,encyclopaedia,Nissan Sentra,Q1132451,Nokia,Nissan,0.1641,0.4462,0.2821,P176,629,0.000693,3,1,3,1
+20311,encyclopaedia,Herald Sun Tour,Q1607801,Helsinki,Victoria,0.7778,0.0,-0.7778,P276,17,0.0,1,3,1,1
+20324,encyclopaedia,Peter Howson,Q711799,Rome,London,0.5733,0.12,-0.4533,P19,32,0.0,1,2,2,1
+20486,encyclopaedia,Sam Rayburn Reservoir,Q1475987,Vienna,Texas,0.5111,0.0,-0.5111,P131,50,0.000682,1,2,2,1
+20647,encyclopaedia,Ambrose Akinmusire,Q34054,opera,jazz,0.5067,0.1467,-0.36,P136,38,0.0,2,2,2,1
+20680,encyclopaedia,Lavoisier Island,Q3108669,Asia,Antarctica,0.5333,0.2296,-0.3037,P30,1,0.015022,2,2,2,2
+20821,encyclopaedia,Hippos,Q604995,Winnipeg,horse,0.7667,0.0,-0.7667,P138,25,0.0,1,3,1,1
+21013,encyclopaedia,Thomas Browne,Q313925,London,Norwich,0.5733,0.0,-0.5733,P937,171,0.0,1,2,1,1
+21066,encyclopaedia,International Documentary Film Festival Amsterdam,Q1666506,Berlin,Amsterdam,0.8,0.0,-0.8,P276,23,0.0,1,3,1,1
+21073,encyclopaedia,Honda VFR400,Q5892759,IBM,Honda,0.0485,0.5091,0.4606,P176,75,0.001189,3,1,3,1
+21076,encyclopaedia,Illertissen,Q503295,India,Germany,0.76,0.0,-0.76,P17,16,0.000472,1,3,1,1
+21157,encyclopaedia,Report Program Generator,Q840543,Microsoft,IBM,0.5429,0.1429,-0.4,P178,85,0.001329,2,2,2,1
+21268,encyclopaedia,Central Black Forest,Q1940689,Iran,Germany,0.7,0.0667,-0.6333,P17,3,0.0,1,3,1,1
+21279,encyclopaedia,Selbu,Q492209,Belgium,Norway,0.6,0.0267,-0.5733,P17,9,0.0,1,3,1,1
+21432,encyclopaedia,Brazilian Football Confederation,Q244754,UFO,FIFA,0.0,0.5333,0.5333,P463,243,0.0,3,1,3,1
+21468,encyclopaedia,Tony Benn,Q332412,Lisbon,London,0.8667,0.0,-0.8667,P20,878,0.0,1,3,1,1
+21488,encyclopaedia,Aruna Irani,Q158225,journalist,actor,0.4267,0.0533,-0.3733,P106,889,0.000512,1,2,2,1
+21537,encyclopaedia,Alexander VIII,Q101294,London,Rome,0.8889,0.0444,-0.8444,P20,40,0.014662,1,3,1,2
+21638,encyclopaedia,Mike Shinoda,Q19201,violin,guitar,0.6333,0.0,-0.6333,P1303,1845,0.0,1,3,1,1
+21791,encyclopaedia,Lydia Chukovskaya,Q433942,French,Russian,0.5067,0.0667,-0.44,P103,19,0.001291,1,2,2,1
+21836,encyclopaedia,Gregory XV,Q132692,bishop,pope,0.2833,0.1833,-0.1,P39,56,0.0,2,1,2,1
+21891,encyclopaedia,Saint Amandus,Q453698,mayor,bishop,0.6667,0.0,-0.6667,P39,33,0.0,1,3,1,1
+108,information_not_credible_source_new,Bastille,Q689,Canada,France,0.3178,0.2622,-0.0556,P17,512,0.034881,2,2,2,2
+165,information_not_credible_source_new,The Million Second Quiz,Q14898907,CBS,NBC,0.0,0.0,0.0,P449,19,,1,1,3,
+187,information_not_credible_source_new,Hamburg International Film Festival,Q1414659,Rome,Hamburg,0.1704,0.2593,0.0889,P276,8,0.0,2,1,3,1
+222,information_not_credible_source_new,Mount Markham,Q1412427,Europe,Antarctica,0.5429,0.2381,-0.3048,P30,4,0.007303,2,2,2,2
+239,information_not_credible_source_new,Nizampatnam,Q988685,Ghana,India,0.0,0.0,0.0,P17,14,0.0,1,1,3,1
+243,information_not_credible_source_new,Housos,Q17007227,Spain,Australia,0.7333,0.0,-0.7333,P495,69,0.0,1,3,1,1
+307,information_not_credible_source_new,Chardonne,Q52698,English,French,0.44,0.2133,-0.2267,P37,2,0.000336,2,2,2,1
+423,information_not_credible_source_new,Delchev Ridge,Q5253560,Europe,Antarctica,0.675,0.15,-0.525,P30,0,0.012949,2,3,1,2
+439,information_not_credible_source_new,Irfan Habib,Q3154342,Singapore,India,0.8,0.0,-0.8,P27,136,0.0,1,3,1,1
+493,information_not_credible_source_new,Vancouver Symphony Orchestra,Q602381,Pakistan,Canada,0.0294,0.5373,0.5078,P495,18,0.005309,3,1,3,1
+503,information_not_credible_source_new,Mark Visentin,Q3048335,midfielder,goaltender,0.8667,0.0,-0.8667,P413,8,0.0,1,3,1,1
+556,information_not_credible_source_new,Jennifer Hudson,Q192410,French,English,0.2667,0.2417,-0.025,P1412,2649,0.001579,2,1,3,1
+641,information_not_credible_source_new,Ilta-Sanomat,Q1001384,Spanish,Finnish,0.525,0.15,-0.375,P407,19,0.0,2,2,2,1
+679,information_not_credible_source_new,Isidor Philipp,Q105655076,Geneva,Paris,0.7067,0.0133,-0.6933,P20,0,0.001256,1,3,1,1
+879,information_not_credible_source_new,Kim Myhr,Q11980653,Iraq,Norway,0.6222,0.0,-0.6222,P27,1,0.0,1,3,1,1
+903,information_not_credible_source_new,Gregory of Nazianzus,Q44011,cardinal,bishop,0.4933,0.0133,-0.48,P39,214,0.0,1,2,2,1
+941,information_not_credible_source_new,South Boston,Q1759693,Alaska,Boston,0.15,0.4889,0.3389,P131,201,0.000537,3,1,3,1
+1174,information_not_credible_source_new,Alta Verapaz Department,Q504637,English,Spanish,0.1653,0.288,0.1227,P37,19,0.001469,2,1,3,1
+1240,information_not_credible_source_new,Mount Rose (Nevada),Q8526141,Texas,Nevada,0.1444,0.7,0.5556,P131,23,0.001834,3,1,3,1
+1326,information_not_credible_source_new,Johanne Luise Heiberg,Q272246,Tamil,Danish,0.7556,0.0,-0.7556,P1412,13,0.000969,1,3,1,1
+1360,information_not_credible_source_new,Freddie Keppard,Q490080,funk,jazz,0.4333,0.0333,-0.4,P136,15,0.004533,1,2,2,1
+1459,information_not_credible_source_new,Browning Nagle,Q4976571,midfielder,quarterback,0.7111,0.0,-0.7111,P413,35,0.0,1,3,1,1
+1478,information_not_credible_source_new,Demonic Resurrection,Q5256257,Rome,Mumbai,1.0,0.0,-1.0,P740,15,0.0,1,3,1,1
+1484,information_not_credible_source_new,Battle of the Menin Road Ridge,Q4872951,Atlanta,Belgium,0.1037,0.5037,0.4,P276,23,0.0,3,1,3,1
+1495,information_not_credible_source_new,James Buchanan,Q12325,Toronto,Lancaster,0.159,0.2974,0.1385,P20,2883,0.0,2,1,3,1
+1503,information_not_credible_source_new,Mike Liut,Q328821,midfielder,goaltender,0.7111,0.0,-0.7111,P413,46,0.0,1,3,1,1
+1513,information_not_credible_source_new,Liverpool Range,Q1633267,Ireland,Australia,0.2308,0.441,0.2103,P17,7,0.00013,3,1,3,1
+1601,information_not_credible_source_new,Suddenly Susan,Q643894,jazz,sitcom,0.65,0.0,-0.65,P136,266,0.000831,1,3,1,1
+1734,information_not_credible_source_new,Luigi Snozzi,Q117448,Singapore,Switzerland,0.7467,0.0,-0.7467,P27,4,0.0,1,3,1,1
+1780,information_not_credible_source_new,Cardiff City Ladies F.C.,Q372196,Hayward,Cardiff,0.3333,0.0,-0.3333,P159,35,0.0,1,2,2,1
+1803,information_not_credible_source_new,TU Wien,Q689400,Birmingham,Vienna,0.18,0.5067,0.3267,P159,76,0.0,3,1,3,1
+1815,information_not_credible_source_new,Honinbo Shuei,Q5896202,Syria,Japan,0.4095,0.0857,-0.3238,P27,0,0.000347,1,2,2,1
+1819,information_not_credible_source_new,Mount Stephenson,Q6923858,Europe,Antarctica,0.5714,0.0571,-0.5143,P30,7,0.007926,1,2,1,2
+1877,information_not_credible_source_new,"Kapuso Mo, Jessica Soho",Q12965797,Australia,Philippines,0.3333,0.1111,-0.2222,P495,53,5.1e-05,1,2,2,1
+2210,information_not_credible_source_new,Pavol Demitra,Q363628,Belgium,Slovakia,0.6556,0.0,-0.6556,P27,105,0.0,1,3,1,1
+2302,information_not_credible_source_new,Campania,Q1438,Brussels,Naples,0.2533,0.2667,0.0133,P36,1194,0.000866,2,1,3,1
+2349,information_not_credible_source_new,Pablo Honey,Q221241,Hindi,English,0.1611,0.35,0.1889,P364,558,0.000136,2,1,3,1
+2352,information_not_credible_source_new,Van der Valk,Q101439927,French,English,0.2667,0.1333,-0.1333,P364,0,0.002347,2,1,2,1
+2481,information_not_credible_source_new,Mauro Zani,Q714290,French,Italian,0.48,0.1867,-0.2933,P1412,0,0.004029,2,2,2,1
+2587,information_not_credible_source_new,Jeanne Lamon,Q539291,piano,violin,0.8667,0.0,-0.8667,P1303,7,0.001658,1,3,1,1
+2674,information_not_credible_source_new,Seattle International Film Festival,Q2399132,Sheffield,Seattle,0.0,0.0,0.0,P276,48,0.0,1,1,3,1
+2824,information_not_credible_source_new,"Braddock, Cornwall",Q4954451,Queensland,Cornwall,0.0467,0.5244,0.4778,P131,2,0.000739,3,1,3,1
+2857,information_not_credible_source_new,Google Now,Q79564,Microsoft,Google,0.0286,0.5371,0.5086,P178,73,0.000309,3,1,3,1
+2878,information_not_credible_source_new,Sony Alpha 99,Q402211,Triumph,Sony,0.1048,0.1905,0.0857,P176,21,0.0,2,1,3,1
+2932,information_not_credible_source_new,Moi International Sports Centre,Q1385710,Israel,Kenya,0.5222,0.0333,-0.4889,P17,101,0.0,1,2,2,1
+3102,information_not_credible_source_new,Dospat Municipality,Q2715784,Philippines,Bulgaria,0.3143,0.381,0.0667,P17,1,0.004089,3,2,3,1
+3161,information_not_credible_source_new,Nintendo Software Planning & Development,Q2054310,London,Kyoto,0.237,0.3222,0.0852,P159,52,0.000698,2,1,3,1
+3193,information_not_credible_source_new,Johnny Unitas,Q716029,midfielder,quarterback,0.25,0.2667,0.0167,P413,1047,0.0,2,1,3,1
+3288,information_not_credible_source_new,RioCan Real Estate Investment Trust,Q13529475,London,Toronto,0.3917,0.3167,-0.075,P159,17,0.001203,2,2,2,1
+3333,information_not_credible_source_new,Mario Monti,Q47904,Japan,Italy,0.0978,0.4622,0.3644,P27,186,0.000595,3,1,3,1
+3451,information_not_credible_source_new,VASKhNIL,Q472795,Spanish,Russian,0.3444,0.0556,-0.2889,P37,7,1.9e-05,1,2,2,1
+3485,information_not_credible_source_new,Heartbreak High,Q122314218,Norway,Australia,0.5,0.0667,-0.4333,P495,0,0.0,1,2,2,1
+3522,information_not_credible_source_new,MacApp,Q6721707,Microsoft,Apple,0.3667,0.1167,-0.25,P178,12,0.004031,1,2,2,1
+3544,information_not_credible_source_new,Wolfgang Sawallisch,Q61205,guitar,piano,0.75,0.1,-0.65,P1303,20,0.0,1,3,1,1
+3559,information_not_credible_source_new,Peter Arnett,Q142025,actor,journalist,0.4952,0.0,-0.4952,P106,108,0.0,1,2,2,1
+3641,information_not_credible_source_new,David Wagoner,Q5240765,actor,poet,0.6167,0.0,-0.6167,P106,13,0.0,1,3,1,1
+3718,information_not_credible_source_new,Windows Vista,Q11230,Apple,Microsoft,0.1467,0.4,0.2533,P178,1281,0.000243,3,1,3,1
+3764,information_not_credible_source_new,Arun Krushnaji Kamble,Q3630679,Islam,Buddhism,0.9556,0.0222,-0.9333,P140,5,0.000604,1,3,1,1
+3841,information_not_credible_source_new,CPP Investment Board,Q5013693,Oslo,Toronto,0.3583,0.3417,-0.0167,P159,183,0.00094,2,2,3,1
+3863,information_not_credible_source_new,The Exploited,Q117684,Olympia,Edinburgh,0.28,0.2267,-0.0533,P740,324,0.0,2,1,2,1
+4004,information_not_credible_source_new,Max Jacob,Q156214,German,French,0.6133,0.0667,-0.5467,P103,65,0.000544,1,3,1,1
+4056,information_not_credible_source_new,Shmuel Ashkenasi,Q321539,guitar,violin,0.75,0.0167,-0.7333,P1303,6,0.001151,1,3,1,1
+4102,information_not_credible_source_new,Sacramento Convention Center Complex,Q574140,Queensland,California,0.0375,0.6542,0.6167,P131,11,0.0,3,1,3,1
+4134,information_not_credible_source_new,Pesisir Selatan,Q6065,Hungary,Indonesia,0.0,0.5208,0.5208,P17,9,0.0,3,1,3,1
+4229,information_not_credible_source_new,Ludovico Einaudi,Q83182,trumpet,piano,0.1429,0.2857,0.1429,P1303,1069,0.000175,2,1,3,1
+4377,information_not_credible_source_new,Joanne Malar,Q3808571,Israel,Canada,0.2542,0.3375,0.0833,P27,9,0.023152,2,1,3,2
+4385,information_not_credible_source_new,Afghan Transitional Administration,Q4689103,Honolulu,Kabul,0.7333,0.0,-0.7333,P36,241,0.0,1,3,1,1
+4528,information_not_credible_source_new,Helsinki City Transport,Q1433158,WWE,Helsinki,0.0909,0.4909,0.4,P127,4,0.0,3,1,3,1
+4649,information_not_credible_source_new,Spendrups,Q3335289,Dallas,Sweden,0.6333,0.05,-0.5833,P159,18,0.0,1,3,1,1
+4727,information_not_credible_source_new,Balochistan,Q163239,Europe,Asia,0.3879,0.2848,-0.103,P30,1268,0.00329,2,2,2,1
+4737,information_not_credible_source_new,Dakor,Q912576,Manitoba,Gujarat,0.6889,0.0,-0.6889,P131,0,0.0,1,3,1,1
+4812,information_not_credible_source_new,Vantaa,Q127623,Antarctica,Europe,0.1754,0.5825,0.407,P30,164,0.003888,3,1,3,1
+4949,information_not_credible_source_new,Piove di Sacco,Q34317,Mexico,Italy,0.0986,0.6377,0.5391,P17,5,0.001145,3,1,3,1
+4972,information_not_credible_source_new,High Level Shader Language,Q559519,IBM,Microsoft,0.4,0.0,-0.4,P178,74,0.003642,1,2,2,1
+5043,information_not_credible_source_new,Sonic Underground,Q1535979,Japan,France,0.5,0.0222,-0.4778,P495,288,0.000227,1,2,2,1
+5184,information_not_credible_source_new,Ljig,Q1252490,Ukraine,Serbia,0.5083,0.0,-0.5083,P17,0,0.0,1,2,2,1
+5210,information_not_credible_source_new,Rififi,Q1856418,India,France,0.44,0.1733,-0.2667,P495,279,0.0,2,2,2,1
+5269,information_not_credible_source_new,Abraham Blooteling,Q329791,Paris,Amsterdam,0.8,0.0,-0.8,P937,2,0.0,1,3,1,1
+5305,information_not_credible_source_new,TNK-BP,Q2298901,Montreal,Moscow,0.4095,0.5333,0.1238,P159,46,0.0,3,2,3,1
+5331,information_not_credible_source_new,Andreas Embirikos,Q497035,lawyer,poet,0.9333,0.0,-0.9333,P106,11,0.0,1,3,1,1
+5359,information_not_credible_source_new,"Hope and Anchor, Islington",Q15225054,Moscow,London,0.1451,0.3647,0.2196,P276,26,0.00483,3,1,3,1
+5440,information_not_credible_source_new,Southampton Castle,Q7569104,Alberta,Southampton,0.1259,0.3037,0.1778,P131,13,0.0,2,1,3,1
+5528,information_not_credible_source_new,Mahmud al-Hasan,Q6734522,Buddhism,Islam,0.8667,0.2,-0.6667,P140,1,0.010227,2,3,1,2
+5596,information_not_credible_source_new,Sesamstraat,Q2410485,Swedish,Dutch,0.0,0.6944,0.6944,P407,24,0.000465,3,1,3,1
+5914,information_not_credible_source_new,Schytt Glacier,Q3372454,Europe,Antarctica,0.6933,0.2,-0.4933,P30,0,0.008119,2,3,2,2
+5973,information_not_credible_source_new,Contell Glacier,Q5164934,Africa,Antarctica,0.68,0.2,-0.48,P30,0,0.012847,2,3,2,2
+6050,information_not_credible_source_new,Bernardo Reyes,Q2159676,Denmark,Mexico,0.6095,0.1619,-0.4476,P27,36,0.0,2,3,2,1
+6052,information_not_credible_source_new,Alfred L. Kroeber,Q311538,philosophy,anthropology,0.475,0.2083,-0.2667,P101,121,0.0,2,2,2,1
+6058,information_not_credible_source_new,Far East Organization,Q4676212,Chicago,Singapore,0.275,0.425,0.15,P159,52,6.9e-05,3,1,3,1
+6142,information_not_credible_source_new,Nelida Lobato,Q6989976,England,Argentina,0.64,0.0,-0.64,P27,5,0.0,1,3,1,1
+6144,information_not_credible_source_new,Cunter,Q22549332,Guatemala,Switzerland,0.5778,0.0111,-0.5667,P17,5,0.0,1,2,1,1
+6212,information_not_credible_source_new,Christiane Taubira,Q268675,Spanish,French,0.6333,0.0667,-0.5667,P103,48,0.0,1,3,1,1
+6226,information_not_credible_source_new,Outlook.com,Q219136,Mobile,Microsoft,0.0854,0.4604,0.375,P127,1989,0.000543,3,1,3,1
+6268,information_not_credible_source_new,Cadillac V-16,Q1025261,Nintendo,Cadillac,0.1933,0.3433,0.15,P176,153,0.000265,2,1,3,1
+6299,information_not_credible_source_new,2020 Summer Olympics,Q181278,England,Tokyo,0.0745,0.3647,0.2902,P276,1318,0.0,3,1,3,1
+6387,information_not_credible_source_new,Brut y Tywysogion,Q2357256,Thai,Welsh,0.0,0.0,0.0,P407,11,0.000107,1,1,3,1
+6486,information_not_credible_source_new,Charles Louis Alphonse Laveran,Q189006,Hamburg,Paris,0.4833,0.0,-0.4833,P20,24,0.0,1,2,2,1
+6504,information_not_credible_source_new,Cold Case,Q733960,MTV,CBS,0.7,0.0,-0.7,P449,1073,0.0,1,3,1,1
+6555,information_not_credible_source_new,Apple Bandai Pippin,Q621312,Yahoo,Apple,0.0696,0.4551,0.3855,P178,37,0.00187,3,1,3,1
+6652,information_not_credible_source_new,Jake Rudock,Q19665946,midfielder,quarterback,0.8667,0.0,-0.8667,P413,48,0.0,1,3,1,1
+6656,information_not_credible_source_new,Road Rules,Q3074,NBC,MTV,0.4933,0.24,-0.2533,P449,17,0.000557,2,2,2,1
+6657,information_not_credible_source_new,Napoleon III,Q7721,Hamburg,Paris,0.5,0.0,-0.5,P937,11731,0.0,1,2,2,1
+6683,information_not_credible_source_new,The New Normal,Q498265,MTV,NBC,0.3556,0.0889,-0.2667,P449,200,0.0,1,2,2,1
+6940,information_not_credible_source_new,Ahmad Zahir,Q195522,Wellington,Kabul,0.7167,0.1667,-0.55,P19,110,0.0,2,3,1,1
+6961,information_not_credible_source_new,rutile,Q193521,Cuba,red,0.0714,0.3667,0.2952,P138,465,0.0,3,1,3,1
+7008,information_not_credible_source_new,TorqueFlite,Q7826788,Nintendo,Chrysler,0.1158,0.3123,0.1965,P176,176,0.000651,2,1,3,1
+7095,information_not_credible_source_new,Porsche 911 GT3,Q219357,Apple,Porsche,0.075,0.225,0.15,P176,2113,0.001383,2,1,3,1
+7242,information_not_credible_source_new,Nikolai Myaskovsky,Q312778,English,Russian,0.9556,0.0,-0.9556,P1412,51,0.000616,1,3,1,1
+7319,information_not_credible_source_new,Sextus Pompeius Festus,Q302723,Russian,Latin,0.4667,0.0833,-0.3833,P1412,23,0.0,1,2,2,1
+7354,information_not_credible_source_new,Sean Salisbury,Q100919367,guard,quarterback,0.7556,0.0,-0.7556,P413,0,0.0,1,3,1,1
+7413,information_not_credible_source_new,All Hail King Julien,Q18636697,NBC,Netflix,0.3067,0.3733,0.0667,P449,251,0.009378,3,1,3,2
+7495,information_not_credible_source_new,Venus Glacier,Q7920592,Europe,Antarctica,0.4381,0.219,-0.219,P30,1,0.008898,2,2,2,2
+7663,information_not_credible_source_new,Sergey Lavrov,Q58217,French,Russian,0.1247,0.4172,0.2925,P103,971,0.001589,3,1,3,1
+7723,information_not_credible_source_new,Earl King,Q931607,fantasy,blues,0.55,0.0833,-0.4667,P136,30,0.0,1,2,2,1
+7728,information_not_credible_source_new,Paris Commune,Q133132,English,French,0.1333,0.4417,0.3083,P37,1352,0.002765,3,1,3,1
+7735,information_not_credible_source_new,Nokia 1100,Q498806,Dodge,Nokia,0.0103,0.2256,0.2154,P176,276,0.0,2,1,3,1
+7877,information_not_credible_source_new,Lennart Geijer,Q2130664,Ukrainian,Swedish,0.5556,0.0444,-0.5111,P1412,8,0.0,1,2,2,1
+7956,information_not_credible_source_new,Adobe Digital Editions,Q144858,Intel,Adobe,0.1244,0.3156,0.1911,P178,49,0.00013,2,1,3,1
+8021,information_not_credible_source_new,Split Airport,Q1125392,Sweden,Split,0.1961,0.498,0.302,P138,133,0.003506,3,1,3,1
+8085,information_not_credible_source_new,Theni district,Q15196,Germany,India,0.0,0.5911,0.5911,P17,82,0.0,3,1,3,1
+8102,information_not_credible_source_new,Santa Maria della Salute,Q52531,Florence,Venice,0.1167,0.3222,0.2056,P276,156,0.001758,2,1,3,1
+8238,information_not_credible_source_new,Pietro Fanna,Q2274998,goaltender,midfielder,0.3619,0.0,-0.3619,P413,9,0.0,1,2,2,1
+8353,information_not_credible_source_new,Anna Neagle,Q433044,journalist,actor,0.6,0.0,-0.6,P106,321,0.00047,1,3,1,1
+8395,information_not_credible_source_new,James Laurinaitis,Q339711,quarterback,linebacker,0.1255,0.3294,0.2039,P413,277,0.000724,2,1,3,1
+8460,information_not_credible_source_new,Ruovesi,Q510636,Catalan,Finnish,0.0844,0.3556,0.2711,P37,11,0.0,3,1,3,1
+8521,information_not_credible_source_new,Haakon Lie,Q980028,Paris,Oslo,1.0,0.0,-1.0,P20,6,0.0,1,3,1,1
+8541,information_not_credible_source_new,Togo,Q945,Finnish,French,0.0133,0.5533,0.54,P37,1507,0.000518,3,1,3,1
+8620,information_not_credible_source_new,John Bernard Riley,Q916982,opera,jazz,0.9667,0.0,-0.9667,P136,16,0.0,1,3,1,1
+9062,information_not_credible_source_new,Dominique Bouhours,Q1238179,Russian,French,0.6333,0.1,-0.5333,P103,4,3.7e-05,1,3,1,1
+9075,information_not_credible_source_new,60 Minutes II,Q4641678,PBS,CBS,0.4533,0.08,-0.3733,P449,27,0.0,1,2,2,1
+9079,information_not_credible_source_new,Daisaku Ikeda,Q467395,Islam,Buddhism,0.0,0.4867,0.4867,P140,183,0.000994,3,1,3,1
+9294,information_not_credible_source_new,Christmas Island,Q106080035,Toyota,Christmas,0.0567,0.49,0.4333,P138,0,1.9e-05,3,1,3,1
+9407,information_not_credible_source_new,Alexei Kovalev,Q102282367,basketball,hockey,0.8222,0.0,-0.8222,P641,0,0.0,1,3,1,1
+9487,information_not_credible_source_new,CBS Summer Playhouse,Q860038,MTV,CBS,0.4,0.1333,-0.2667,P449,26,0.0,2,2,2,1
+9510,information_not_credible_source_new,Ennin,Q732282,Islam,Buddhism,0.7167,0.1333,-0.5833,P140,25,0.007016,2,3,1,2
+9539,information_not_credible_source_new,Twm o'r Nant,Q1767904,Dutch,Welsh,0.52,0.0933,-0.4267,P103,3,0.00032,1,2,2,1
+9670,information_not_credible_source_new,Salman the Persian,Q557378,Christianity,Islam,0.6667,0.3667,-0.3,P140,368,0.006655,3,3,2,2
+9772,information_not_credible_source_new,Shabbona,Q2254872,Dallas,Morris,0.7333,0.0,-0.7333,P20,5,0.0,1,3,1,1
+9790,information_not_credible_source_new,Bermuda,Q23635,Swedish,English,0.175,0.4167,0.2417,P37,3182,0.006004,3,1,3,2
+9832,information_not_credible_source_new,Axel Witsel,Q151838,quarterback,midfielder,0.125,0.575,0.45,P413,1168,0.0,3,1,3,1
+9915,information_not_credible_source_new,Copenhagen Airport,Q206277,Mars,Copenhagen,0.121,0.5284,0.4074,P138,464,0.0,3,1,3,1
+9930,information_not_credible_source_new,Kasey Keller,Q356814,football,soccer,1.0,1.0,0.0,P641,145,0.072329,3,3,3,3
+10038,information_not_credible_source_new,Alfred Capus,Q198621,Russian,French,0.8,0.0,-0.8,P103,2,0.0,1,3,1,1
+10040,information_not_credible_source_new,Cognos,Q1107048,WWE,IBM,0.1778,0.2444,0.0667,P127,41,0.0,2,1,3,1
+10052,information_not_credible_source_new,Nissan Prairie,Q669213,IBM,Nissan,0.2044,0.3556,0.1511,P176,67,0.0,3,1,3,1
+10180,information_not_credible_source_new,Open Packaging Conventions,Q3353182,Google,Microsoft,0.3556,0.2931,-0.0624,P178,19,0.006847,2,2,2,2
+10223,information_not_credible_source_new,Cogeco,Q7887664,Seattle,Montreal,0.75,0.1833,-0.5667,P159,63,0.0,2,3,1,1
+10231,information_not_credible_source_new,Polina Gagarina,Q4131386,politician,actor,0.2333,0.3333,0.1,P106,99,0.000484,2,1,3,1
+10319,information_not_credible_source_new,The Michael Richards Show,Q7751238,BBC,NBC,0.6667,0.1556,-0.5111,P449,142,4.3e-05,2,3,2,1
+10326,information_not_credible_source_new,Windows 8.1,Q3569290,Apple,Microsoft,0.2143,0.3952,0.181,P178,818,0.014574,3,1,3,2
+10343,information_not_credible_source_new,Southwest Philadelphia,Q7571337,Greenland,Philadelphia,0.0909,0.6242,0.5333,P131,28,0.0,3,1,3,1
+10365,information_not_credible_source_new,Thomas McCollum,Q89517481,midfielder,goaltender,0.8222,0.0,-0.8222,P413,0,0.0,1,3,1,1
+10376,information_not_credible_source_new,Leo X,Q43922,patriarch,pope,0.3833,0.0167,-0.3667,P39,1106,0.0,1,2,2,1
+10440,information_not_credible_source_new,Tecla Scarano,Q3982413,Hebrew,Italian,0.6667,0.05,-0.6167,P1412,2,0.000432,1,3,1,1
+10509,information_not_credible_source_new,City of Birmingham Symphony Orchestra,Q706774,carbon,Birmingham,0.3381,0.3048,-0.0333,P138,28,0.000551,2,2,3,1
+10747,information_not_credible_source_new,Jerzy Zawieyski,Q2510207,London,Warsaw,0.7833,0.0,-0.7833,P20,4,0.0,1,3,1,1
+10775,information_not_credible_source_new,Elis Regina,Q465877,France,Brazil,0.9067,0.0,-0.9067,P27,141,0.0,1,3,1,1
+10845,information_not_credible_source_new,Antoine Augustin Calmet,Q767668,Russian,French,0.0,0.4667,0.4667,P103,47,0.000537,3,1,3,1
+10881,information_not_credible_source_new,Logic Studio,Q1142467,Google,Apple,0.1152,0.3394,0.2242,P178,17,0.007784,2,1,3,2
+11168,information_not_credible_source_new,A229 road,Q4649026,Jerusalem,Kent,0.5667,0.0,-0.5667,P131,10,0.0,1,2,1,1
+11187,information_not_credible_source_new,Brett Favre,Q267088,hockey,football,0.125,0.6583,0.5333,P641,3116,0.0,3,1,3,1
+11382,information_not_credible_source_new,Gary Scelzi,Q5525887,Chicago,Fresno,1.0,0.0,-1.0,P19,14,0.0,1,3,1,1
+11509,information_not_credible_source_new,Hagia Sophia,Q12506,Berlin,Istanbul,0.0048,0.4238,0.419,P276,3468,0.0,3,1,3,1
+11678,information_not_credible_source_new,The Bold Ones,Q7719042,History,NBC,0.4583,0.0417,-0.4167,P449,21,0.000683,1,2,2,1
+11722,information_not_credible_source_new,Lannemezan,Q383402,Greece,France,0.0,0.0,0.0,P17,30,0.000188,1,1,3,1
+11929,information_not_credible_source_new,Davao Region,Q13694,Boston,Philippines,0.15,0.5833,0.4333,P131,202,0.000427,3,1,3,1
+11976,information_not_credible_source_new,Gluecifer,Q1248223,Leeds,Oslo,0.9167,0.0,-0.9167,P740,25,0.0,1,3,1,1
+11977,information_not_credible_source_new,Jon Larsen,Q112485126,opera,jazz,0.4833,0.05,-0.4333,P136,0,0.0,1,2,2,1
+12194,information_not_credible_source_new,Renault Fluence,Q1050584,BMW,Renault,0.1417,0.3583,0.2167,P176,111,0.00214,3,1,3,1
+12238,information_not_credible_source_new,Toyota Coaster,Q581385,Microsoft,Toyota,0.1905,0.3143,0.1238,P176,233,0.0,2,1,3,1
+12472,information_not_credible_source_new,Eleanor Oldroyd,Q5354350,Apple,BBC,0.5,0.0,-0.5,P108,16,0.0,1,2,2,1
+12594,information_not_credible_source_new,Stephen Hough,Q1243635,trumpet,piano,0.6667,0.1333,-0.5333,P1303,70,0.004651,2,3,1,1
+12597,information_not_credible_source_new,Nauka i Zhizn,Q4314276,Chinese,Russian,0.3125,0.2625,-0.05,P407,3,0.003754,2,2,3,1
+12646,information_not_credible_source_new,Columbia Daily Tribune,Q5149683,Glasgow,Columbia,0.3,0.2917,-0.0083,P159,6,0.001445,2,1,3,1
+12671,information_not_credible_source_new,The Sleeping Car Murders,Q593767,Tamil,French,0.5333,0.2667,-0.2667,P364,32,0.0,2,2,2,1
+12736,information_not_credible_source_new,Canberra International Film Festival,Q5031263,Baltimore,Canberra,0.0,0.0,0.0,P276,2,0.0,1,1,3,1
+12837,information_not_credible_source_new,University of Strathclyde,Q1859178,Houston,Glasgow,0.1926,0.4667,0.2741,P159,204,0.0,3,1,3,1
+12851,information_not_credible_source_new,Willie Stargell,Q1054942,soccer,baseball,0.3222,0.2222,-0.1,P641,409,4.7e-05,2,2,2,1
+12923,information_not_credible_source_new,Big Daddy Weave,Q4905546,Manchester,Mobile,0.45,0.1167,-0.3333,P740,137,0.0,1,2,2,1
+13044,information_not_credible_source_new,Juan J. Campanella,Q726925,Russian,Spanish,0.25,0.3167,0.0667,P1412,33,0.002553,2,1,3,1
+13070,information_not_credible_source_new,Battle of Olszynka Grochowska,Q1576383,Jerusalem,Warsaw,0.0909,0.5394,0.4485,P276,57,0.000156,3,1,3,1
+13101,information_not_credible_source_new,The Godfather,Q60875410,Swedish,English,0.1042,0.5583,0.4542,P364,0,0.004999,3,1,3,1
+13199,information_not_credible_source_new,Donetsk Oblast,Q2012050,English,Ukrainian,0.4333,0.0,-0.4333,P37,1724,0.000221,1,2,2,1
+13215,information_not_credible_source_new,Julien Augustin Joseph Mermet,Q3189346,Baltimore,Paris,0.5067,0.0,-0.5067,P20,4,0.0,1,2,2,1
+13245,information_not_credible_source_new,John Brack,Q117680,Rome,Melbourne,0.84,0.0,-0.84,P20,15,0.0,1,3,1,1
+13328,information_not_credible_source_new,Park Seo-joon,Q5116234,London,Seoul,0.419,0.1524,-0.2667,P19,1263,0.0,2,2,2,1
+13359,information_not_credible_source_new,Frankie Knuckles,Q205322,Oslo,Chicago,0.3222,0.4778,0.1556,P20,266,0.0,3,2,3,1
+13419,information_not_credible_source_new,CTV Television Network,Q767221,London,Toronto,0.2359,0.3538,0.1179,P159,352,0.00026,3,1,3,1
+13494,information_not_credible_source_new,Tales of Wells Fargo,Q3980406,PBS,NBC,0.5333,0.1833,-0.35,P449,201,0.000208,2,2,2,1
+13729,information_not_credible_source_new,IBM AIX,Q269856,Microsoft,IBM,0.2377,0.3072,0.0696,P178,208,0.001078,2,1,3,1
+13733,information_not_credible_source_new,Hurrem sultan,Q6077715,Christianity,Islam,0.1833,0.4583,0.275,P140,0,0.001098,3,1,3,1
+13833,information_not_credible_source_new,Wood Gundy,Q8032214,Vancouver,Toronto,0.7333,0.15,-0.5833,P159,15,0.008708,2,3,1,2
+14008,information_not_credible_source_new,Khadijah bint Khuwaylid,Q42034,Christianity,Islam,0.1556,0.4519,0.2963,P140,963,0.001817,3,1,3,1
+14320,information_not_credible_source_new,Cumhuriyet,Q97012871,French,Turkish,0.6,0.1733,-0.4267,P407,0,0.0,2,3,2,1
+14404,information_not_credible_source_new,Sally Seltmann,Q7405288,Scotland,Australia,0.7733,0.0,-0.7733,P27,23,0.000354,1,3,1,1
+14442,information_not_credible_source_new,Carpathian Mountains,Q1288,Argentina,Austria,0.1905,0.2,0.0095,P17,1320,0.0,2,1,3,1
+14492,information_not_credible_source_new,University of South Florida,Q500606,Geneva,Tampa,0.0,0.619,0.619,P159,500,0.0,3,1,3,1
+14535,information_not_credible_source_new,Lin Yang-kang,Q6550125,Argentina,Taiwan,0.84,0.0,-0.84,P27,10,0.0,1,3,1,1
+14648,information_not_credible_source_new,Yigal Hurvitz,Q434182,Romanian,Hebrew,0.4933,0.0933,-0.4,P1412,3,0.0,1,2,2,1
+14677,information_not_credible_source_new,Karl Michael Ziehrer,Q696576,Philadelphia,Vienna,0.85,0.0,-0.85,P20,11,0.0,1,3,1,1
+14735,information_not_credible_source_new,Travis Blackley,Q495199,midfielder,pitcher,0.7778,0.0,-0.7778,P413,7,0.0,1,3,1,1
+14745,information_not_credible_source_new,Nathaniel Hawthorne,Q69339,Russian,English,0.0,0.4952,0.4952,P1412,1283,0.000866,3,1,3,1
+14747,information_not_credible_source_new,Julien Carette,Q1712227,Russian,French,0.7778,0.0,-0.7778,P103,8,0.0,1,3,1,1
+14749,information_not_credible_source_new,Canada men's national soccer team,Q208635,NATO,FIFA,0.3028,0.2361,-0.0667,P463,844,0.0,2,1,2,1
+14815,information_not_credible_source_new,Leo IX,Q58559,bishop,pope,0.3733,0.0133,-0.36,P39,186,0.0,1,2,2,1
+14852,information_not_credible_source_new,Nick Swisher,Q978581,basketball,baseball,0.5067,0.0667,-0.44,P641,463,0.002338,1,2,2,1
+14883,information_not_credible_source_new,Thomas Earnshaw,Q2423581,Egypt,London,1.0,0.0,-1.0,P20,25,0.0,1,3,1,1
+14907,information_not_credible_source_new,Real Academia de Bellas Artes de San Fernando,Q1322403,Tokyo,Madrid,0.0,0.3533,0.3533,P159,31,0.0,3,1,3,1
+14997,information_not_credible_source_new,Nicole Oresme,Q310777,pope,bishop,0.6667,0.0667,-0.6,P39,85,0.005536,1,3,1,1
+15064,information_not_credible_source_new,European Aviation Safety Agency,Q276255,Chicago,Cologne,0.3,0.4,0.1,P159,81,0.0,3,1,3,1
+15249,information_not_credible_source_new,BMW E87,Q796469,Honda,BMW,0.2389,0.1778,-0.0611,P176,880,0.002638,2,1,2,1
+15291,information_not_credible_source_new,Turaida,Q2300840,Romania,Latvia,0.0308,0.6,0.5692,P17,5,0.003539,3,1,3,1
+15577,information_not_credible_source_new,Combat Hospital,Q603496,Belgium,Canada,0.0952,0.2571,0.1619,P495,29,0.00765,2,1,3,2
+15766,information_not_credible_source_new,Hauk Aabel,Q3354983,photographer,actor,0.7667,0.0,-0.7667,P106,2,0.0,1,3,1,1
+15850,information_not_credible_source_new,Supervivientes,Q7647314,Paris,Honduras,0.5111,0.1185,-0.3926,P276,19,0.0,1,2,2,1
+15867,information_not_credible_source_new,George Robert Gray,Q310456,Munich,London,0.9111,0.0,-0.9111,P20,16,0.0,1,3,1,1
+15907,information_not_credible_source_new,Rob Zombie,Q298255,piano,guitar,1.0,0.0,-1.0,P1303,4180,0.000334,1,3,1,1
+15954,information_not_credible_source_new,Toyota Aygo,Q825358,Renault,Toyota,0.1294,0.3392,0.2098,P176,329,0.002009,2,1,3,1
+15957,information_not_credible_source_new,Benedict XVI,Q2494,bishop,pope,0.3167,0.0167,-0.3,P39,2334,0.0,1,2,2,1
+16048,information_not_credible_source_new,Eurajoki,Q1001783,Dutch,Finnish,0.1067,0.3893,0.2827,P37,10,0.000353,3,1,3,1
+16130,information_not_credible_source_new,Vietnam,Q881,Antarctica,Asia,0.3259,0.4444,0.1185,P30,7298,0.002872,3,2,3,1
+16377,information_not_credible_source_new,Chester railway station,Q2478175,Bern,Chester,0.0,0.503,0.503,P138,36,0.0,3,1,3,1
+16420,information_not_credible_source_new,Suzuki B-King,Q2000575,Honda,Suzuki,0.0,0.6267,0.6267,P176,104,0.004299,3,1,3,1
+16426,information_not_credible_source_new,Mulheres de Areia,Q466801,Australia,Brazil,0.3333,0.1111,-0.2222,P495,12,0.0,1,2,2,1
+16479,information_not_credible_source_new,Peter Forsberg,Q348416,soccer,hockey,0.6444,0.1556,-0.4889,P641,298,0.0,2,3,2,1
+16556,information_not_credible_source_new,William Henry Harrison,Q11869,French,English,0.2463,0.1889,-0.0574,P103,3226,0.001103,2,1,2,1
+16585,information_not_credible_source_new,Temples of Abu Simbel,Q134140,Chile,Egypt,0.037,0.4938,0.4568,P17,854,0.000259,3,1,3,1
+16655,information_not_credible_source_new,Thailand,Q869,Welsh,Thai,0.0167,0.5,0.4833,P37,7647,0.0,3,1,3,1
+16803,information_not_credible_source_new,Livonian Crusade,Q196409,Houston,Latvia,0.0,0.0667,0.0667,P276,140,0.0,1,1,3,1
+16841,information_not_credible_source_new,Maurice Richard,Q3301329,football,hockey,0.6667,0.2444,-0.4222,P641,0,0.000152,2,3,2,1
+16993,information_not_credible_source_new,Archie Manning,Q611891,midfielder,quarterback,0.1037,0.4148,0.3111,P413,2845,0.0,3,1,3,1
+17002,information_not_credible_source_new,Jason Kidd,Q221341,football,basketball,0.1111,0.4278,0.3167,P641,1688,0.000809,3,1,3,1
+17094,information_not_credible_source_new,Jan Swammerdam,Q336794,Beijing,Amsterdam,0.22,0.42,0.2,P20,36,0.0,3,1,3,1
+17247,information_not_credible_source_new,Fiat 850,Q1360944,Intel,Fiat,0.1619,0.4143,0.2524,P176,144,0.0,3,1,3,1
+17276,information_not_credible_source_new,Anton Nel,Q4775923,trumpet,piano,0.6133,0.0267,-0.5867,P1303,5,0.000473,1,3,1,1
+17298,information_not_credible_source_new,Pascal Quignard,Q423298,English,French,0.5733,0.08,-0.4933,P1412,21,0.0,1,2,2,1
+17378,information_not_credible_source_new,Samuil Feinberg,Q1971227,violin,piano,0.65,0.0833,-0.5667,P1303,28,0.0,1,3,1,1
+17442,information_not_credible_source_new,Jacques Sadoul,Q2033504,Dutch,French,0.52,0.2133,-0.3067,P103,1,0.000462,2,2,2,1
+17525,information_not_credible_source_new,Goswin de Stassart,Q1538693,Dutch,French,0.4933,0.0,-0.4933,P103,2,0.000252,1,2,2,1
+17528,information_not_credible_source_new,Mike Cowlishaw,Q52254,BBC,IBM,0.525,0.15,-0.375,P108,8,0.0,2,2,2,1
+17811,information_not_credible_source_new,Edward Burtynsky,Q967163,actor,photographer,0.103,0.4909,0.3879,P106,60,0.0,3,1,3,1
+18070,information_not_credible_source_new,MillerCoors,Q6859054,Budapest,Chicago,0.2407,0.2815,0.0407,P159,66,0.0,2,1,3,1
+18094,information_not_credible_source_new,Utah County,Q27229,Uganda,Utah,0.103,0.3576,0.2545,P131,201,0.0,3,1,3,1
+18143,information_not_credible_source_new,Abdul Khalid Ibrahim,Q4665485,France,Malaysia,0.7778,0.0444,-0.7333,P27,19,0.0,1,3,1,1
+18161,information_not_credible_source_new,The Josephine Baker Story,Q7743526,CBS,HBO,0.6667,0.0,-0.6667,P449,46,0.0,1,3,1,1
+18242,information_not_credible_source_new,Central African Republic,Q929,Antarctica,Africa,0.0178,0.5556,0.5378,P30,2016,0.003828,3,1,3,1
+18284,information_not_credible_source_new,Romania,Q218,French,Romanian,0.1292,0.1792,0.05,P37,5896,0.003567,2,1,3,1
+18319,information_not_credible_source_new,Walter Payton,Q963117,baseball,football,0.45,0.0167,-0.4333,P641,1278,0.004185,1,2,2,1
+18510,information_not_credible_source_new,TMF Nederland,Q2382500,Bangalore,Amsterdam,0.7067,0.1867,-0.52,P159,16,0.0,2,3,1,1
+18520,information_not_credible_source_new,Paul Mercurio,Q325406,economist,actor,0.6,0.0,-0.6,P106,207,0.0,1,3,1,1
+18587,information_not_credible_source_new,Jules Massenet,Q194436,Norwegian,French,0.05,0.4367,0.3867,P1412,126,0.000153,3,1,3,1
+18592,information_not_credible_source_new,Nea Zichni Municipality,Q2532139,Poland,Greece,0.1818,0.3455,0.1636,P17,3,0.000826,2,1,3,1
+18604,information_not_credible_source_new,John Shelby Spong,Q1196186,cardinal,bishop,0.3455,0.1818,-0.1636,P39,118,0.000452,2,2,2,1
+18786,information_not_credible_source_new,Jay Cutler,Q312811,midfielder,quarterback,0.2,0.44,0.24,P413,1922,0.0,3,1,3,1
+18834,information_not_credible_source_new,West Darfur,Q846331,Australia,Sudan,0.0,0.6762,0.6762,P17,23,0.0,3,1,3,1
+18840,information_not_credible_source_new,Woodbine Racetrack,Q3135941,Rome,Ontario,0.45,0.0167,-0.4333,P131,42,0.0,1,2,2,1
+18845,information_not_credible_source_new,2000 Summer Olympics,Q8544,Istanbul,Sydney,0.0,0.6333,0.6333,P276,665,0.0,3,1,3,1
+18860,information_not_credible_source_new,Muawiyah I,Q181154,Moscow,Damascus,0.3444,0.4111,0.0667,P20,799,0.0,3,2,3,1
+18966,information_not_credible_source_new,Birmingham Repertory Theatre,Q4916786,Athens,Birmingham,0.2778,0.1667,-0.1111,P131,39,0.0,2,1,2,1
+19047,information_not_credible_source_new,Hogeschool Gent,Q1313163,Ethiopia,Belgium,0.0,0.0,0.0,P17,10,0.000348,1,1,3,1
+19066,information_not_credible_source_new,Adrian Knox,Q4685169,Albania,Australia,0.68,0.0,-0.68,P27,3,0.000469,1,3,1,1
+19107,information_not_credible_source_new,Amiibo,Q17157056,IBM,Nintendo,0.1037,0.3407,0.237,P178,166,0.000168,2,1,3,1
+19114,information_not_credible_source_new,Le Droit,Q3222449,Swedish,French,0.5048,0.0952,-0.4095,P407,8,0.002171,1,2,2,1
+19122,information_not_credible_source_new,Felix Plater,Q667732,sociology,medicine,0.6111,0.0,-0.6111,P101,7,0.0,1,3,1,1
+19214,information_not_credible_source_new,The Immoralist,Q174626,English,French,0.0967,0.3367,0.24,P364,51,0.002237,2,1,3,1
+19322,information_not_credible_source_new,Madame Figaro,Q3275273,Spanish,French,0.5556,0.1,-0.4556,P407,38,0.000393,1,2,2,1
+19430,information_not_credible_source_new,Pierre Braunberger,Q343898,Lawrence,Paris,0.6167,0.0,-0.6167,P19,3,0.0,1,3,1,1
+19485,information_not_credible_source_new,ProStars,Q7246696,CBS,NBC,0.7556,0.0,-0.7556,P449,81,0.0,1,3,1,1
+19523,information_not_credible_source_new,Pechora River,Q8168,Antarctica,Europe,0.2364,0.1091,-0.1273,P30,23,0.0,1,1,2,1
+19597,information_not_credible_source_new,Catalonia,Q5705,English,Spanish,0.2095,0.3143,0.1048,P37,2103,0.008215,2,1,3,2
+19805,information_not_credible_source_new,Antoine Danchet,Q585987,Taiwan,France,0.5444,0.0111,-0.5333,P27,1,0.000201,1,2,1,1
+19829,information_not_credible_source_new,Ghazi of Iraq,Q314784,Christian,Islam,0.6444,0.0222,-0.6222,P140,237,5.2e-05,1,3,1,1
+19898,information_not_credible_source_new,Darren Daulton,Q3016497,goaltender,catcher,0.1619,0.4,0.2381,P413,1610,0.0,3,1,3,1
+19941,information_not_credible_source_new,DNB ASA,Q80788,Atlanta,Oslo,0.3333,0.4222,0.0889,P159,61,0.0,3,2,3,1
+20051,information_not_credible_source_new,London Book Fair,Q6669870,Normandy,London,0.0385,0.5385,0.5,P276,12,0.0,3,1,3,1
+20098,information_not_credible_source_new,Larsmo,Q259863,Argentina,Finland,0.0,0.0,0.0,P17,15,0.00041,1,1,3,1
+20112,information_not_credible_source_new,Roland Freisler,Q57601,Winnipeg,Berlin,0.1667,0.4667,0.3,P20,526,0.0,3,1,3,1
+20182,information_not_credible_source_new,Irina Khakamada,Q541213,Dutch,Russian,0.3778,0.0889,-0.2889,P103,43,0.000447,1,2,2,1
+20202,information_not_credible_source_new,Nissan Sentra,Q1132451,Nokia,Nissan,0.1556,0.2074,0.0519,P176,629,0.0,2,1,3,1
+20311,information_not_credible_source_new,Herald Sun Tour,Q1607801,Helsinki,Victoria,0.2667,0.3333,0.0667,P276,17,0.0,2,1,3,1
+20324,information_not_credible_source_new,Peter Howson,Q711799,Rome,London,0.5481,0.1185,-0.4296,P19,32,0.001322,1,2,2,1
+20486,information_not_credible_source_new,Sam Rayburn Reservoir,Q1475987,Vienna,Texas,0.6,0.0,-0.6,P131,50,0.0,1,3,1,1
+20647,information_not_credible_source_new,Ambrose Akinmusire,Q34054,opera,jazz,0.5,0.0333,-0.4667,P136,38,0.0,1,2,2,1
+20680,information_not_credible_source_new,Lavoisier Island,Q3108669,Asia,Antarctica,0.3926,0.2741,-0.1185,P30,1,0.009971,2,2,2,2
+20821,information_not_credible_source_new,Hippos,Q604995,Winnipeg,horse,0.425,0.05,-0.375,P138,25,0.0,1,2,2,1
+21013,information_not_credible_source_new,Thomas Browne,Q313925,London,Norwich,0.8167,0.0,-0.8167,P937,171,0.0,1,3,1,1
+21066,information_not_credible_source_new,International Documentary Film Festival Amsterdam,Q1666506,Berlin,Amsterdam,0.2667,0.3778,0.1111,P276,23,0.0,3,1,3,1
+21073,information_not_credible_source_new,Honda VFR400,Q5892759,IBM,Honda,0.0921,0.3492,0.2571,P176,75,0.000232,2,1,3,1
+21076,information_not_credible_source_new,Illertissen,Q503295,India,Germany,0.0,0.0,0.0,P17,16,0.000748,1,1,3,1
+21157,information_not_credible_source_new,Report Program Generator,Q840543,Microsoft,IBM,0.4667,0.0444,-0.4222,P178,85,0.0,1,2,2,1
+21268,information_not_credible_source_new,Central Black Forest,Q1940689,Iran,Germany,0.7667,0.0,-0.7667,P17,3,0.0,1,3,1,1
+21279,information_not_credible_source_new,Selbu,Q492209,Belgium,Norway,0.1917,0.4417,0.25,P17,9,0.0,3,1,3,1
+21432,information_not_credible_source_new,Brazilian Football Confederation,Q244754,UFO,FIFA,0.0,0.0,0.0,P463,243,0.0,1,1,3,1
+21468,information_not_credible_source_new,Tony Benn,Q332412,Lisbon,London,0.1436,0.4615,0.3179,P20,878,5.8e-05,3,1,3,1
+21488,information_not_credible_source_new,Aruna Irani,Q158225,journalist,actor,0.55,0.0,-0.55,P106,889,0.0,1,2,1,1
+21537,information_not_credible_source_new,Alexander VIII,Q101294,London,Rome,1.0,0.0,-1.0,P20,40,0.011167,1,3,1,2
+21638,information_not_credible_source_new,Mike Shinoda,Q19201,violin,guitar,0.2542,0.2083,-0.0458,P1303,1845,0.0,2,1,3,1
+21791,information_not_credible_source_new,Lydia Chukovskaya,Q433942,French,Russian,0.6,0.0667,-0.5333,P103,19,0.001538,1,3,1,1
+21836,information_not_credible_source_new,Gregory XV,Q132692,bishop,pope,0.36,0.0267,-0.3333,P39,56,0.0,1,2,2,1
+21891,information_not_credible_source_new,Saint Amandus,Q453698,mayor,bishop,0.7778,0.0,-0.7778,P39,33,0.0,1,3,1,1
+108,neutral_new,Bastille,Q689,Canada,France,0.3441,0.2301,-0.114,P17,512,0.039945,2,2,2,2
+165,neutral_new,The Million Second Quiz,Q14898907,CBS,NBC,0.0,0.0,0.0,P449,19,,1,1,3,
+187,neutral_new,Hamburg International Film Festival,Q1414659,Rome,Hamburg,0.7067,0.0533,-0.6533,P276,8,0.0,1,3,1,1
+222,neutral_new,Mount Markham,Q1412427,Europe,Antarctica,0.6,0.1867,-0.4133,P30,4,0.009459,2,3,2,2
+239,neutral_new,Nizampatnam,Q988685,Ghana,India,0.6533,0.16,-0.4933,P17,14,0.002947,2,3,2,1
+243,neutral_new,Housos,Q17007227,Spain,Australia,0.8333,0.0,-0.8333,P495,69,0.0,1,3,1,1
+307,neutral_new,Chardonne,Q52698,English,French,0.55,0.25,-0.3,P37,2,0.001506,2,2,2,1
+423,neutral_new,Delchev Ridge,Q5253560,Europe,Antarctica,0.4571,0.1524,-0.3048,P30,0,0.006884,2,2,2,2
+439,neutral_new,Irfan Habib,Q3154342,Singapore,India,0.6667,0.0,-0.6667,P27,136,0.0,1,3,1,1
+493,neutral_new,Vancouver Symphony Orchestra,Q602381,Pakistan,Canada,0.05,0.4567,0.4067,P495,18,0.006811,3,1,3,2
+503,neutral_new,Mark Visentin,Q3048335,midfielder,goaltender,0.6889,0.0,-0.6889,P413,8,0.0,1,3,1,1
+556,neutral_new,Jennifer Hudson,Q192410,French,English,0.5333,0.0333,-0.5,P1412,2649,0.001597,1,2,2,1
+641,neutral_new,Ilta-Sanomat,Q1001384,Spanish,Finnish,0.2909,0.1879,-0.103,P407,19,0.001463,2,1,2,1
+679,neutral_new,Isidor Philipp,Q105655076,Geneva,Paris,0.75,0.05,-0.7,P20,0,0.001888,1,3,1,1
+879,neutral_new,Kim Myhr,Q11980653,Iraq,Norway,0.75,0.0,-0.75,P27,1,0.0,1,3,1,1
+903,neutral_new,Gregory of Nazianzus,Q44011,cardinal,bishop,0.35,0.1167,-0.2333,P39,214,0.0,1,2,2,1
+941,neutral_new,South Boston,Q1759693,Alaska,Boston,0.2533,0.16,-0.0933,P131,201,0.000324,2,1,2,1
+1174,neutral_new,Alta Verapaz Department,Q504637,English,Spanish,0.3778,0.0222,-0.3556,P37,19,0.0,1,2,2,1
+1240,neutral_new,Mount Rose (Nevada),Q8526141,Texas,Nevada,0.225,0.4333,0.2083,P131,23,0.001801,3,1,3,1
+1326,neutral_new,Johanne Luise Heiberg,Q272246,Tamil,Danish,0.4833,0.0167,-0.4667,P1412,13,0.0,1,2,2,1
+1360,neutral_new,Freddie Keppard,Q490080,funk,jazz,0.4,0.1556,-0.2444,P136,15,0.008092,2,2,2,2
+1459,neutral_new,Browning Nagle,Q4976571,midfielder,quarterback,0.5667,0.0,-0.5667,P413,35,0.0,1,2,1,1
+1478,neutral_new,Demonic Resurrection,Q5256257,Rome,Mumbai,0.8444,0.0,-0.8444,P740,15,0.0,1,3,1,1
+1484,neutral_new,Battle of the Menin Road Ridge,Q4872951,Atlanta,Belgium,0.6889,0.0,-0.6889,P276,23,0.0,1,3,1,1
+1495,neutral_new,James Buchanan,Q12325,Toronto,Lancaster,0.6833,0.0,-0.6833,P20,2883,0.0,1,3,1,1
+1503,neutral_new,Mike Liut,Q328821,midfielder,goaltender,0.6222,0.0,-0.6222,P413,46,0.0,1,3,1,1
+1513,neutral_new,Liverpool Range,Q1633267,Ireland,Australia,0.6533,0.08,-0.5733,P17,7,0.000577,1,3,1,1
+1601,neutral_new,Suddenly Susan,Q643894,jazz,sitcom,0.4167,0.0,-0.4167,P136,266,0.000198,1,2,2,1
+1734,neutral_new,Luigi Snozzi,Q117448,Singapore,Switzerland,0.6133,0.0,-0.6133,P27,4,0.0,1,3,1,1
+1780,neutral_new,Cardiff City Ladies F.C.,Q372196,Hayward,Cardiff,0.2533,0.2133,-0.04,P159,35,0.0,2,1,3,1
+1803,neutral_new,TU Wien,Q689400,Birmingham,Vienna,0.1476,0.5619,0.4143,P159,76,0.0,3,1,3,1
+1815,neutral_new,Honinbo Shuei,Q5896202,Syria,Japan,0.4095,0.181,-0.2286,P27,0,0.000616,2,2,2,1
+1819,neutral_new,Mount Stephenson,Q6923858,Europe,Antarctica,0.6,0.1067,-0.4933,P30,7,0.010537,1,3,2,2
+1877,neutral_new,"Kapuso Mo, Jessica Soho",Q12965797,Australia,Philippines,0.3,0.0833,-0.2167,P495,53,0.001963,1,1,2,1
+2210,neutral_new,Pavol Demitra,Q363628,Belgium,Slovakia,0.6133,0.0,-0.6133,P27,105,0.0,1,3,1,1
+2302,neutral_new,Campania,Q1438,Brussels,Naples,0.3556,0.1111,-0.2444,P36,1194,0.000369,1,2,2,1
+2349,neutral_new,Pablo Honey,Q221241,Hindi,English,0.2267,0.04,-0.1867,P364,558,0.0,1,1,2,1
+2352,neutral_new,Van der Valk,Q101439927,French,English,0.52,0.0933,-0.4267,P364,0,0.000977,1,2,2,1
+2481,neutral_new,Mauro Zani,Q714290,French,Italian,0.6167,0.0667,-0.55,P1412,0,0.013053,1,3,1,2
+2587,neutral_new,Jeanne Lamon,Q539291,piano,violin,1.0,0.0,-1.0,P1303,7,0.000664,1,3,1,1
+2674,neutral_new,Seattle International Film Festival,Q2399132,Sheffield,Seattle,0.2556,0.3667,0.1111,P276,48,0.0,3,1,3,1
+2824,neutral_new,"Braddock, Cornwall",Q4954451,Queensland,Cornwall,0.35,0.5,0.15,P131,2,0.008783,3,2,3,2
+2857,neutral_new,Google Now,Q79564,Microsoft,Google,0.1176,0.7529,0.6353,P178,73,0.004112,3,1,3,1
+2878,neutral_new,Sony Alpha 99,Q402211,Triumph,Sony,0.2556,0.2444,-0.0111,P176,21,0.000324,2,1,3,1
+2932,neutral_new,Moi International Sports Centre,Q1385710,Israel,Kenya,0.52,0.08,-0.44,P17,101,0.0,1,2,2,1
+3102,neutral_new,Dospat Municipality,Q2715784,Philippines,Bulgaria,0.8083,0.0583,-0.75,P17,1,0.007814,1,3,1,2
+3161,neutral_new,Nintendo Software Planning & Development,Q2054310,London,Kyoto,0.0833,0.0333,-0.05,P159,52,0.0,1,1,3,1
+3193,neutral_new,Johnny Unitas,Q716029,midfielder,quarterback,0.4667,0.1926,-0.2741,P413,1047,0.0,2,2,2,1
+3288,neutral_new,RioCan Real Estate Investment Trust,Q13529475,London,Toronto,0.5333,0.0,-0.5333,P159,17,9.9e-05,1,2,1,1
+3333,neutral_new,Mario Monti,Q47904,Japan,Italy,0.4148,0.1333,-0.2815,P27,186,0.000706,2,2,2,1
+3451,neutral_new,VASKhNIL,Q472795,Spanish,Russian,0.3867,0.0533,-0.3333,P37,7,0.001046,1,2,2,1
+3485,neutral_new,Heartbreak High,Q122314218,Norway,Australia,0.3778,0.0,-0.3778,P495,0,0.0,1,2,2,1
+3522,neutral_new,MacApp,Q6721707,Microsoft,Apple,0.6533,0.0533,-0.6,P178,12,3.3e-05,1,3,1,1
+3544,neutral_new,Wolfgang Sawallisch,Q61205,guitar,piano,0.75,0.1,-0.65,P1303,20,0.003189,1,3,1,1
+3559,neutral_new,Peter Arnett,Q142025,actor,journalist,0.5667,0.0,-0.5667,P106,108,0.000265,1,2,1,1
+3641,neutral_new,David Wagoner,Q5240765,actor,poet,0.7,0.0,-0.7,P106,13,0.0,1,3,1,1
+3718,neutral_new,Windows Vista,Q11230,Apple,Microsoft,0.1722,0.4167,0.2444,P178,1281,0.000192,3,1,3,1
+3764,neutral_new,Arun Krushnaji Kamble,Q3630679,Islam,Buddhism,0.6267,0.04,-0.5867,P140,5,0.001572,1,3,1,1
+3841,neutral_new,CPP Investment Board,Q5013693,Oslo,Toronto,0.4,0.1333,-0.2667,P159,183,0.0,2,2,2,1
+3863,neutral_new,The Exploited,Q117684,Olympia,Edinburgh,0.0,0.0,0.0,P740,324,0.0,1,1,3,1
+4004,neutral_new,Max Jacob,Q156214,German,French,0.7111,0.0,-0.7111,P103,65,0.000135,1,3,1,1
+4056,neutral_new,Shmuel Ashkenasi,Q321539,guitar,violin,0.7833,0.0,-0.7833,P1303,6,0.001737,1,3,1,1
+4102,neutral_new,Sacramento Convention Center Complex,Q574140,Queensland,California,0.0944,0.2944,0.2,P131,11,0.0,2,1,3,1
+4134,neutral_new,Pesisir Selatan,Q6065,Hungary,Indonesia,0.1,0.4867,0.3867,P17,9,0.0,3,1,3,1
+4229,neutral_new,Ludovico Einaudi,Q83182,trumpet,piano,0.5067,0.1333,-0.3733,P1303,1069,0.000541,2,2,2,1
+4377,neutral_new,Joanne Malar,Q3808571,Israel,Canada,0.2364,0.3758,0.1394,P27,9,0.02555,3,1,3,2
+4385,neutral_new,Afghan Transitional Administration,Q4689103,Honolulu,Kabul,1.0,0.0,-1.0,P36,241,0.0,1,3,1,1
+4528,neutral_new,Helsinki City Transport,Q1433158,WWE,Helsinki,0.1636,0.303,0.1394,P127,4,0.0,2,1,3,1
+4649,neutral_new,Spendrups,Q3335289,Dallas,Sweden,0.5067,0.1067,-0.4,P159,18,0.0,1,2,2,1
+4727,neutral_new,Balochistan,Q163239,Europe,Asia,0.07,0.4733,0.4033,P30,1268,0.001405,3,1,3,1
+4737,neutral_new,Dakor,Q912576,Manitoba,Gujarat,0.7,0.0,-0.7,P131,0,0.0,1,3,1,1
+4812,neutral_new,Vantaa,Q127623,Antarctica,Europe,0.225,0.4875,0.2625,P30,164,0.000155,3,1,3,1
+4949,neutral_new,Piove di Sacco,Q34317,Mexico,Italy,0.163,0.4333,0.2704,P17,5,0.000868,3,1,3,1
+4972,neutral_new,High Level Shader Language,Q559519,IBM,Microsoft,0.6,0.0,-0.6,P178,74,0.0,1,3,1,1
+5043,neutral_new,Sonic Underground,Q1535979,Japan,France,0.5111,0.0222,-0.4889,P495,288,0.000287,1,2,2,1
+5184,neutral_new,Ljig,Q1252490,Ukraine,Serbia,0.8444,0.0,-0.8444,P17,0,0.0,1,3,1,1
+5210,neutral_new,Rififi,Q1856418,India,France,0.4667,0.04,-0.4267,P495,279,0.0,1,2,2,1
+5269,neutral_new,Abraham Blooteling,Q329791,Paris,Amsterdam,0.9556,0.0,-0.9556,P937,2,0.0,1,3,1,1
+5305,neutral_new,TNK-BP,Q2298901,Montreal,Moscow,0.5333,0.0,-0.5333,P159,46,0.0,1,2,1,1
+5331,neutral_new,Andreas Embirikos,Q497035,lawyer,poet,0.8,0.0,-0.8,P106,11,0.0,1,3,1,1
+5359,neutral_new,"Hope and Anchor, Islington",Q15225054,Moscow,London,0.1579,0.5228,0.3649,P276,26,0.000933,3,1,3,1
+5440,neutral_new,Southampton Castle,Q7569104,Alberta,Southampton,0.3333,0.1333,-0.2,P131,13,0.0,2,2,2,1
+5528,neutral_new,Mahmud al-Hasan,Q6734522,Buddhism,Islam,0.68,0.08,-0.6,P140,1,0.003956,1,3,1,1
+5596,neutral_new,Sesamstraat,Q2410485,Swedish,Dutch,0.32,0.3533,0.0333,P407,24,0.000302,3,2,3,1
+5914,neutral_new,Schytt Glacier,Q3372454,Europe,Antarctica,0.6,0.2667,-0.3333,P30,0,0.008755,2,3,2,2
+5973,neutral_new,Contell Glacier,Q5164934,Africa,Antarctica,0.5333,0.1778,-0.3556,P30,0,0.007706,2,2,2,2
+6050,neutral_new,Bernardo Reyes,Q2159676,Denmark,Mexico,0.6333,0.1,-0.5333,P27,36,0.0,1,3,1,1
+6052,neutral_new,Alfred L. Kroeber,Q311538,philosophy,anthropology,0.4133,0.1333,-0.28,P101,121,0.0,2,2,2,1
+6058,neutral_new,Far East Organization,Q4676212,Chicago,Singapore,0.4556,0.0111,-0.4444,P159,52,0.0,1,2,2,1
+6142,neutral_new,Nelida Lobato,Q6989976,England,Argentina,0.6,0.0,-0.6,P27,5,0.0,1,3,1,1
+6144,neutral_new,Cunter,Q22549332,Guatemala,Switzerland,0.419,0.0286,-0.3905,P17,5,4.3e-05,1,2,2,1
+6212,neutral_new,Christiane Taubira,Q268675,Spanish,French,0.64,0.1067,-0.5333,P103,48,0.0,1,3,1,1
+6226,neutral_new,Outlook.com,Q219136,Mobile,Microsoft,0.0978,0.5333,0.4356,P127,1989,0.000112,3,1,3,1
+6268,neutral_new,Cadillac V-16,Q1025261,Nintendo,Cadillac,0.2,0.3778,0.1778,P176,153,0.000885,3,1,3,1
+6299,neutral_new,2020 Summer Olympics,Q181278,England,Tokyo,0.1889,0.3111,0.1222,P276,1318,0.0,2,1,3,1
+6387,neutral_new,Brut y Tywysogion,Q2357256,Thai,Welsh,0.0952,0.5333,0.4381,P407,11,0.00087,3,1,3,1
+6486,neutral_new,Charles Louis Alphonse Laveran,Q189006,Hamburg,Paris,0.5556,0.0,-0.5556,P20,24,0.0,1,2,1,1
+6504,neutral_new,Cold Case,Q733960,MTV,CBS,0.0,0.0,0.0,P449,1073,,1,1,3,
+6555,neutral_new,Apple Bandai Pippin,Q621312,Yahoo,Apple,0.3,0.2556,-0.0444,P178,37,0.0,2,1,3,1
+6652,neutral_new,Jake Rudock,Q19665946,midfielder,quarterback,0.5333,0.0,-0.5333,P413,48,0.0,1,2,1,1
+6656,neutral_new,Road Rules,Q3074,NBC,MTV,0.0,0.0,0.0,P449,17,,1,1,3,
+6657,neutral_new,Napoleon III,Q7721,Hamburg,Paris,0.2333,0.05,-0.1833,P937,11731,0.0,1,1,2,1
+6683,neutral_new,The New Normal,Q498265,MTV,NBC,0.4667,0.0667,-0.4,P449,200,0.002235,1,2,2,1
+6940,neutral_new,Ahmad Zahir,Q195522,Wellington,Kabul,0.2,0.0,-0.2,P19,110,0.0,1,1,2,1
+6961,neutral_new,rutile,Q193521,Cuba,red,0.1381,0.4238,0.2857,P138,465,0.0,3,1,3,1
+7008,neutral_new,TorqueFlite,Q7826788,Nintendo,Chrysler,0.6,0.0222,-0.5778,P176,176,0.0,1,3,1,1
+7095,neutral_new,Porsche 911 GT3,Q219357,Apple,Porsche,0.2148,0.2704,0.0556,P176,2113,0.000307,2,1,3,1
+7242,neutral_new,Nikolai Myaskovsky,Q312778,English,Russian,0.4571,0.0762,-0.381,P1412,51,0.001677,1,2,2,1
+7319,neutral_new,Sextus Pompeius Festus,Q302723,Russian,Latin,0.8333,0.0,-0.8333,P1412,23,0.0,1,3,1,1
+7354,neutral_new,Sean Salisbury,Q100919367,guard,quarterback,0.7667,0.0,-0.7667,P413,0,0.0,1,3,1,1
+7413,neutral_new,All Hail King Julien,Q18636697,NBC,Netflix,0.0,0.0,0.0,P449,251,,1,1,3,
+7495,neutral_new,Venus Glacier,Q7920592,Europe,Antarctica,0.5,0.1222,-0.3778,P30,1,0.0107,1,2,2,2
+7663,neutral_new,Sergey Lavrov,Q58217,French,Russian,0.4667,0.36,-0.1067,P103,971,0.001997,3,2,2,1
+7723,neutral_new,Earl King,Q931607,fantasy,blues,0.8,0.0,-0.8,P136,30,0.0,1,3,1,1
+7728,neutral_new,Paris Commune,Q133132,English,French,0.2267,0.3867,0.16,P37,1352,0.000464,3,1,3,1
+7735,neutral_new,Nokia 1100,Q498806,Dodge,Nokia,0.1026,0.2974,0.1949,P176,276,0.0,2,1,3,1
+7877,neutral_new,Lennart Geijer,Q2130664,Ukrainian,Swedish,0.5067,0.1333,-0.3733,P1412,8,0.0,2,2,2,1
+7956,neutral_new,Adobe Digital Editions,Q144858,Intel,Adobe,0.2952,0.2857,-0.0095,P178,49,0.001496,2,1,3,1
+8021,neutral_new,Split Airport,Q1125392,Sweden,Split,0.0769,0.6308,0.5538,P138,133,8e-05,3,1,3,1
+8085,neutral_new,Theni district,Q15196,Germany,India,0.1053,0.5474,0.4421,P17,82,0.000257,3,1,3,1
+8102,neutral_new,Santa Maria della Salute,Q52531,Florence,Venice,0.5238,0.0286,-0.4952,P276,156,0.000255,1,2,2,1
+8238,neutral_new,Pietro Fanna,Q2274998,goaltender,midfielder,0.4,0.0,-0.4,P413,9,0.0,1,2,2,1
+8353,neutral_new,Anna Neagle,Q433044,journalist,actor,0.5556,0.0,-0.5556,P106,321,3.3e-05,1,2,1,1
+8395,neutral_new,James Laurinaitis,Q339711,quarterback,linebacker,0.3238,0.3524,0.0286,P413,277,0.006942,3,2,3,2
+8460,neutral_new,Ruovesi,Q510636,Catalan,Finnish,0.6222,0.0,-0.6222,P37,11,0.000135,1,3,1,1
+8521,neutral_new,Haakon Lie,Q980028,Paris,Oslo,0.4,0.0,-0.4,P20,6,0.0,1,2,2,1
+8541,neutral_new,Togo,Q945,Finnish,French,0.1667,0.6556,0.4889,P37,1507,0.0,3,1,3,1
+8620,neutral_new,John Bernard Riley,Q916982,opera,jazz,0.8,0.0,-0.8,P136,16,0.0,1,3,1,1
+9062,neutral_new,Dominique Bouhours,Q1238179,Russian,French,0.6889,0.0,-0.6889,P103,4,0.0,1,3,1,1
+9075,neutral_new,60 Minutes II,Q4641678,PBS,CBS,0.5111,0.1333,-0.3778,P449,27,0.0,2,2,2,1
+9079,neutral_new,Daisaku Ikeda,Q467395,Islam,Buddhism,0.6,0.2,-0.4,P140,183,0.003709,2,3,2,1
+9294,neutral_new,Christmas Island,Q106080035,Toyota,Christmas,0.1286,0.5571,0.4286,P138,0,0.0,3,1,3,1
+9407,neutral_new,Alexei Kovalev,Q102282367,basketball,hockey,0.4667,0.1333,-0.3333,P641,0,0.0,2,2,2,1
+9487,neutral_new,CBS Summer Playhouse,Q860038,MTV,CBS,0.5333,0.1778,-0.3556,P449,26,0.000411,2,2,2,1
+9510,neutral_new,Ennin,Q732282,Islam,Buddhism,0.6222,0.2667,-0.3556,P140,25,0.012265,2,3,2,2
+9539,neutral_new,Twm o'r Nant,Q1767904,Dutch,Welsh,0.0889,0.4556,0.3667,P103,3,0.000259,3,1,3,1
+9670,neutral_new,Salman the Persian,Q557378,Christianity,Islam,0.7556,0.2444,-0.5111,P140,368,0.004122,2,3,2,1
+9772,neutral_new,Shabbona,Q2254872,Dallas,Morris,0.9167,0.0,-0.9167,P20,5,0.0,1,3,1,1
+9790,neutral_new,Bermuda,Q23635,Swedish,English,0.25,0.2833,0.0333,P37,3182,0.008419,2,1,3,2
+9832,neutral_new,Axel Witsel,Q151838,quarterback,midfielder,0.1846,0.4462,0.2615,P413,1168,0.0,3,1,3,1
+9915,neutral_new,Copenhagen Airport,Q206277,Mars,Copenhagen,0.075,0.5292,0.4542,P138,464,0.0,3,1,3,1
+9930,neutral_new,Kasey Keller,Q356814,football,soccer,0.8,0.8,0.0,P641,145,0.090437,3,3,3,3
+10038,neutral_new,Alfred Capus,Q198621,Russian,French,0.7667,0.0,-0.7667,P103,2,0.0,1,3,1,1
+10040,neutral_new,Cognos,Q1107048,WWE,IBM,0.2133,0.16,-0.0533,P127,41,0.0,2,1,2,1
+10052,neutral_new,Nissan Prairie,Q669213,IBM,Nissan,0.55,0.05,-0.5,P176,67,0.0,1,2,2,1
+10180,neutral_new,Open Packaging Conventions,Q3353182,Google,Microsoft,0.62,0.0333,-0.5867,P178,19,0.000323,1,3,1,1
+10223,neutral_new,Cogeco,Q7887664,Seattle,Montreal,0.5667,0.0,-0.5667,P159,63,0.0,1,2,1,1
+10231,neutral_new,Polina Gagarina,Q4131386,politician,actor,0.8,0.0,-0.8,P106,99,0.001238,1,3,1,1
+10319,neutral_new,The Michael Richards Show,Q7751238,BBC,NBC,0.5467,0.0,-0.5467,P449,142,0.0,1,2,1,1
+10326,neutral_new,Windows 8.1,Q3569290,Apple,Microsoft,0.1939,0.4242,0.2303,P178,818,0.000459,3,1,3,1
+10343,neutral_new,Southwest Philadelphia,Q7571337,Greenland,Philadelphia,0.3333,0.5,0.1667,P131,28,0.000838,3,2,3,1
+10365,neutral_new,Thomas McCollum,Q89517481,midfielder,goaltender,0.6444,0.0,-0.6444,P413,0,0.0,1,3,1,1
+10376,neutral_new,Leo X,Q43922,patriarch,pope,0.3111,0.0222,-0.2889,P39,1106,0.0,1,2,2,1
+10440,neutral_new,Tecla Scarano,Q3982413,Hebrew,Italian,0.56,0.3067,-0.2533,P1412,2,0.000411,2,2,2,1
+10509,neutral_new,City of Birmingham Symphony Orchestra,Q706774,carbon,Birmingham,0.1394,0.3121,0.1727,P138,28,0.000318,2,1,3,1
+10747,neutral_new,Jerzy Zawieyski,Q2510207,London,Warsaw,0.8167,0.0,-0.8167,P20,4,0.0,1,3,1,1
+10775,neutral_new,Elis Regina,Q465877,France,Brazil,0.84,0.0,-0.84,P27,141,0.0,1,3,1,1
+10845,neutral_new,Antoine Augustin Calmet,Q767668,Russian,French,0.2556,0.1,-0.1556,P103,47,0.000774,1,1,2,1
+10881,neutral_new,Logic Studio,Q1142467,Google,Apple,0.5933,0.06,-0.5333,P178,17,0.000286,1,2,1,1
+11168,neutral_new,A229 road,Q4649026,Jerusalem,Kent,0.6889,0.0,-0.6889,P131,10,0.0,1,3,1,1
+11187,neutral_new,Brett Favre,Q267088,hockey,football,0.25,0.3333,0.0833,P641,3116,0.0,2,1,3,1
+11382,neutral_new,Gary Scelzi,Q5525887,Chicago,Fresno,0.9167,0.0,-0.9167,P19,14,0.0,1,3,1,1
+11509,neutral_new,Hagia Sophia,Q12506,Berlin,Istanbul,0.2267,0.3533,0.1267,P276,3468,0.000519,3,1,3,1
+11678,neutral_new,The Bold Ones,Q7719042,History,NBC,0.3111,0.0,-0.3111,P449,21,5.8e-05,1,2,2,1
+11722,neutral_new,Lannemezan,Q383402,Greece,France,0.0939,0.4758,0.3818,P17,30,0.000754,3,1,3,1
+11929,neutral_new,Davao Region,Q13694,Boston,Philippines,0.3067,0.2133,-0.0933,P131,202,0.0,2,1,2,1
+11976,neutral_new,Gluecifer,Q1248223,Leeds,Oslo,0.7333,0.0,-0.7333,P740,25,0.0,1,3,1,1
+11977,neutral_new,Jon Larsen,Q112485126,opera,jazz,0.6,0.0,-0.6,P136,0,0.0,1,3,1,1
+12194,neutral_new,Renault Fluence,Q1050584,BMW,Renault,0.1385,0.3538,0.2154,P176,111,0.0,3,1,3,1
+12238,neutral_new,Toyota Coaster,Q581385,Microsoft,Toyota,0.1158,0.3719,0.2561,P176,233,0.000211,3,1,3,1
+12472,neutral_new,Eleanor Oldroyd,Q5354350,Apple,BBC,0.3667,0.0,-0.3667,P108,16,0.000124,1,2,2,1
+12594,neutral_new,Stephen Hough,Q1243635,trumpet,piano,0.6167,0.1333,-0.4833,P1303,70,0.001083,2,3,2,1
+12597,neutral_new,Nauka i Zhizn,Q4314276,Chinese,Russian,0.3026,0.2256,-0.0769,P407,3,0.004106,2,1,2,1
+12646,neutral_new,Columbia Daily Tribune,Q5149683,Glasgow,Columbia,0.3111,0.2889,-0.0222,P159,6,0.0,2,2,3,1
+12671,neutral_new,The Sleeping Car Murders,Q593767,Tamil,French,0.6,0.0,-0.6,P364,32,0.0,1,3,1,1
+12736,neutral_new,Canberra International Film Festival,Q5031263,Baltimore,Canberra,0.2714,0.2762,0.0048,P276,2,0.0,2,1,3,1
+12837,neutral_new,University of Strathclyde,Q1859178,Houston,Glasgow,0.1667,0.5067,0.34,P159,204,0.0,3,1,3,1
+12851,neutral_new,Willie Stargell,Q1054942,soccer,baseball,0.2889,0.1222,-0.1667,P641,409,0.0,1,1,2,1
+12923,neutral_new,Big Daddy Weave,Q4905546,Manchester,Mobile,0.7167,0.0,-0.7167,P740,137,0.000343,1,3,1,1
+13044,neutral_new,Juan J. Campanella,Q726925,Russian,Spanish,0.2952,0.1143,-0.181,P1412,33,0.001093,1,1,2,1
+13070,neutral_new,Battle of Olszynka Grochowska,Q1576383,Jerusalem,Warsaw,0.4333,0.0333,-0.4,P276,57,0.0,1,2,2,1
+13101,neutral_new,The Godfather,Q60875410,Swedish,English,0.2556,0.0556,-0.2,P364,0,0.00174,1,1,2,1
+13199,neutral_new,Donetsk Oblast,Q2012050,English,Ukrainian,0.5,0.0,-0.5,P37,1724,0.0,1,2,2,1
+13215,neutral_new,Julien Augustin Joseph Mermet,Q3189346,Baltimore,Paris,0.0,0.0,0.0,P20,4,0.012688,1,1,3,2
+13245,neutral_new,John Brack,Q117680,Rome,Melbourne,0.8444,0.0,-0.8444,P20,15,0.0,1,3,1,1
+13328,neutral_new,Park Seo-joon,Q5116234,London,Seoul,0.2222,0.0667,-0.1556,P19,1263,0.0,1,1,2,1
+13359,neutral_new,Frankie Knuckles,Q205322,Oslo,Chicago,0.8333,0.0,-0.8333,P20,266,0.0,1,3,1,1
+13419,neutral_new,CTV Television Network,Q767221,London,Toronto,0.1333,0.0,-0.1333,P159,352,0.0,1,1,2,1
+13494,neutral_new,Tales of Wells Fargo,Q3980406,PBS,NBC,0.0,0.0,0.0,P449,201,,1,1,3,
+13729,neutral_new,IBM AIX,Q269856,Microsoft,IBM,0.1846,0.3436,0.159,P178,208,0.001132,2,1,3,1
+13733,neutral_new,Hurrem sultan,Q6077715,Christianity,Islam,0.6444,0.0222,-0.6222,P140,0,0.000703,1,3,1,1
+13833,neutral_new,Wood Gundy,Q8032214,Vancouver,Toronto,0.4533,0.08,-0.3733,P159,15,0.001765,1,2,2,1
+14008,neutral_new,Khadijah bint Khuwaylid,Q42034,Christianity,Islam,0.5,0.1444,-0.3556,P140,963,0.002596,2,2,2,1
+14320,neutral_new,Cumhuriyet,Q97012871,French,Turkish,0.4286,0.2857,-0.1429,P407,0,0.000959,2,2,2,1
+14404,neutral_new,Sally Seltmann,Q7405288,Scotland,Australia,0.4476,0.0286,-0.419,P27,23,8.4e-05,1,2,2,1
+14442,neutral_new,Carpathian Mountains,Q1288,Argentina,Austria,1.0,0.0,-1.0,P17,1320,0.0,1,3,1,1
+14492,neutral_new,University of South Florida,Q500606,Geneva,Tampa,0.2593,0.5481,0.2889,P159,500,0.000318,3,1,3,1
+14535,neutral_new,Lin Yang-kang,Q6550125,Argentina,Taiwan,0.75,0.0,-0.75,P27,10,0.0,1,3,1,1
+14648,neutral_new,Yigal Hurvitz,Q434182,Romanian,Hebrew,0.6133,0.0667,-0.5467,P1412,3,0.0,1,3,1,1
+14677,neutral_new,Karl Michael Ziehrer,Q696576,Philadelphia,Vienna,0.6833,0.0,-0.6833,P20,11,0.0,1,3,1,1
+14735,neutral_new,Travis Blackley,Q495199,midfielder,pitcher,0.6095,0.0,-0.6095,P413,7,0.0,1,3,1,1
+14745,neutral_new,Nathaniel Hawthorne,Q69339,Russian,English,0.2556,0.3222,0.0667,P1412,1283,0.000563,2,1,3,1
+14747,neutral_new,Julien Carette,Q1712227,Russian,French,0.7778,0.0,-0.7778,P103,8,0.000493,1,3,1,1
+14749,neutral_new,Canada men's national soccer team,Q208635,NATO,FIFA,0.2696,0.2116,-0.058,P463,844,5.9e-05,2,1,2,1
+14815,neutral_new,Leo IX,Q58559,bishop,pope,0.5556,0.0,-0.5556,P39,186,0.0,1,2,1,1
+14852,neutral_new,Nick Swisher,Q978581,basketball,baseball,0.4267,0.0667,-0.36,P641,463,0.004032,1,2,2,1
+14883,neutral_new,Thomas Earnshaw,Q2423581,Egypt,London,0.9778,0.0,-0.9778,P20,25,0.0,1,3,1,1
+14907,neutral_new,Real Academia de Bellas Artes de San Fernando,Q1322403,Tokyo,Madrid,0.7111,0.0,-0.7111,P159,31,0.0,1,3,1,1
+14997,neutral_new,Nicole Oresme,Q310777,pope,bishop,0.64,0.1333,-0.5067,P39,85,0.006781,2,3,2,2
+15064,neutral_new,European Aviation Safety Agency,Q276255,Chicago,Cologne,0.8222,0.0,-0.8222,P159,81,0.0,1,3,1,1
+15249,neutral_new,BMW E87,Q796469,Honda,BMW,0.2167,0.2611,0.0444,P176,880,0.002405,2,1,3,1
+15291,neutral_new,Turaida,Q2300840,Romania,Latvia,0.25,0.45,0.2,P17,5,0.000281,3,1,3,1
+15577,neutral_new,Combat Hospital,Q603496,Belgium,Canada,0.1704,0.363,0.1926,P495,29,0.023965,3,1,3,2
+15766,neutral_new,Hauk Aabel,Q3354983,photographer,actor,0.5778,0.0,-0.5778,P106,2,0.0,1,2,1,1
+15850,neutral_new,Supervivientes,Q7647314,Paris,Honduras,0.8667,0.0,-0.8667,P276,19,0.0,1,3,1,1
+15867,neutral_new,George Robert Gray,Q310456,Munich,London,0.8444,0.0,-0.8444,P20,16,0.0,1,3,1,1
+15907,neutral_new,Rob Zombie,Q298255,piano,guitar,0.0,0.0667,0.0667,P1303,4180,0.0,1,1,3,1
+15954,neutral_new,Toyota Aygo,Q825358,Renault,Toyota,0.3333,0.36,0.0267,P176,329,0.00011,3,2,3,1
+15957,neutral_new,Benedict XVI,Q2494,bishop,pope,0.3333,0.0267,-0.3067,P39,2334,0.0,1,2,2,1
+16048,neutral_new,Eurajoki,Q1001783,Dutch,Finnish,0.2556,0.2111,-0.0444,P37,10,0.000104,2,1,3,1
+16130,neutral_new,Vietnam,Q881,Antarctica,Asia,0.2033,0.37,0.1667,P30,7298,0.003031,3,1,3,1
+16377,neutral_new,Chester railway station,Q2478175,Bern,Chester,0.1111,0.5778,0.4667,P138,36,0.0,3,1,3,1
+16420,neutral_new,Suzuki B-King,Q2000575,Honda,Suzuki,0.2467,0.24,-0.0067,P176,104,0.0,2,1,3,1
+16426,neutral_new,Mulheres de Areia,Q466801,Australia,Brazil,0.4267,0.1067,-0.32,P495,12,0.000318,1,2,2,1
+16479,neutral_new,Peter Forsberg,Q348416,soccer,hockey,0.3778,0.1556,-0.2222,P641,298,0.0,2,2,2,1
+16556,neutral_new,William Henry Harrison,Q11869,French,English,0.3333,0.1867,-0.1467,P103,3226,0.000995,2,2,2,1
+16585,neutral_new,Temples of Abu Simbel,Q134140,Chile,Egypt,0.1289,0.4844,0.3556,P17,854,0.0,3,1,3,1
+16655,neutral_new,Thailand,Q869,Welsh,Thai,0.1385,0.3436,0.2051,P37,7647,0.000846,2,1,3,1
+16803,neutral_new,Livonian Crusade,Q196409,Houston,Latvia,0.36,0.0,-0.36,P276,140,0.0,1,2,2,1
+16841,neutral_new,Maurice Richard,Q3301329,football,hockey,0.5667,0.0,-0.5667,P641,0,0.0,1,2,1,1
+16993,neutral_new,Archie Manning,Q611891,midfielder,quarterback,0.1867,0.2667,0.08,P413,2845,0.0,2,1,3,1
+17002,neutral_new,Jason Kidd,Q221341,football,basketball,0.3576,0.2909,-0.0667,P641,1688,0.00055,2,2,2,1
+17094,neutral_new,Jan Swammerdam,Q336794,Beijing,Amsterdam,0.8833,0.0,-0.8833,P20,36,0.0,1,3,1,1
+17247,neutral_new,Fiat 850,Q1360944,Intel,Fiat,0.2462,0.3333,0.0872,P176,144,0.0,2,1,3,1
+17276,neutral_new,Anton Nel,Q4775923,trumpet,piano,0.8667,0.0,-0.8667,P1303,5,0.0,1,3,1,1
+17298,neutral_new,Pascal Quignard,Q423298,English,French,0.3778,0.1704,-0.2074,P1412,21,0.000611,2,2,2,1
+17378,neutral_new,Samuil Feinberg,Q1971227,violin,piano,0.52,0.04,-0.48,P1303,28,0.0,1,2,2,1
+17442,neutral_new,Jacques Sadoul,Q2033504,Dutch,French,0.5333,0.0444,-0.4889,P103,1,0.0,1,2,2,1
+17525,neutral_new,Goswin de Stassart,Q1538693,Dutch,French,0.4111,0.0,-0.4111,P103,2,0.000179,1,2,2,1
+17528,neutral_new,Mike Cowlishaw,Q52254,BBC,IBM,0.6167,0.0,-0.6167,P108,8,0.0,1,3,1,1
+17811,neutral_new,Edward Burtynsky,Q967163,actor,photographer,0.1524,0.4762,0.3238,P106,60,0.000403,3,1,3,1
+18070,neutral_new,MillerCoors,Q6859054,Budapest,Chicago,0.0,0.0,0.0,P159,66,,1,1,3,
+18094,neutral_new,Utah County,Q27229,Uganda,Utah,0.4667,0.3833,-0.0833,P131,201,0.0,3,2,2,1
+18143,neutral_new,Abdul Khalid Ibrahim,Q4665485,France,Malaysia,0.8533,0.0,-0.8533,P27,19,0.0,1,3,1,1
+18161,neutral_new,The Josephine Baker Story,Q7743526,CBS,HBO,0.5667,0.0,-0.5667,P449,46,0.0,1,2,1,1
+18242,neutral_new,Central African Republic,Q929,Antarctica,Africa,0.1958,0.3958,0.2,P30,2016,0.003849,3,1,3,1
+18284,neutral_new,Romania,Q218,French,Romanian,0.3636,0.297,-0.0667,P37,5896,0.004873,2,2,2,1
+18319,neutral_new,Walter Payton,Q963117,baseball,football,0.4,0.0444,-0.3556,P641,1278,7.3e-05,1,2,2,1
+18510,neutral_new,TMF Nederland,Q2382500,Bangalore,Amsterdam,0.6667,0.0,-0.6667,P159,16,0.0,1,3,1,1
+18520,neutral_new,Paul Mercurio,Q325406,economist,actor,0.5778,0.0667,-0.5111,P106,207,0.0,1,2,2,1
+18587,neutral_new,Jules Massenet,Q194436,Norwegian,French,0.0902,0.3725,0.2824,P1412,126,0.0,3,1,3,1
+18592,neutral_new,Nea Zichni Municipality,Q2532139,Poland,Greece,0.7333,0.08,-0.6533,P17,3,0.001292,1,3,1,1
+18604,neutral_new,John Shelby Spong,Q1196186,cardinal,bishop,0.2857,0.2381,-0.0476,P39,118,0.001654,2,1,3,1
+18786,neutral_new,Jay Cutler,Q312811,midfielder,quarterback,0.2667,0.275,0.0083,P413,1922,0.0,2,1,3,1
+18834,neutral_new,West Darfur,Q846331,Australia,Sudan,0.24,0.3467,0.1067,P17,23,0.0,2,1,3,1
+18840,neutral_new,Woodbine Racetrack,Q3135941,Rome,Ontario,0.5111,0.1556,-0.3556,P131,42,0.0,2,2,2,1
+18845,neutral_new,2000 Summer Olympics,Q8544,Istanbul,Sydney,0.2556,0.4111,0.1556,P276,665,0.0,3,1,3,1
+18860,neutral_new,Muawiyah I,Q181154,Moscow,Damascus,0.3222,0.5889,0.2667,P20,799,0.0,3,2,3,1
+18966,neutral_new,Birmingham Repertory Theatre,Q4916786,Athens,Birmingham,0.2762,0.2667,-0.0095,P131,39,0.000568,2,1,3,1
+19047,neutral_new,Hogeschool Gent,Q1313163,Ethiopia,Belgium,0.2222,0.4148,0.1926,P17,10,0.0,3,1,3,1
+19066,neutral_new,Adrian Knox,Q4685169,Albania,Australia,0.7778,0.0,-0.7778,P27,3,0.000308,1,3,1,1
+19107,neutral_new,Amiibo,Q17157056,IBM,Nintendo,0.4,0.12,-0.28,P178,166,0.0,1,2,2,1
+19114,neutral_new,Le Droit,Q3222449,Swedish,French,0.3867,0.32,-0.0667,P407,8,0.007429,2,2,2,2
+19122,neutral_new,Felix Plater,Q667732,sociology,medicine,0.4667,0.0,-0.4667,P101,7,0.0,1,2,2,1
+19214,neutral_new,The Immoralist,Q174626,English,French,0.3056,0.4944,0.1889,P364,51,0.011374,3,1,3,2
+19322,neutral_new,Madame Figaro,Q3275273,Spanish,French,0.6933,0.0267,-0.6667,P407,38,0.005337,1,3,1,1
+19430,neutral_new,Pierre Braunberger,Q343898,Lawrence,Paris,0.6,0.0,-0.6,P19,3,0.0,1,3,1,1
+19485,neutral_new,ProStars,Q7246696,CBS,NBC,0.7667,0.0,-0.7667,P449,81,0.0,1,3,1,1
+19523,neutral_new,Pechora River,Q8168,Antarctica,Europe,0.3216,0.1804,-0.1412,P30,23,0.000491,2,2,2,1
+19597,neutral_new,Catalonia,Q5705,English,Spanish,0.2267,0.3467,0.12,P37,2103,0.007052,2,1,3,2
+19805,neutral_new,Antoine Danchet,Q585987,Taiwan,France,0.6667,0.0,-0.6667,P27,1,0.0,1,3,1,1
+19829,neutral_new,Ghazi of Iraq,Q314784,Christian,Islam,0.5167,0.0833,-0.4333,P140,237,0.0,1,2,2,1
+19898,neutral_new,Darren Daulton,Q3016497,goaltender,catcher,0.2,0.3778,0.1778,P413,1610,0.0,3,1,3,1
+19941,neutral_new,DNB ASA,Q80788,Atlanta,Oslo,0.8444,0.0,-0.8444,P159,61,0.0,1,3,1,1
+20051,neutral_new,London Book Fair,Q6669870,Normandy,London,0.2296,0.237,0.0074,P276,12,0.0,2,1,3,1
+20098,neutral_new,Larsmo,Q259863,Argentina,Finland,0.72,0.0133,-0.7067,P17,15,0.000863,1,3,1,1
+20112,neutral_new,Roland Freisler,Q57601,Winnipeg,Berlin,0.3667,0.0,-0.3667,P20,526,0.0,1,2,2,1
+20182,neutral_new,Irina Khakamada,Q541213,Dutch,Russian,0.2889,0.1889,-0.1,P103,43,0.000943,2,1,2,1
+20202,neutral_new,Nissan Sentra,Q1132451,Nokia,Nissan,0.1286,0.2762,0.1476,P176,629,0.0,2,1,3,1
+20311,neutral_new,Herald Sun Tour,Q1607801,Helsinki,Victoria,0.6222,0.0,-0.6222,P276,17,0.0,1,3,1,1
+20324,neutral_new,Peter Howson,Q711799,Rome,London,0.7333,0.0,-0.7333,P19,32,0.0,1,3,1,1
+20486,neutral_new,Sam Rayburn Reservoir,Q1475987,Vienna,Texas,0.5048,0.0286,-0.4762,P131,50,0.000137,1,2,2,1
+20647,neutral_new,Ambrose Akinmusire,Q34054,opera,jazz,0.6444,0.0222,-0.6222,P136,38,0.0,1,3,1,1
+20680,neutral_new,Lavoisier Island,Q3108669,Asia,Antarctica,0.5524,0.2476,-0.3048,P30,1,0.007749,2,2,2,2
+20821,neutral_new,Hippos,Q604995,Winnipeg,horse,0.7,0.0,-0.7,P138,25,0.0,1,3,1,1
+21013,neutral_new,Thomas Browne,Q313925,London,Norwich,0.7167,0.0,-0.7167,P937,171,0.0,1,3,1,1
+21066,neutral_new,International Documentary Film Festival Amsterdam,Q1666506,Berlin,Amsterdam,0.2963,0.2296,-0.0667,P276,23,0.0,2,1,2,1
+21073,neutral_new,Honda VFR400,Q5892759,IBM,Honda,0.1879,0.3515,0.1636,P176,75,0.0,2,1,3,1
+21076,neutral_new,Illertissen,Q503295,India,Germany,0.1476,0.381,0.2333,P17,16,1.2e-05,3,1,3,1
+21157,neutral_new,Report Program Generator,Q840543,Microsoft,IBM,0.6556,0.0,-0.6556,P178,85,0.0,1,3,1,1
+21268,neutral_new,Central Black Forest,Q1940689,Iran,Germany,0.2667,0.2208,-0.0458,P17,3,0.000119,2,1,3,1
+21279,neutral_new,Selbu,Q492209,Belgium,Norway,0.2,0.5,0.3,P17,9,0.000794,3,1,3,1
+21432,neutral_new,Brazilian Football Confederation,Q244754,UFO,FIFA,0.0,0.0667,0.0667,P463,243,0.0,1,1,3,1
+21468,neutral_new,Tony Benn,Q332412,Lisbon,London,0.6333,0.25,-0.3833,P20,878,0.0,2,3,2,1
+21488,neutral_new,Aruna Irani,Q158225,journalist,actor,0.7333,0.0,-0.7333,P106,889,0.0,1,3,1,1
+21537,neutral_new,Alexander VIII,Q101294,London,Rome,0.9778,0.0444,-0.9333,P20,40,0.010856,1,3,1,2
+21638,neutral_new,Mike Shinoda,Q19201,violin,guitar,0.5867,0.0,-0.5867,P1303,1845,0.000557,1,2,1,1
+21791,neutral_new,Lydia Chukovskaya,Q433942,French,Russian,0.55,0.1333,-0.4167,P103,19,0.000433,2,2,2,1
+21836,neutral_new,Gregory XV,Q132692,bishop,pope,0.4167,0.0167,-0.4,P39,56,0.0,1,2,2,1
+21891,neutral_new,Saint Amandus,Q453698,mayor,bishop,0.7667,0.0,-0.7667,P39,33,3.3e-05,1,3,1,1

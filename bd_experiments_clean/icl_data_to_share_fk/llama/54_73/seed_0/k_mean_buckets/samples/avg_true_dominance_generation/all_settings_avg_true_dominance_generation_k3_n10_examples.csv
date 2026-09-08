@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+2931,encyclopaedia,Captain Nice,Q3656937,CBS,NBC,0.6438,0.075,-0.5688,P449,51,0.005969,1,3,avg_true_dominance_generation
+5638,neutral_new,Bucharest,Q19660,Warsaw,Budapest,0.2938,0.175,-0.1188,P190,1682,0.0,1,3,avg_true_dominance_generation
+9847,information_not_credible_source_new,Gaetano Donizetti,Q101698,Boston,Vienna,0.4909,0.2409,-0.25,P937,184,1.6e-05,1,3,avg_true_dominance_generation
+12809,neutral_new,Zenon Plech,Q8069203,Greece,Poland,0.8583,0.0,-0.8583,P27,6,0.0,1,3,avg_true_dominance_generation
+14633,information_not_credible_source_new,Olga Vittoria Gentilli,Q3881639,French,Italian,0.5,0.1591,-0.3409,P1412,0,0.002051,1,3,avg_true_dominance_generation
+16061,encyclopaedia,Douglas Lloyd Campbell,Q1252386,Milan,Winnipeg,0.85,0.0,-0.85,P20,5,0.0,1,3,avg_true_dominance_generation
+16061,neutral_new,Douglas Lloyd Campbell,Q1252386,Milan,Winnipeg,0.8286,0.0,-0.8286,P20,5,0.0,1,3,avg_true_dominance_generation
+16208,encyclopaedia,Errico Petrella,Q555720,English,Italian,0.4031,0.2214,-0.1816,P1412,1,0.005284,1,3,avg_true_dominance_generation
+16994,information_not_credible_source_new,Paulo Bento,Q316733,pitcher,midfielder,0.4,0.1222,-0.2778,P413,244,0.0,1,3,avg_true_dominance_generation
+18501,encyclopaedia,Otto von Guericke,Q60095,bishop,mayor,0.5,0.1625,-0.3375,P39,83,0.0,1,3,avg_true_dominance_generation
+742,information_not_credible_source_new,Trey DePriest,Q7839585,midfielder,linebacker,0.375,0.2722,-0.1028,P413,12,0.001068,2,3,avg_true_dominance_generation
+1609,information_not_credible_source_new,Lisa Haydon,Q6558075,politician,actor,0.2795,0.4705,0.1909,P106,268,0.001001,2,3,avg_true_dominance_generation
+3642,encyclopaedia,Yehoshafat Harkabi,Q2561928,Libya,Jerusalem,0.6667,0.2833,-0.3833,P20,15,0.0,2,3,avg_true_dominance_generation
+3801,neutral_new,Yakov Sverdlov,Q298384,Italian,Russian,0.1952,0.4387,0.2435,P1412,489,0.001016,2,3,avg_true_dominance_generation
+5638,information_not_credible_source_new,Bucharest,Q19660,Warsaw,Budapest,0.0167,0.3833,0.3667,P190,1682,0.0,2,3,avg_true_dominance_generation
+6354,information_not_credible_source_new,Ice Road Truckers,Q702432,CBS,History,0.05,0.4654,0.4154,P449,559,0.005496,2,3,avg_true_dominance_generation
+6531,neutral_new,Gregory XII,Q227694,bishop,pope,0.5171,0.4592,-0.0579,P39,79,0.040119,2,3,avg_true_dominance_generation
+9263,encyclopaedia,Nokia 808 PureView,Q1341483,Toyota,Nokia,0.1677,0.4919,0.3242,P176,131,0.000827,2,3,avg_true_dominance_generation
+11565,encyclopaedia,Alexandre Auguste Ledru-Rollin,Q1382222,English,French,0.3404,0.3442,0.0038,P103,40,0.005975,2,3,avg_true_dominance_generation
+17902,information_not_credible_source_new,Greetje Kauffeld,Q508311,fantasy,jazz,0.231,0.331,0.1,P136,3,1.6e-05,2,3,avg_true_dominance_generation
+56,information_not_credible_source_new,Toyota Cresta,Q1815602,BMW,Toyota,0.2115,0.6192,0.4077,P176,194,0.006246,3,3,avg_true_dominance_generation
+2897,neutral_new,IBM TopView,Q4891880,Square,IBM,0.1421,0.6658,0.5237,P178,59,0.000204,3,3,avg_true_dominance_generation
+5643,encyclopaedia,sheikh,Q37560340,Buddhism,Islam,0.2278,0.5611,0.3333,P140,11,0.001077,3,3,avg_true_dominance_generation
+8124,neutral_new,Castleisland Desmonds GAA,Q5050527,Australia,Ireland,0.1528,0.5542,0.4014,P17,2,0.006852,3,3,avg_true_dominance_generation
+8282,encyclopaedia,Jim Druckenmiller,Q6194725,midfielder,quarterback,0.1385,0.5923,0.4538,P413,61,0.001844,3,3,avg_true_dominance_generation
+8650,information_not_credible_source_new,KC-767,Q889578,IBM,Boeing,0.0931,0.6639,0.5708,P178,180,0.000696,3,3,avg_true_dominance_generation
+10535,neutral_new,Nissan GT-R LM Nismo,Q18980952,Suzuki,Nissan,0.1176,0.6191,0.5015,P176,134,0.000401,3,3,avg_true_dominance_generation
+16619,information_not_credible_source_new,Muriel Barbery,Q235731,Dutch,French,0.0104,0.6771,0.6667,P103,30,0.000648,3,3,avg_true_dominance_generation
+20410,neutral_new,Trinity Peninsula,Q2038835,Asia,Antarctica,0.1673,0.7286,0.5612,P30,19,0.018202,3,3,avg_true_dominance_generation
+21254,neutral_new,Montenegro,Q236,Asia,Europe,0.2552,0.6448,0.3897,P30,4479,0.039573,3,3,avg_true_dominance_generation

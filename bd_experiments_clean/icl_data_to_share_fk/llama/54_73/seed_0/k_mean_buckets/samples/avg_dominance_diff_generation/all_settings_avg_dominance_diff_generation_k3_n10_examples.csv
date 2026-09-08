@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+2726,neutral_new,Heather Fell,Q2399313,London,Plymouth,0.81,0.0,-0.81,P19,10,0.001089,1,3,avg_dominance_diff_generation
+2931,encyclopaedia,Captain Nice,Q3656937,CBS,NBC,0.6438,0.075,-0.5688,P449,51,0.005969,1,3,avg_dominance_diff_generation
+3918,information_not_credible_source_new,The Sandy Duncan Show,Q7762247,BBC,CBS,0.6192,0.2077,-0.4115,P449,41,0.000591,1,3,avg_dominance_diff_generation
+5338,neutral_new,Ryszard Engelking,Q737661,France,Poland,0.6545,0.0182,-0.6364,P27,2,0.000278,1,3,avg_dominance_diff_generation
+7250,information_not_credible_source_new,The Mothers-in-Law,Q938687,HBO,NBC,0.5579,0.1789,-0.3789,P449,66,0.000116,1,3,avg_dominance_diff_generation
+8181,neutral_new,Sam Hill Memorial Bridge,Q7407606,Florence,Oregon,0.75,0.0875,-0.6625,P131,4,0.004181,1,3,avg_dominance_diff_generation
+11934,encyclopaedia,Gene Martynec,Q5531339,Baltimore,Germany,1.0,0.0,-1.0,P19,9,0.000912,1,3,avg_dominance_diff_generation
+13320,encyclopaedia,Charles Kaiser,Q5079668,philosopher,journalist,0.8,0.0,-0.8,P106,7,0.0,1,3,avg_dominance_diff_generation
+13320,information_not_credible_source_new,Charles Kaiser,Q5079668,philosopher,journalist,0.7375,0.0,-0.7375,P106,7,0.000914,1,3,avg_dominance_diff_generation
+20186,encyclopaedia,Paul Anka,Q216563,guitar,piano,0.6559,0.1441,-0.5118,P1303,2872,0.025199,1,3,avg_dominance_diff_generation
+2296,information_not_credible_source_new,Mistretta,Q37302227,Russian,Italian,0.18,0.338,0.158,P37,0,3e-06,2,3,avg_dominance_diff_generation
+2488,encyclopaedia,Cool & Dre,Q1129658,Seattle,Miami,0.4286,0.5714,0.1429,P740,143,0.0,2,3,avg_dominance_diff_generation
+2726,information_not_credible_source_new,Heather Fell,Q2399313,London,Plymouth,0.22,0.395,0.175,P19,10,0.004127,2,3,avg_dominance_diff_generation
+3046,neutral_new,John Paul II,Q989,Dutch,Polish,0.2258,0.3855,0.1597,P103,6357,0.000331,2,3,avg_dominance_diff_generation
+5703,information_not_credible_source_new,The Denver Dry Goods Company,Q7729741,Barcelona,Denver,0.3265,0.5294,0.2029,P159,9,0.000186,2,3,avg_dominance_diff_generation
+11976,encyclopaedia,Gluecifer,Q1248223,Leeds,Oslo,0.35,0.3929,0.0429,P740,25,0.001813,2,3,avg_dominance_diff_generation
+13198,encyclopaedia,Verbotene Liebe,Q153561,Japan,Germany,0.187,0.3891,0.2022,P495,39,0.002765,2,3,avg_dominance_diff_generation
+14079,neutral_new,Wynton Marsalis,Q273076,piano,trumpet,0.35,0.4923,0.1423,P1303,824,0.026908,2,3,avg_dominance_diff_generation
+14119,information_not_credible_source_new,Giacomo Antonelli,Q712085,bishop,cardinal,0.2696,0.4125,0.1429,P39,14,0.005426,2,3,avg_dominance_diff_generation
+16591,neutral_new,Harashima,Q26450325,Poland,Japan,0.2625,0.4625,0.2,P27,0,0.011802,2,3,avg_dominance_diff_generation
+741,information_not_credible_source_new,Rock the Cradle,Q14645720,CBS,MTV,0.2357,0.55,0.3143,P449,0,0.000917,3,3,avg_dominance_diff_generation
+3152,encyclopaedia,Charlemagne,Q19914524,Islam,Christianity,0.1062,0.5719,0.4656,P140,0,8e-06,3,3,avg_dominance_diff_generation
+4148,encyclopaedia,Scotiabank Saddledome,Q1140083,Google,Calgary,0.22,0.5038,0.2838,P127,423,0.001832,3,3,avg_dominance_diff_generation
+8884,encyclopaedia,64th Venice International Film Festival,Q1667155,Istanbul,Venice,0.2206,0.5926,0.3721,P276,14,2.2e-05,3,3,avg_dominance_diff_generation
+16395,neutral_new,Husayn ibn Ali,Q112128,Judaism,Islam,0.1,0.5825,0.4825,P140,1122,0.009588,3,3,avg_dominance_diff_generation
+17204,neutral_new,Ronnie Foster,Q7365867,satire,jazz,0.1021,0.5542,0.4521,P136,38,0.0,3,3,avg_dominance_diff_generation
+19334,neutral_new,Matija Gubec,Q715968,Italy,Croatia,0.1449,0.5769,0.4321,P19,31,0.008802,3,3,avg_dominance_diff_generation
+19366,information_not_credible_source_new,Dublin lock-out,Q448920,Slovakia,Dublin,0.0952,0.569,0.4738,P276,50,0.0,3,3,avg_dominance_diff_generation
+19366,encyclopaedia,Dublin lock-out,Q448920,Slovakia,Dublin,0.0741,0.5426,0.4685,P276,50,0.0,3,3,avg_dominance_diff_generation
+19981,information_not_credible_source_new,Inayat Khan,Q117322850,Judaism,Islam,0.1405,0.4548,0.3143,P140,0,0.006323,3,3,avg_dominance_diff_generation

@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+3699,information_not_credible_source_new,Edmond S. Meany,Q5338911,London,Seattle,0.95,0.0,-0.95,P20,3,9.7e-05,1,3,avg_true_dominance_generation
+4173,encyclopaedia,Transaction Processing Facility,Q1426122,Google,IBM,0.4479,0.2146,-0.2333,P178,24,0.005661,1,3,avg_true_dominance_generation
+6821,encyclopaedia,"Greg Lloyd, Sr.",Q5605922,pitcher,linebacker,0.8,0.0,-0.8,P413,73,0.0,1,3,avg_true_dominance_generation
+10188,information_not_credible_source_new,Arthur Balfour,Q19008,Paris,London,0.4941,0.1382,-0.3559,P937,626,0.000265,1,3,avg_true_dominance_generation
+11934,information_not_credible_source_new,Gene Martynec,Q5531339,Baltimore,Germany,0.775,0.0,-0.775,P19,9,0.0,1,3,avg_true_dominance_generation
+12687,neutral_new,Doychin Vasilev,Q5303717,India,Bulgaria,0.7208,0.0,-0.7208,P27,1,0.000383,1,3,avg_true_dominance_generation
+14119,encyclopaedia,Giacomo Antonelli,Q712085,bishop,cardinal,0.425,0.1028,-0.3222,P39,14,0.007758,1,3,avg_true_dominance_generation
+16465,neutral_new,The Answering Machine,Q114537562,Minneapolis,Manchester,0.66,0.14,-0.52,P740,0,0.009643,1,3,avg_true_dominance_generation
+18274,encyclopaedia,Mithat Bayrak,Q661466,French,Turkish,0.365,0.055,-0.31,P103,2,0.000517,1,3,avg_true_dominance_generation
+19050,neutral_new,Narrative Science,Q17183195,Denver,Chicago,0.9357,0.0143,-0.9214,P159,9,0.021796,1,3,avg_true_dominance_generation
+747,information_not_credible_source_new,Yona Friedman,Q542741,Edinburgh,Budapest,0.3344,0.4094,0.075,P19,17,0.000118,2,3,avg_true_dominance_generation
+982,neutral_new,Windows Driver Frameworks,Q1067615,Apple,Microsoft,0.2593,0.4628,0.2035,P178,10,0.003102,2,3,avg_true_dominance_generation
+2897,information_not_credible_source_new,IBM TopView,Q4891880,Square,IBM,0.3128,0.3674,0.0547,P178,59,0.00013,2,3,avg_true_dominance_generation
+3642,neutral_new,Yehoshafat Harkabi,Q2561928,Libya,Jerusalem,0.475,0.35,-0.125,P20,15,0.0,2,3,avg_true_dominance_generation
+5343,information_not_credible_source_new,The Rockford Files,Q283660,HBO,NBC,0.2735,0.3088,0.0353,P449,622,0.0,2,3,avg_true_dominance_generation
+6682,neutral_new,Mohammad Najibullah,Q207728,Athens,Kabul,0.2143,0.4476,0.2333,P20,677,0.0,2,3,avg_true_dominance_generation
+11829,encyclopaedia,Venta,Q37322630,Antarctica,Europe,0.4452,0.3419,-0.1032,P30,0,0.006032,2,3,avg_true_dominance_generation
+13694,neutral_new,Sesamstraat,Q2410485,Thai,Dutch,0.1848,0.4935,0.3087,P364,24,0.0,2,3,avg_true_dominance_generation
+16716,encyclopaedia,Piramal Enterprises Ltd,Q7197697,Milan,Mumbai,0.2056,0.45,0.2444,P159,6,0.0,2,3,avg_true_dominance_generation
+21061,neutral_new,Olsen Gang,Q1047863,English,Danish,0.3147,0.3118,-0.0029,P364,49,0.012571,2,3,avg_true_dominance_generation
+871,information_not_credible_source_new,BBC Radio 4,Q795598,Microsoft,BBC,0.0969,0.6337,0.5367,P127,401,0.00065,3,3,avg_true_dominance_generation
+2371,encyclopaedia,Eduardo Duhalde,Q294578,French,Spanish,0.2158,0.5211,0.3053,P103,110,0.000297,3,3,avg_true_dominance_generation
+7332,neutral_new,Vanessa Beecroft,Q152292,Romanian,Italian,0.125,0.5813,0.4563,P1412,48,0.000128,3,3,avg_true_dominance_generation
+10975,neutral_new,Christiaan Snouck Hurgronje,Q731829,Buddhism,Islam,0.3375,0.5844,0.2469,P140,49,0.019028,3,3,avg_true_dominance_generation
+10975,encyclopaedia,Christiaan Snouck Hurgronje,Q731829,Buddhism,Islam,0.2154,0.5538,0.3385,P140,49,0.001123,3,3,avg_true_dominance_generation
+12148,encyclopaedia,IBM 407,Q1653069,Intel,IBM,0.1838,0.5853,0.4015,P176,13,0.001705,3,3,avg_true_dominance_generation
+13840,information_not_credible_source_new,Google Pay Send,Q2334242,Sega,Google,0.181,0.619,0.4381,P178,24,2.5e-05,3,3,avg_true_dominance_generation
+14953,encyclopaedia,Millbrae station,Q6858585,Vienna,California,0.15,0.5941,0.4441,P131,21,0.001091,3,3,avg_true_dominance_generation
+17370,neutral_new,Claude Bartolone,Q1096496,Russian,French,0.0895,0.6947,0.6053,P103,7,8.5e-05,3,3,avg_true_dominance_generation
+18122,encyclopaedia,Pierre C. Cartier,Q7192113,Russian,French,0.1083,0.6542,0.5458,P1412,40,0.000135,3,3,avg_true_dominance_generation

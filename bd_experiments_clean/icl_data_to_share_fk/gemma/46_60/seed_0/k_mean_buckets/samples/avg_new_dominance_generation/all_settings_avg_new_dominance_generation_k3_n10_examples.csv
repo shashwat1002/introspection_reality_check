@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+4949,information_not_credible_source_new,Piove di Sacco,Q34317,Mexico,Italy,0.0986,0.6377,0.5391,P17,5,0.001145,1,3,avg_new_dominance_generation
+6387,information_not_credible_source_new,Brut y Tywysogion,Q2357256,Thai,Welsh,0.0,0.0,0.0,P407,11,0.000107,1,3,avg_new_dominance_generation
+9832,information_not_credible_source_new,Axel Witsel,Q151838,quarterback,midfielder,0.125,0.575,0.45,P413,1168,0.0,1,3,avg_new_dominance_generation
+11722,neutral_new,Lannemezan,Q383402,Greece,France,0.0939,0.4758,0.3818,P17,30,0.000754,1,3,avg_new_dominance_generation
+12646,information_not_credible_source_new,Columbia Daily Tribune,Q5149683,Glasgow,Columbia,0.3,0.2917,-0.0083,P159,6,0.001445,1,3,avg_new_dominance_generation
+13494,neutral_new,Tales of Wells Fargo,Q3980406,PBS,NBC,0.0,0.0,0.0,P449,201,,1,3,avg_new_dominance_generation
+13733,information_not_credible_source_new,Hurrem sultan,Q6077715,Christianity,Islam,0.1833,0.4583,0.275,P140,0,0.001098,1,3,avg_new_dominance_generation
+18161,encyclopaedia,The Josephine Baker Story,Q7743526,CBS,HBO,0.0667,0.0,-0.0667,P449,46,0.0,1,3,avg_new_dominance_generation
+20202,encyclopaedia,Nissan Sentra,Q1132451,Nokia,Nissan,0.1641,0.4462,0.2821,P176,629,0.000693,1,3,avg_new_dominance_generation
+21432,neutral_new,Brazilian Football Confederation,Q244754,UFO,FIFA,0.0,0.0667,0.0667,P463,243,0.0,1,3,avg_new_dominance_generation
+3841,neutral_new,CPP Investment Board,Q5013693,Oslo,Toronto,0.4,0.1333,-0.2667,P159,183,0.0,2,3,avg_new_dominance_generation
+5305,neutral_new,TNK-BP,Q2298901,Montreal,Moscow,0.5333,0.0,-0.5333,P159,46,0.0,2,3,avg_new_dominance_generation
+6052,encyclopaedia,Alfred L. Kroeber,Q311538,philosophy,anthropology,0.5444,0.1111,-0.4333,P101,121,0.0,2,3,avg_new_dominance_generation
+9915,encyclopaedia,Copenhagen Airport,Q206277,Mars,Copenhagen,0.3333,0.4556,0.1222,P138,464,0.0,2,3,avg_new_dominance_generation
+14852,neutral_new,Nick Swisher,Q978581,basketball,baseball,0.4267,0.0667,-0.36,P641,463,0.004032,2,3,avg_new_dominance_generation
+16426,information_not_credible_source_new,Mulheres de Areia,Q466801,Australia,Brazil,0.3333,0.1111,-0.2222,P495,12,0.0,2,3,avg_new_dominance_generation
+16426,encyclopaedia,Mulheres de Areia,Q466801,Australia,Brazil,0.5067,0.1867,-0.32,P495,12,0.000957,2,3,avg_new_dominance_generation
+17378,encyclopaedia,Samuil Feinberg,Q1971227,violin,piano,0.48,0.12,-0.36,P1303,28,0.000515,2,3,avg_new_dominance_generation
+18840,information_not_credible_source_new,Woodbine Racetrack,Q3135941,Rome,Ontario,0.45,0.0167,-0.4333,P131,42,0.0,2,3,avg_new_dominance_generation
+19805,information_not_credible_source_new,Antoine Danchet,Q585987,Taiwan,France,0.5444,0.0111,-0.5333,P27,1,0.000201,2,3,avg_new_dominance_generation
+5184,encyclopaedia,Ljig,Q1252490,Ukraine,Serbia,0.7333,0.04,-0.6933,P17,0,0.001217,3,3,avg_new_dominance_generation
+7008,neutral_new,TorqueFlite,Q7826788,Nintendo,Chrysler,0.6,0.0222,-0.5778,P176,176,0.0,3,3,avg_new_dominance_generation
+8353,information_not_credible_source_new,Anna Neagle,Q433044,journalist,actor,0.6,0.0,-0.6,P106,321,0.00047,3,3,avg_new_dominance_generation
+8521,information_not_credible_source_new,Haakon Lie,Q980028,Paris,Oslo,1.0,0.0,-1.0,P20,6,0.0,3,3,avg_new_dominance_generation
+8620,information_not_credible_source_new,John Bernard Riley,Q916982,opera,jazz,0.9667,0.0,-0.9667,P136,16,0.0,3,3,avg_new_dominance_generation
+9930,encyclopaedia,Kasey Keller,Q356814,football,soccer,0.8,0.8,0.0,P641,145,0.074884,3,3,avg_new_dominance_generation
+19430,encyclopaedia,Pierre Braunberger,Q343898,Lawrence,Paris,0.6833,0.0,-0.6833,P19,3,0.0,3,3,avg_new_dominance_generation
+20324,neutral_new,Peter Howson,Q711799,Rome,London,0.7333,0.0,-0.7333,P19,32,0.0,3,3,avg_new_dominance_generation
+21537,neutral_new,Alexander VIII,Q101294,London,Rome,0.9778,0.0444,-0.9333,P20,40,0.010856,3,3,avg_new_dominance_generation
+21537,information_not_credible_source_new,Alexander VIII,Q101294,London,Rome,1.0,0.0,-1.0,P20,40,0.011167,3,3,avg_new_dominance_generation

@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+1360,encyclopaedia,Freddie Keppard,Q490080,funk,jazz,0.3111,0.0444,-0.2667,P136,15,0.001771,1,3,avg_true_dominance_generation
+1734,encyclopaedia,Luigi Snozzi,Q117448,Singapore,Switzerland,0.76,0.0,-0.76,P27,4,0.0,1,3,avg_true_dominance_generation
+4972,neutral_new,High Level Shader Language,Q559519,IBM,Microsoft,0.6,0.0,-0.6,P178,74,0.0,1,3,avg_true_dominance_generation
+5305,encyclopaedia,TNK-BP,Q2298901,Montreal,Moscow,0.8222,0.0,-0.8222,P159,46,0.0,1,3,avg_true_dominance_generation
+6387,information_not_credible_source_new,Brut y Tywysogion,Q2357256,Thai,Welsh,0.0,0.0,0.0,P407,11,0.000107,1,3,avg_true_dominance_generation
+7877,encyclopaedia,Lennart Geijer,Q2130664,Ukrainian,Swedish,0.32,0.1067,-0.2133,P1412,8,0.0,1,3,avg_true_dominance_generation
+10365,encyclopaedia,Thomas McCollum,Q89517481,midfielder,goaltender,0.475,0.0667,-0.4083,P413,0,0.0,1,3,avg_true_dominance_generation
+14747,neutral_new,Julien Carette,Q1712227,Russian,French,0.7778,0.0,-0.7778,P103,8,0.000493,1,3,avg_true_dominance_generation
+14883,encyclopaedia,Thomas Earnshaw,Q2423581,Egypt,London,0.8889,0.0,-0.8889,P20,25,0.0,1,3,avg_true_dominance_generation
+20486,encyclopaedia,Sam Rayburn Reservoir,Q1475987,Vienna,Texas,0.5111,0.0,-0.5111,P131,50,0.000682,1,3,avg_true_dominance_generation
+4528,encyclopaedia,Helsinki City Transport,Q1433158,WWE,Helsinki,0.2833,0.15,-0.1333,P127,4,0.001286,2,3,avg_true_dominance_generation
+8102,encyclopaedia,Santa Maria della Salute,Q52531,Florence,Venice,0.5778,0.1556,-0.4222,P276,156,0.00282,2,3,avg_true_dominance_generation
+9407,neutral_new,Alexei Kovalev,Q102282367,basketball,hockey,0.4667,0.1333,-0.3333,P641,0,0.0,2,3,avg_true_dominance_generation
+9487,encyclopaedia,CBS Summer Playhouse,Q860038,MTV,CBS,0.2667,0.1467,-0.12,P449,26,0.000695,2,3,avg_true_dominance_generation
+13044,information_not_credible_source_new,Juan J. Campanella,Q726925,Russian,Spanish,0.25,0.3167,0.0667,P1412,33,0.002553,2,3,avg_true_dominance_generation
+13044,encyclopaedia,Juan J. Campanella,Q726925,Russian,Spanish,0.3467,0.1333,-0.2133,P1412,33,0.000283,2,3,avg_true_dominance_generation
+13833,information_not_credible_source_new,Wood Gundy,Q8032214,Vancouver,Toronto,0.7333,0.15,-0.5833,P159,15,0.008708,2,3,avg_true_dominance_generation
+14815,encyclopaedia,Leo IX,Q58559,bishop,pope,0.2833,0.1333,-0.15,P39,186,0.0,2,3,avg_true_dominance_generation
+17442,information_not_credible_source_new,Jacques Sadoul,Q2033504,Dutch,French,0.52,0.2133,-0.3067,P103,1,0.000462,2,3,avg_true_dominance_generation
+21066,neutral_new,International Documentary Film Festival Amsterdam,Q1666506,Berlin,Amsterdam,0.2963,0.2296,-0.0667,P276,23,0.0,2,3,avg_true_dominance_generation
+1803,information_not_credible_source_new,TU Wien,Q689400,Birmingham,Vienna,0.18,0.5067,0.3267,P159,76,0.0,3,3,avg_true_dominance_generation
+2302,encyclopaedia,Campania,Q1438,Brussels,Naples,0.3333,0.4,0.0667,P36,1194,0.0,3,3,avg_true_dominance_generation
+5359,information_not_credible_source_new,"Hope and Anchor, Islington",Q15225054,Moscow,London,0.1451,0.3647,0.2196,P276,26,0.00483,3,3,avg_true_dominance_generation
+6226,encyclopaedia,Outlook.com,Q219136,Mobile,Microsoft,0.1667,0.4083,0.2417,P127,1989,0.000288,3,3,avg_true_dominance_generation
+7413,information_not_credible_source_new,All Hail King Julien,Q18636697,NBC,Netflix,0.3067,0.3733,0.0667,P449,251,0.009378,3,3,avg_true_dominance_generation
+8085,information_not_credible_source_new,Theni district,Q15196,Germany,India,0.0,0.5911,0.5911,P17,82,0.0,3,3,avg_true_dominance_generation
+8395,neutral_new,James Laurinaitis,Q339711,quarterback,linebacker,0.3238,0.3524,0.0286,P413,277,0.006942,3,3,avg_true_dominance_generation
+9832,encyclopaedia,Axel Witsel,Q151838,quarterback,midfielder,0.0625,0.425,0.3625,P413,1168,0.0,3,3,avg_true_dominance_generation
+9915,encyclopaedia,Copenhagen Airport,Q206277,Mars,Copenhagen,0.3333,0.4556,0.1222,P138,464,0.0,3,3,avg_true_dominance_generation
+9930,neutral_new,Kasey Keller,Q356814,football,soccer,0.8,0.8,0.0,P641,145,0.090437,3,3,avg_true_dominance_generation

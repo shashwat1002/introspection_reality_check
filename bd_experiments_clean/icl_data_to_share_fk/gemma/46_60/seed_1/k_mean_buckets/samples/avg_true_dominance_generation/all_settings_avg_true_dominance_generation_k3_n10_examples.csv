@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+879,information_not_credible_source_new,Kim Myhr,Q11980653,Iraq,Norway,0.6222,0.0,-0.6222,P27,1,0.0,1,3,avg_true_dominance_generation
+3559,encyclopaedia,Peter Arnett,Q142025,actor,journalist,0.5429,0.0,-0.5429,P106,108,0.0,1,3,avg_true_dominance_generation
+11722,information_not_credible_source_new,Lannemezan,Q383402,Greece,France,0.0,0.0,0.0,P17,30,0.000188,1,3,avg_true_dominance_generation
+11977,information_not_credible_source_new,Jon Larsen,Q112485126,opera,jazz,0.4833,0.05,-0.4333,P136,0,0.0,1,3,avg_true_dominance_generation
+18319,encyclopaedia,Walter Payton,Q963117,baseball,football,0.6444,0.0444,-0.6,P641,1278,0.001108,1,3,avg_true_dominance_generation
+19430,neutral_new,Pierre Braunberger,Q343898,Lawrence,Paris,0.6,0.0,-0.6,P19,3,0.0,1,3,avg_true_dominance_generation
+20324,encyclopaedia,Peter Howson,Q711799,Rome,London,0.5733,0.12,-0.4533,P19,32,0.0,1,3,avg_true_dominance_generation
+20821,information_not_credible_source_new,Hippos,Q604995,Winnipeg,horse,0.425,0.05,-0.375,P138,25,0.0,1,3,avg_true_dominance_generation
+21891,information_not_credible_source_new,Saint Amandus,Q453698,mayor,bishop,0.7778,0.0,-0.7778,P39,33,0.0,1,3,avg_true_dominance_generation
+21891,encyclopaedia,Saint Amandus,Q453698,mayor,bishop,0.6667,0.0,-0.6667,P39,33,0.0,1,3,avg_true_dominance_generation
+2481,encyclopaedia,Mauro Zani,Q714290,French,Italian,0.4556,0.1889,-0.2667,P1412,0,0.00317,2,3,avg_true_dominance_generation
+3193,neutral_new,Johnny Unitas,Q716029,midfielder,quarterback,0.4667,0.1926,-0.2741,P413,1047,0.0,2,3,avg_true_dominance_generation
+3193,encyclopaedia,Johnny Unitas,Q716029,midfielder,quarterback,0.1667,0.3,0.1333,P413,1047,0.0,2,3,avg_true_dominance_generation
+3841,neutral_new,CPP Investment Board,Q5013693,Oslo,Toronto,0.4,0.1333,-0.2667,P159,183,0.0,2,3,avg_true_dominance_generation
+4229,information_not_credible_source_new,Ludovico Einaudi,Q83182,trumpet,piano,0.1429,0.2857,0.1429,P1303,1069,0.000175,2,3,avg_true_dominance_generation
+5914,neutral_new,Schytt Glacier,Q3372454,Europe,Antarctica,0.6,0.2667,-0.3333,P30,0,0.008755,2,3,avg_true_dominance_generation
+12594,neutral_new,Stephen Hough,Q1243635,trumpet,piano,0.6167,0.1333,-0.4833,P1303,70,0.001083,2,3,avg_true_dominance_generation
+14745,encyclopaedia,Nathaniel Hawthorne,Q69339,Russian,English,0.3067,0.2267,-0.08,P1412,1283,0.000383,2,3,avg_true_dominance_generation
+15577,information_not_credible_source_new,Combat Hospital,Q603496,Belgium,Canada,0.0952,0.2571,0.1619,P495,29,0.00765,2,3,avg_true_dominance_generation
+16841,encyclopaedia,Maurice Richard,Q3301329,football,hockey,0.6444,0.2222,-0.4222,P641,0,0.0,2,3,avg_true_dominance_generation
+2824,encyclopaedia,"Braddock, Cornwall",Q4954451,Queensland,Cornwall,0.2933,0.4,0.1067,P131,2,0.008027,3,3,avg_true_dominance_generation
+2857,neutral_new,Google Now,Q79564,Microsoft,Google,0.1176,0.7529,0.6353,P178,73,0.004112,3,3,avg_true_dominance_generation
+4727,neutral_new,Balochistan,Q163239,Europe,Asia,0.07,0.4733,0.4033,P30,1268,0.001405,3,3,avg_true_dominance_generation
+6387,neutral_new,Brut y Tywysogion,Q2357256,Thai,Welsh,0.0952,0.5333,0.4381,P407,11,0.00087,3,3,avg_true_dominance_generation
+8021,neutral_new,Split Airport,Q1125392,Sweden,Split,0.0769,0.6308,0.5538,P138,133,8e-05,3,3,avg_true_dominance_generation
+9670,information_not_credible_source_new,Salman the Persian,Q557378,Christianity,Islam,0.6667,0.3667,-0.3,P140,368,0.006655,3,3,avg_true_dominance_generation
+10326,neutral_new,Windows 8.1,Q3569290,Apple,Microsoft,0.1939,0.4242,0.2303,P178,818,0.000459,3,3,avg_true_dominance_generation
+16048,information_not_credible_source_new,Eurajoki,Q1001783,Dutch,Finnish,0.1067,0.3893,0.2827,P37,10,0.000353,3,3,avg_true_dominance_generation
+16130,neutral_new,Vietnam,Q881,Antarctica,Asia,0.2033,0.37,0.1667,P30,7298,0.003031,3,3,avg_true_dominance_generation
+16130,information_not_credible_source_new,Vietnam,Q881,Antarctica,Asia,0.3259,0.4444,0.1185,P30,7298,0.002872,3,3,avg_true_dominance_generation

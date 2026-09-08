@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+816,encyclopaedia,Julia Somerville,Q6306749,IBM,BBC,0.61,0.1267,-0.4833,P108,44,0.001872,1,3,avg_dominance_diff_generation
+2726,encyclopaedia,Heather Fell,Q2399313,London,Plymouth,0.7286,0.0,-0.7286,P19,10,0.0,1,3,avg_dominance_diff_generation
+3918,encyclopaedia,The Sandy Duncan Show,Q7762247,BBC,CBS,0.7636,0.0455,-0.7182,P449,41,0.000521,1,3,avg_dominance_diff_generation
+5346,neutral_new,Snow Country,Q1376060,Canada,Japan,0.4223,0.1229,-0.2994,P495,164,0.01202,1,3,avg_dominance_diff_generation
+6646,neutral_new,Clement II,Q58573,mayor,pope,0.7438,0.1625,-0.5813,P39,37,0.001465,1,3,avg_dominance_diff_generation
+8181,encyclopaedia,Sam Hill Memorial Bridge,Q7407606,Florence,Oregon,0.4833,0.0417,-0.4417,P131,4,0.002373,1,3,avg_dominance_diff_generation
+8841,encyclopaedia,Lemland,Q176186,French,Swedish,0.68,0.03,-0.65,P37,13,0.0,1,3,avg_dominance_diff_generation
+13320,neutral_new,Charles Kaiser,Q5079668,philosopher,journalist,0.6333,0.0222,-0.6111,P106,7,0.001761,1,3,avg_dominance_diff_generation
+14119,neutral_new,Giacomo Antonelli,Q712085,bishop,cardinal,0.5233,0.0733,-0.45,P39,14,0.005471,1,3,avg_dominance_diff_generation
+14633,encyclopaedia,Olga Vittoria Gentilli,Q3881639,French,Italian,0.43,0.11,-0.32,P1412,0,0.00061,1,3,avg_dominance_diff_generation
+3718,neutral_new,Windows Vista,Q11230,Apple,Microsoft,0.4123,0.4292,0.017,P178,1281,0.006644,2,3,avg_dominance_diff_generation
+5201,neutral_new,Phoebe Atwood Taylor,Q2088428,Rome,Boston,0.315,0.38,0.065,P19,10,0.0,2,3,avg_dominance_diff_generation
+6874,information_not_credible_source_new,Heikki Siren,Q3129431,English,Finnish,0.4536,0.2821,-0.1714,P1412,1,0.0117,2,3,avg_dominance_diff_generation
+9972,information_not_credible_source_new,Des Lynam,Q5263489,NPR,BBC,0.2103,0.4,0.1897,P108,221,0.000897,2,3,avg_dominance_diff_generation
+11565,information_not_credible_source_new,Alexandre Auguste Ledru-Rollin,Q1382222,English,French,0.3391,0.313,-0.0261,P103,40,0.007685,2,3,avg_dominance_diff_generation
+12275,information_not_credible_source_new,Ahmed Ouyahia,Q57613,India,Algeria,0.2971,0.4765,0.1794,P27,25,0.003784,2,3,avg_dominance_diff_generation
+12789,information_not_credible_source_new,Carolyn Franklin,Q5045362,trumpet,piano,0.4538,0.4308,-0.0231,P1303,172,0.023954,2,3,avg_dominance_diff_generation
+14079,encyclopaedia,Wynton Marsalis,Q273076,piano,trumpet,0.2437,0.4375,0.1938,P1303,824,0.007488,2,3,avg_dominance_diff_generation
+14130,neutral_new,Yule Bay,Q8060903,Europe,Antarctica,0.4324,0.3412,-0.0912,P30,0,0.017215,2,3,avg_dominance_diff_generation
+19835,information_not_credible_source_new,David Van Reybrouck,Q2490392,Spanish,Dutch,0.2618,0.3526,0.0908,P1412,69,0.0034,2,3,avg_dominance_diff_generation
+378,information_not_credible_source_new,The Paradise Club,Q3895015,NBC,BBC,0.1404,0.4827,0.3423,P449,17,0.000905,3,3,avg_dominance_diff_generation
+2980,information_not_credible_source_new,PowerShell,Q840410,Apple,Microsoft,0.0716,0.65,0.5784,P178,454,0.004355,3,3,avg_dominance_diff_generation
+4660,information_not_credible_source_new,Toyopet Master,Q7830710,Renault,Toyota,0.1483,0.481,0.3328,P176,35,0.000491,3,3,avg_dominance_diff_generation
+5643,encyclopaedia,sheikh,Q37560340,Buddhism,Islam,0.2278,0.5611,0.3333,P140,11,0.001077,3,3,avg_dominance_diff_generation
+5733,information_not_credible_source_new,Blake Mills,Q4924438,Dublin,California,0.2,0.65,0.45,P19,242,0.000811,3,3,avg_dominance_diff_generation
+9889,encyclopaedia,Dennis Wilson,Q453611,Spanish,English,0.1167,0.431,0.3143,P1412,1662,0.010731,3,3,avg_dominance_diff_generation
+14130,information_not_credible_source_new,Yule Bay,Q8060903,Europe,Antarctica,0.1548,0.5839,0.429,P30,0,0.005486,3,3,avg_dominance_diff_generation
+14829,encyclopaedia,A Different World,Q1109026,CBS,NBC,0.175,0.6625,0.4875,P449,795,0.002095,3,3,avg_dominance_diff_generation
+14911,encyclopaedia,The Idle Race,Q1812612,Chicago,Birmingham,0.1962,0.4846,0.2885,P740,68,2.2e-05,3,3,avg_dominance_diff_generation
+16204,information_not_credible_source_new,Ameen Sayani,Q4742111,Poland,India,0.0909,0.4432,0.3523,P27,68,8e-05,3,3,avg_dominance_diff_generation

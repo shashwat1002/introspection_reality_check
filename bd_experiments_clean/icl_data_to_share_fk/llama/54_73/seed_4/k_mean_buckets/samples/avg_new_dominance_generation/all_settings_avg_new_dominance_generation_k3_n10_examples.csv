@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+816,information_not_credible_source_new,Julia Somerville,Q6306749,IBM,BBC,0.1306,0.525,0.3944,P108,44,0.0,1,3,avg_new_dominance_generation
+1267,encyclopaedia,Arvydas Sabonis,Q297750,football,basketball,0.15,0.7452,0.5952,P641,799,0.012095,1,3,avg_new_dominance_generation
+12148,encyclopaedia,IBM 407,Q1653069,Intel,IBM,0.1838,0.5853,0.4015,P176,13,0.001705,1,3,avg_new_dominance_generation
+13013,information_not_credible_source_new,Tor Endresen,Q1383923,Nigeria,Norway,0.1538,0.7423,0.5885,P27,3,0.000133,1,3,avg_new_dominance_generation
+13840,information_not_credible_source_new,Google Pay Send,Q2334242,Sega,Google,0.181,0.619,0.4381,P178,24,2.5e-05,1,3,avg_new_dominance_generation
+14264,encyclopaedia,Virginia Quarterly Review,Q7934467,French,English,0.1183,0.4717,0.3533,P364,10,0.010352,1,3,avg_new_dominance_generation
+16619,encyclopaedia,Muriel Barbery,Q235731,Dutch,French,0.1053,0.5895,0.4842,P103,30,0.0,1,3,avg_new_dominance_generation
+16716,neutral_new,Piramal Enterprises Ltd,Q7197697,Milan,Mumbai,0.2292,0.5375,0.3083,P159,6,0.0,1,3,avg_new_dominance_generation
+17328,encyclopaedia,Xeon,Q656154,Honda,Intel,0.2471,0.4314,0.1843,P176,439,0.001208,1,3,avg_new_dominance_generation
+21867,encyclopaedia,Dominic Dierkes,Q5290518,politician,actor,0.1967,0.59,0.3933,P106,19,0.000111,1,3,avg_new_dominance_generation
+9375,neutral_new,Ludovic Sylvestre,Q471193,goaltender,midfielder,0.4348,0.0891,-0.3457,P413,12,0.002852,2,3,avg_new_dominance_generation
+11829,information_not_credible_source_new,Venta,Q37322630,Antarctica,Europe,0.321,0.3903,0.0694,P30,0,0.004841,2,3,avg_new_dominance_generation
+12654,neutral_new,Brazil national football team,Q83459,NATO,FIFA,0.3,0.3167,0.0167,P463,3124,0.0,2,3,avg_new_dominance_generation
+14079,information_not_credible_source_new,Wynton Marsalis,Q273076,piano,trumpet,0.3815,0.3407,-0.0407,P1303,824,0.01436,2,3,avg_new_dominance_generation
+14226,information_not_credible_source_new,Genrikh Sapgir,Q2166641,Australia,Russia,0.34,0.2225,-0.1175,P27,2,0.004871,2,3,avg_new_dominance_generation
+17370,encyclopaedia,Claude Bartolone,Q1096496,Russian,French,0.4125,0.3937,-0.0187,P103,7,0.002007,2,3,avg_new_dominance_generation
+18530,information_not_credible_source_new,Brighton Centre,Q4967617,London,Brighton,0.2615,0.4365,0.175,P276,41,0.007429,2,3,avg_new_dominance_generation
+19776,information_not_credible_source_new,White Rabbits,Q126186348,London,Columbia,0.3667,0.2,-0.1667,P740,0,0.00024,2,3,avg_new_dominance_generation
+20410,information_not_credible_source_new,Trinity Peninsula,Q2038835,Asia,Antarctica,0.3167,0.5847,0.2681,P30,19,0.055424,2,3,avg_new_dominance_generation
+21681,neutral_new,Frank Pembleton,Q5488954,Paris,Baltimore,0.3529,0.55,0.1971,P937,134,0.00162,2,3,avg_new_dominance_generation
+1169,information_not_credible_source_new,John T. Mullock,Q6260059,mayor,bishop,1.0,0.0,-1.0,P39,2,0.0,3,3,avg_new_dominance_generation
+3642,encyclopaedia,Yehoshafat Harkabi,Q2561928,Libya,Jerusalem,0.6667,0.2833,-0.3833,P20,15,0.0,3,3,avg_new_dominance_generation
+3699,information_not_credible_source_new,Edmond S. Meany,Q5338911,London,Seattle,0.95,0.0,-0.95,P20,3,9.7e-05,3,3,avg_new_dominance_generation
+5338,information_not_credible_source_new,Ryszard Engelking,Q737661,France,Poland,0.7857,0.0,-0.7857,P27,2,0.000712,3,3,avg_new_dominance_generation
+6347,encyclopaedia,Yuvraj Hans,Q8062173,astronaut,actor,0.6094,0.0938,-0.5156,P106,51,0.000144,3,3,avg_new_dominance_generation
+6646,neutral_new,Clement II,Q58573,mayor,pope,0.7438,0.1625,-0.5813,P39,37,0.001465,3,3,avg_new_dominance_generation
+6821,encyclopaedia,"Greg Lloyd, Sr.",Q5605922,pitcher,linebacker,0.8,0.0,-0.8,P413,73,0.0,3,3,avg_new_dominance_generation
+11866,encyclopaedia,Mark Kinsella,Q703653,linebacker,midfielder,0.6409,0.15,-0.4909,P413,102,6e-05,3,3,avg_new_dominance_generation
+16465,encyclopaedia,The Answering Machine,Q114537562,Minneapolis,Manchester,0.8125,0.125,-0.6875,P740,0,0.013239,3,3,avg_new_dominance_generation
+19050,neutral_new,Narrative Science,Q17183195,Denver,Chicago,0.9357,0.0143,-0.9214,P159,9,0.021796,3,3,avg_new_dominance_generation

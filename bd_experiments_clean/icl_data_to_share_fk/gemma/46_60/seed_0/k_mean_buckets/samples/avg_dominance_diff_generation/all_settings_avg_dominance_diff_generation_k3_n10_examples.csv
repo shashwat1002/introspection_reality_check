@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+1503,neutral_new,Mike Liut,Q328821,midfielder,goaltender,0.6222,0.0,-0.6222,P413,46,0.0,1,3,avg_dominance_diff_generation
+2210,encyclopaedia,Pavol Demitra,Q363628,Belgium,Slovakia,0.8533,0.0,-0.8533,P27,105,0.0,1,3,avg_dominance_diff_generation
+2587,neutral_new,Jeanne Lamon,Q539291,piano,violin,1.0,0.0,-1.0,P1303,7,0.000664,1,3,avg_dominance_diff_generation
+3641,neutral_new,David Wagoner,Q5240765,actor,poet,0.7,0.0,-0.7,P106,13,0.0,1,3,avg_dominance_diff_generation
+4004,neutral_new,Max Jacob,Q156214,German,French,0.7111,0.0,-0.7111,P103,65,0.000135,1,3,avg_dominance_diff_generation
+14852,encyclopaedia,Nick Swisher,Q978581,basketball,baseball,0.6167,0.05,-0.5667,P641,463,0.003769,1,3,avg_dominance_diff_generation
+15766,information_not_credible_source_new,Hauk Aabel,Q3354983,photographer,actor,0.7667,0.0,-0.7667,P106,2,0.0,1,3,avg_dominance_diff_generation
+15907,information_not_credible_source_new,Rob Zombie,Q298255,piano,guitar,1.0,0.0,-1.0,P1303,4180,0.000334,1,3,avg_dominance_diff_generation
+21013,information_not_credible_source_new,Thomas Browne,Q313925,London,Norwich,0.8167,0.0,-0.8167,P937,171,0.0,1,3,avg_dominance_diff_generation
+21638,encyclopaedia,Mike Shinoda,Q19201,violin,guitar,0.6333,0.0,-0.6333,P1303,1845,0.0,1,3,avg_dominance_diff_generation
+1601,neutral_new,Suddenly Susan,Q643894,jazz,sitcom,0.4167,0.0,-0.4167,P136,266,0.000198,2,3,avg_dominance_diff_generation
+2302,neutral_new,Campania,Q1438,Brussels,Naples,0.3556,0.1111,-0.2444,P36,1194,0.000369,2,3,avg_dominance_diff_generation
+4649,neutral_new,Spendrups,Q3335289,Dallas,Sweden,0.5067,0.1067,-0.4,P159,18,0.0,2,3,avg_dominance_diff_generation
+6656,encyclopaedia,Road Rules,Q3074,NBC,MTV,0.4833,0.3333,-0.15,P449,17,0.000336,2,3,avg_dominance_diff_generation
+10052,neutral_new,Nissan Prairie,Q669213,IBM,Nissan,0.55,0.05,-0.5,P176,67,0.0,2,3,avg_dominance_diff_generation
+10365,encyclopaedia,Thomas McCollum,Q89517481,midfielder,goaltender,0.475,0.0667,-0.4083,P413,0,0.0,2,3,avg_dominance_diff_generation
+16377,encyclopaedia,Chester railway station,Q2478175,Bern,Chester,0.5667,0.1,-0.4667,P138,36,0.0,2,3,avg_dominance_diff_generation
+16556,information_not_credible_source_new,William Henry Harrison,Q11869,French,English,0.2463,0.1889,-0.0574,P103,3226,0.001103,2,3,avg_dominance_diff_generation
+16841,encyclopaedia,Maurice Richard,Q3301329,football,hockey,0.6444,0.2222,-0.4222,P641,0,0.0,2,3,avg_dominance_diff_generation
+19114,information_not_credible_source_new,Le Droit,Q3222449,Swedish,French,0.5048,0.0952,-0.4095,P407,8,0.002171,2,3,avg_dominance_diff_generation
+2349,information_not_credible_source_new,Pablo Honey,Q221241,Hindi,English,0.1611,0.35,0.1889,P364,558,0.000136,3,3,avg_dominance_diff_generation
+6268,neutral_new,Cadillac V-16,Q1025261,Nintendo,Cadillac,0.2,0.3778,0.1778,P176,153,0.000885,3,3,avg_dominance_diff_generation
+6555,neutral_new,Apple Bandai Pippin,Q621312,Yahoo,Apple,0.3,0.2556,-0.0444,P178,37,0.0,3,3,avg_dominance_diff_generation
+6656,neutral_new,Road Rules,Q3074,NBC,MTV,0.0,0.0,0.0,P449,17,,3,3,avg_dominance_diff_generation
+12736,neutral_new,Canberra International Film Festival,Q5031263,Baltimore,Canberra,0.2714,0.2762,0.0048,P276,2,0.0,3,3,avg_dominance_diff_generation
+13044,information_not_credible_source_new,Juan J. Campanella,Q726925,Russian,Spanish,0.25,0.3167,0.0667,P1412,33,0.002553,3,3,avg_dominance_diff_generation
+13070,information_not_credible_source_new,Battle of Olszynka Grochowska,Q1576383,Jerusalem,Warsaw,0.0909,0.5394,0.4485,P276,57,0.000156,3,3,avg_dominance_diff_generation
+17247,encyclopaedia,Fiat 850,Q1360944,Intel,Fiat,0.2267,0.18,-0.0467,P176,144,0.000227,3,3,avg_dominance_diff_generation
+18834,information_not_credible_source_new,West Darfur,Q846331,Australia,Sudan,0.0,0.6762,0.6762,P17,23,0.0,3,3,avg_dominance_diff_generation
+19107,information_not_credible_source_new,Amiibo,Q17157056,IBM,Nintendo,0.1037,0.3407,0.237,P178,166,0.000168,3,3,avg_dominance_diff_generation

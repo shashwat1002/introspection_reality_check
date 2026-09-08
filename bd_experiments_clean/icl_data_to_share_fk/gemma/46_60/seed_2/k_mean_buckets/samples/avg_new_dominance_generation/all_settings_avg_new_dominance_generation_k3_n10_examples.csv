@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+1174,information_not_credible_source_new,Alta Verapaz Department,Q504637,English,Spanish,0.1653,0.288,0.1227,P37,19,0.001469,1,3,avg_new_dominance_generation
+2674,encyclopaedia,Seattle International Film Festival,Q2399132,Sheffield,Seattle,0.219,0.3619,0.1429,P276,48,0.0,1,3,avg_new_dominance_generation
+6961,information_not_credible_source_new,rutile,Q193521,Cuba,red,0.0714,0.3667,0.2952,P138,465,0.0,1,3,avg_new_dominance_generation
+8541,neutral_new,Togo,Q945,Finnish,French,0.1667,0.6556,0.4889,P37,1507,0.0,1,3,avg_new_dominance_generation
+9790,information_not_credible_source_new,Bermuda,Q23635,Swedish,English,0.175,0.4167,0.2417,P37,3182,0.006004,1,3,avg_new_dominance_generation
+14745,neutral_new,Nathaniel Hawthorne,Q69339,Russian,English,0.2556,0.3222,0.0667,P1412,1283,0.000563,1,3,avg_new_dominance_generation
+15954,information_not_credible_source_new,Toyota Aygo,Q825358,Renault,Toyota,0.1294,0.3392,0.2098,P176,329,0.002009,1,3,avg_new_dominance_generation
+16803,information_not_credible_source_new,Livonian Crusade,Q196409,Houston,Latvia,0.0,0.0667,0.0667,P276,140,0.0,1,3,avg_new_dominance_generation
+19214,neutral_new,The Immoralist,Q174626,English,French,0.3056,0.4944,0.1889,P364,51,0.011374,1,3,avg_new_dominance_generation
+21638,information_not_credible_source_new,Mike Shinoda,Q19201,violin,guitar,0.2542,0.2083,-0.0458,P1303,1845,0.0,1,3,avg_new_dominance_generation
+108,encyclopaedia,Bastille,Q689,Canada,France,0.4914,0.1486,-0.3429,P17,512,0.01778,2,3,avg_new_dominance_generation
+1360,neutral_new,Freddie Keppard,Q490080,funk,jazz,0.4,0.1556,-0.2444,P136,15,0.008092,2,3,avg_new_dominance_generation
+3559,neutral_new,Peter Arnett,Q142025,actor,journalist,0.5667,0.0,-0.5667,P106,108,0.000265,2,3,avg_new_dominance_generation
+6144,neutral_new,Cunter,Q22549332,Guatemala,Switzerland,0.419,0.0286,-0.3905,P17,5,4.3e-05,2,3,avg_new_dominance_generation
+9670,encyclopaedia,Salman the Persian,Q557378,Christianity,Islam,0.4833,0.25,-0.2333,P140,368,0.000173,2,3,avg_new_dominance_generation
+12851,information_not_credible_source_new,Willie Stargell,Q1054942,soccer,baseball,0.3222,0.2222,-0.1,P641,409,4.7e-05,2,3,avg_new_dominance_generation
+16426,information_not_credible_source_new,Mulheres de Areia,Q466801,Australia,Brazil,0.3333,0.1111,-0.2222,P495,12,0.0,2,3,avg_new_dominance_generation
+16556,neutral_new,William Henry Harrison,Q11869,French,English,0.3333,0.1867,-0.1467,P103,3226,0.000995,2,3,avg_new_dominance_generation
+19829,neutral_new,Ghazi of Iraq,Q314784,Christian,Islam,0.5167,0.0833,-0.4333,P140,237,0.0,2,3,avg_new_dominance_generation
+20112,neutral_new,Roland Freisler,Q57601,Winnipeg,Berlin,0.3667,0.0,-0.3667,P20,526,0.0,2,3,avg_new_dominance_generation
+1513,neutral_new,Liverpool Range,Q1633267,Ireland,Australia,0.6533,0.08,-0.5733,P17,7,0.000577,3,3,avg_new_dominance_generation
+5973,information_not_credible_source_new,Contell Glacier,Q5164934,Africa,Antarctica,0.68,0.2,-0.48,P30,0,0.012847,3,3,avg_new_dominance_generation
+7319,neutral_new,Sextus Pompeius Festus,Q302723,Russian,Latin,0.8333,0.0,-0.8333,P1412,23,0.0,3,3,avg_new_dominance_generation
+8620,encyclopaedia,John Bernard Riley,Q916982,opera,jazz,0.8333,0.0,-0.8333,P136,16,0.0,3,3,avg_new_dominance_generation
+10365,neutral_new,Thomas McCollum,Q89517481,midfielder,goaltender,0.6444,0.0,-0.6444,P413,0,0.0,3,3,avg_new_dominance_generation
+11976,information_not_credible_source_new,Gluecifer,Q1248223,Leeds,Oslo,0.9167,0.0,-0.9167,P740,25,0.0,3,3,avg_new_dominance_generation
+14852,encyclopaedia,Nick Swisher,Q978581,basketball,baseball,0.6167,0.05,-0.5667,P641,463,0.003769,3,3,avg_new_dominance_generation
+18510,information_not_credible_source_new,TMF Nederland,Q2382500,Bangalore,Amsterdam,0.7067,0.1867,-0.52,P159,16,0.0,3,3,avg_new_dominance_generation
+19430,information_not_credible_source_new,Pierre Braunberger,Q343898,Lawrence,Paris,0.6167,0.0,-0.6167,P19,3,0.0,3,3,avg_new_dominance_generation
+21891,information_not_credible_source_new,Saint Amandus,Q453698,mayor,bishop,0.7778,0.0,-0.7778,P39,33,0.0,3,3,avg_new_dominance_generation

@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+3973,encyclopaedia,Cock Sparrer,Q600311,Glasgow,London,0.4447,0.2316,-0.2132,P740,109,0.011178,1,3,avg_true_dominance_generation
+4047,encyclopaedia,Nigun,Q1989725,Christian,Judaism,0.15,0.0,-0.15,P140,55,0.0,1,3,avg_true_dominance_generation
+5896,encyclopaedia,Uromi,Q3510262,Canada,Nigeria,0.4669,0.0873,-0.3796,P17,25,0.008609,1,3,avg_true_dominance_generation
+6465,encyclopaedia,Joseph Henry Blackburne,Q352459,Athens,London,0.8333,0.0,-0.8333,P20,24,0.000925,1,3,avg_true_dominance_generation
+9847,information_not_credible_source_new,Gaetano Donizetti,Q101698,Boston,Vienna,0.4909,0.2409,-0.25,P937,184,1.6e-05,1,3,avg_true_dominance_generation
+11866,encyclopaedia,Mark Kinsella,Q703653,linebacker,midfielder,0.6409,0.15,-0.4909,P413,102,6e-05,1,3,avg_true_dominance_generation
+13320,encyclopaedia,Charles Kaiser,Q5079668,philosopher,journalist,0.8,0.0,-0.8,P106,7,0.0,1,3,avg_true_dominance_generation
+14333,encyclopaedia,Italian Social Movement,Q1126102,Montreal,Rome,0.5286,0.0786,-0.45,P159,462,0.0,1,3,avg_true_dominance_generation
+14633,information_not_credible_source_new,Olga Vittoria Gentilli,Q3881639,French,Italian,0.5,0.1591,-0.3409,P1412,0,0.002051,1,3,avg_true_dominance_generation
+15733,neutral_new,Ark II,Q109659711,HBO,CBS,0.7125,0.0,-0.7125,P449,0,0.000686,1,3,avg_true_dominance_generation
+5201,information_not_credible_source_new,Phoebe Atwood Taylor,Q2088428,Rome,Boston,0.2143,0.4643,0.25,P19,10,1.5e-05,2,3,avg_true_dominance_generation
+6531,neutral_new,Gregory XII,Q227694,bishop,pope,0.5171,0.4592,-0.0579,P39,79,0.040119,2,3,avg_true_dominance_generation
+7998,information_not_credible_source_new,Le Vieux Cordelier,Q2401710,Australia,France,0.2129,0.4114,0.1986,P495,10,0.003335,2,3,avg_true_dominance_generation
+9378,neutral_new,Czech Republic,Q213,Tripoli,Prague,0.215,0.37,0.155,P36,7519,0.0,2,3,avg_true_dominance_generation
+11045,information_not_credible_source_new,Kingdom of Bulgaria,Q147909,Hebrew,Bulgarian,0.2361,0.4472,0.2111,P37,434,0.0,2,3,avg_true_dominance_generation
+12452,neutral_new,Global Humanitarian Forum,Q16840240,London,Geneva,0.3533,0.4867,0.1333,P159,1,0.005749,2,3,avg_true_dominance_generation
+12789,encyclopaedia,Carolyn Franklin,Q5045362,trumpet,piano,0.63,0.36,-0.27,P1303,172,0.023583,2,3,avg_true_dominance_generation
+14119,information_not_credible_source_new,Giacomo Antonelli,Q712085,bishop,cardinal,0.2696,0.4125,0.1429,P39,14,0.005426,2,3,avg_true_dominance_generation
+14143,neutral_new,Corriere dei Piccoli,Q1446208,Philippines,Italy,0.2075,0.4775,0.27,P495,4,0.001618,2,3,avg_true_dominance_generation
+14333,neutral_new,Italian Social Movement,Q1126102,Montreal,Rome,0.4062,0.2812,-0.125,P159,462,0.0,2,3,avg_true_dominance_generation
+551,neutral_new,IBM Information Management System,Q1571984,Apple,IBM,0.13,0.585,0.455,P178,33,0.002097,3,3,avg_true_dominance_generation
+1160,neutral_new,Vijayawada Junction railway station,Q7929306,Peru,India,0.1308,0.5144,0.3837,P17,60,0.004842,3,3,avg_true_dominance_generation
+1267,neutral_new,Arvydas Sabonis,Q297750,football,basketball,0.1239,0.6913,0.5674,P641,799,0.00156,3,3,avg_true_dominance_generation
+2538,encyclopaedia,Brisbane Airport,Q45523,Thor,Brisbane,0.1712,0.5827,0.4115,P138,346,0.0,3,3,avg_true_dominance_generation
+3152,encyclopaedia,Charlemagne,Q19914524,Islam,Christianity,0.1062,0.5719,0.4656,P140,0,8e-06,3,3,avg_true_dominance_generation
+3740,information_not_credible_source_new,Jean-Pierre Vernant,Q472206,economics,anthropology,0.1667,0.5417,0.375,P101,23,0.000219,3,3,avg_true_dominance_generation
+4752,information_not_credible_source_new,Gustave de Beaumont,Q326145,Latin,French,0.1608,0.5716,0.4108,P103,14,0.006472,3,3,avg_true_dominance_generation
+17102,information_not_credible_source_new,Rhythm-a-Ning,Q7321878,funk,jazz,0.2,0.5469,0.3469,P136,0,0.002273,3,3,avg_true_dominance_generation
+18392,information_not_credible_source_new,Mohammed Iqbal Khan,Q13649920,Christianity,Islam,0.0,0.775,0.775,P140,178,0.0,3,3,avg_true_dominance_generation
+19427,encyclopaedia,Panama Francis,Q2048920,sitcom,jazz,0.1633,0.5533,0.39,P136,11,2.2e-05,3,3,avg_true_dominance_generation

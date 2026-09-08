@@ -1,0 +1,70 @@
+==========================================================================
+  Probe Accuracy Analysis — Report
+==========================================================================
+  Generated : 2026-05-23 13:48:24
+  Model     : google/gemma-3-27b-it
+  Base dir  : icl_data_to_share_fk/gemma/46_60
+  Seeds     : 5  (seed_0, seed_1, seed_2, seed_3, seed_4)
+  Splits    : [4, 5, 21, 42, 67, 12, 19, 16, 27, 31, 37, 45, 52, 88, 99]
+  JSON out  : gemma_probe_accuracy_result.json
+==========================================================================
+
+Target    : avg_true_dominance_generation_bucket_k3
+Embeddings: subject+target_new
+
+Seed     Test Acc (mean ± std)    Bal. Test Acc (mean ± std)
+-------  -----------------------  ----------------------------
+seed_0   0.5781 ± 0.0271          0.5340 ± 0.0304
+seed_1   0.5781 ± 0.0271          0.5340 ± 0.0304
+seed_2   0.5781 ± 0.0271          0.5340 ± 0.0304
+seed_3   0.5781 ± 0.0271          0.5340 ± 0.0304
+seed_4   0.5781 ± 0.0271          0.5340 ± 0.0304
+OVERALL  0.5781 ± 0.0271          0.5340 ± 0.0304
+
+Target    : avg_true_dominance_generation_bucket_k3
+Embeddings: target_true+target_new
+
+Seed     Test Acc (mean ± std)    Bal. Test Acc (mean ± std)
+-------  -----------------------  ----------------------------
+seed_0   0.5550 ± 0.0245          0.5232 ± 0.0263
+seed_1   0.5550 ± 0.0245          0.5232 ± 0.0263
+seed_2   0.5550 ± 0.0245          0.5232 ± 0.0263
+seed_3   0.5550 ± 0.0245          0.5232 ± 0.0263
+seed_4   0.5550 ± 0.0245          0.5232 ± 0.0263
+OVERALL  0.5550 ± 0.0245          0.5232 ± 0.0263
+
+Target    : avg_new_dominance_generation_bucket_k3
+Embeddings: subject+target_new
+
+Seed     Test Acc (mean ± std)    Bal. Test Acc (mean ± std)
+-------  -----------------------  ----------------------------
+seed_0   0.5070 ± 0.0187          0.5072 ± 0.0209
+seed_1   0.5070 ± 0.0187          0.5072 ± 0.0209
+seed_2   0.5070 ± 0.0187          0.5072 ± 0.0209
+seed_3   0.5070 ± 0.0187          0.5072 ± 0.0209
+seed_4   0.5070 ± 0.0187          0.5072 ± 0.0209
+OVERALL  0.5070 ± 0.0187          0.5072 ± 0.0209
+
+Target    : avg_new_dominance_generation_bucket_k3
+Embeddings: target_true+target_new
+
+Seed     Test Acc (mean ± std)    Bal. Test Acc (mean ± std)
+-------  -----------------------  ----------------------------
+seed_0   0.4809 ± 0.0136          0.4813 ± 0.0162
+seed_1   0.4809 ± 0.0136          0.4813 ± 0.0162
+seed_2   0.4809 ± 0.0136          0.4813 ± 0.0162
+seed_3   0.4809 ± 0.0136          0.4813 ± 0.0162
+seed_4   0.4809 ± 0.0136          0.4813 ± 0.0162
+OVERALL  0.4809 ± 0.0136          0.4813 ± 0.0162
+
+==========================================================================
+  Summary — overall averages across all seeds
+==========================================================================
+
+Target                                   Embeddings              Test Acc         Bal. Test Acc
+---------------------------------------  ----------------------  ---------------  ---------------
+avg_true_dominance_generation_bucket_k3  subject+target_new      0.5781 ± 0.0271  0.5340 ± 0.0304
+avg_true_dominance_generation_bucket_k3  target_true+target_new  0.5550 ± 0.0245  0.5232 ± 0.0263
+avg_new_dominance_generation_bucket_k3   subject+target_new      0.5070 ± 0.0187  0.5072 ± 0.0209
+avg_new_dominance_generation_bucket_k3   target_true+target_new  0.4809 ± 0.0136  0.4813 ± 0.0162
+==========================================================================

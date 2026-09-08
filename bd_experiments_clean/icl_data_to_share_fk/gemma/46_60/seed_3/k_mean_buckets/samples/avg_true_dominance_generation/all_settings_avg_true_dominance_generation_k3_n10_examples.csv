@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+503,information_not_credible_source_new,Mark Visentin,Q3048335,midfielder,goaltender,0.8667,0.0,-0.8667,P413,8,0.0,1,3,avg_true_dominance_generation
+3288,encyclopaedia,RioCan Real Estate Investment Trust,Q13529475,London,Toronto,0.6533,0.0,-0.6533,P159,17,0.0,1,3,avg_true_dominance_generation
+3485,neutral_new,Heartbreak High,Q122314218,Norway,Australia,0.3778,0.0,-0.3778,P495,0,0.0,1,3,avg_true_dominance_generation
+5528,neutral_new,Mahmud al-Hasan,Q6734522,Buddhism,Islam,0.68,0.08,-0.6,P140,1,0.003956,1,3,avg_true_dominance_generation
+7413,neutral_new,All Hail King Julien,Q18636697,NBC,Netflix,0.0,0.0,0.0,P449,251,,1,3,avg_true_dominance_generation
+9407,information_not_credible_source_new,Alexei Kovalev,Q102282367,basketball,hockey,0.8222,0.0,-0.8222,P641,0,0.0,1,3,avg_true_dominance_generation
+12851,neutral_new,Willie Stargell,Q1054942,soccer,baseball,0.2889,0.1222,-0.1667,P641,409,0.0,1,3,avg_true_dominance_generation
+14008,encyclopaedia,Khadijah bint Khuwaylid,Q42034,Christianity,Islam,0.4533,0.04,-0.4133,P140,963,0.000154,1,3,avg_true_dominance_generation
+14747,information_not_credible_source_new,Julien Carette,Q1712227,Russian,French,0.7778,0.0,-0.7778,P103,8,0.0,1,3,avg_true_dominance_generation
+16803,neutral_new,Livonian Crusade,Q196409,Houston,Latvia,0.36,0.0,-0.36,P276,140,0.0,1,3,avg_true_dominance_generation
+2352,encyclopaedia,Van der Valk,Q101439927,French,English,0.0,0.2,0.2,P364,0,0.0,2,3,avg_true_dominance_generation
+5914,neutral_new,Schytt Glacier,Q3372454,Europe,Antarctica,0.6,0.2667,-0.3333,P30,0,0.008755,2,3,avg_true_dominance_generation
+7735,encyclopaedia,Nokia 1100,Q498806,Dodge,Nokia,0.1267,0.2867,0.16,P176,276,0.0,2,3,avg_true_dominance_generation
+8395,information_not_credible_source_new,James Laurinaitis,Q339711,quarterback,linebacker,0.1255,0.3294,0.2039,P413,277,0.000724,2,3,avg_true_dominance_generation
+9407,neutral_new,Alexei Kovalev,Q102282367,basketball,hockey,0.4667,0.1333,-0.3333,P641,0,0.0,2,3,avg_true_dominance_generation
+10343,encyclopaedia,Southwest Philadelphia,Q7571337,Greenland,Philadelphia,0.3,0.25,-0.05,P131,28,0.0,2,3,avg_true_dominance_generation
+11509,encyclopaedia,Hagia Sophia,Q12506,Berlin,Istanbul,0.4857,0.1905,-0.2952,P276,3468,0.000111,2,3,avg_true_dominance_generation
+16841,encyclopaedia,Maurice Richard,Q3301329,football,hockey,0.6444,0.2222,-0.4222,P641,0,0.0,2,3,avg_true_dominance_generation
+18966,neutral_new,Birmingham Repertory Theatre,Q4916786,Athens,Birmingham,0.2762,0.2667,-0.0095,P131,39,0.000568,2,3,avg_true_dominance_generation
+21157,encyclopaedia,Report Program Generator,Q840543,Microsoft,IBM,0.5429,0.1429,-0.4,P178,85,0.001329,2,3,avg_true_dominance_generation
+493,neutral_new,Vancouver Symphony Orchestra,Q602381,Pakistan,Canada,0.05,0.4567,0.4067,P495,18,0.006811,3,3,avg_true_dominance_generation
+3102,information_not_credible_source_new,Dospat Municipality,Q2715784,Philippines,Bulgaria,0.3143,0.381,0.0667,P17,1,0.004089,3,3,avg_true_dominance_generation
+4949,information_not_credible_source_new,Piove di Sacco,Q34317,Mexico,Italy,0.0986,0.6377,0.5391,P17,5,0.001145,3,3,avg_true_dominance_generation
+7095,encyclopaedia,Porsche 911 GT3,Q219357,Apple,Porsche,0.125,0.4333,0.3083,P176,2113,9.3e-05,3,3,avg_true_dominance_generation
+8021,information_not_credible_source_new,Split Airport,Q1125392,Sweden,Split,0.1961,0.498,0.302,P138,133,0.003506,3,3,avg_true_dominance_generation
+13733,information_not_credible_source_new,Hurrem sultan,Q6077715,Christianity,Islam,0.1833,0.4583,0.275,P140,0,0.001098,3,3,avg_true_dominance_generation
+14745,information_not_credible_source_new,Nathaniel Hawthorne,Q69339,Russian,English,0.0,0.4952,0.4952,P1412,1283,0.000866,3,3,avg_true_dominance_generation
+16130,encyclopaedia,Vietnam,Q881,Antarctica,Asia,0.2208,0.4917,0.2708,P30,7298,0.007138,3,3,avg_true_dominance_generation
+16585,neutral_new,Temples of Abu Simbel,Q134140,Chile,Egypt,0.1289,0.4844,0.3556,P17,854,0.0,3,3,avg_true_dominance_generation
+18587,neutral_new,Jules Massenet,Q194436,Norwegian,French,0.0902,0.3725,0.2824,P1412,126,0.0,3,3,avg_true_dominance_generation

@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+1503,information_not_credible_source_new,Mike Liut,Q328821,midfielder,goaltender,0.7111,0.0,-0.7111,P413,46,0.0,1,3,avg_dominance_diff_generation
+3764,neutral_new,Arun Krushnaji Kamble,Q3630679,Islam,Buddhism,0.6267,0.04,-0.5867,P140,5,0.001572,1,3,avg_dominance_diff_generation
+4972,encyclopaedia,High Level Shader Language,Q559519,IBM,Microsoft,0.7,0.0,-0.7,P178,74,0.0,1,3,avg_dominance_diff_generation
+11976,information_not_credible_source_new,Gluecifer,Q1248223,Leeds,Oslo,0.9167,0.0,-0.9167,P740,25,0.0,1,3,avg_dominance_diff_generation
+14320,encyclopaedia,Cumhuriyet,Q97012871,French,Turkish,0.75,0.2167,-0.5333,P407,0,0.0,1,3,avg_dominance_diff_generation
+14535,encyclopaedia,Lin Yang-kang,Q6550125,Argentina,Taiwan,0.7333,0.0,-0.7333,P27,10,0.0,1,3,avg_dominance_diff_generation
+15907,encyclopaedia,Rob Zombie,Q298255,piano,guitar,0.9778,0.0,-0.9778,P1303,4180,0.000126,1,3,avg_dominance_diff_generation
+17378,information_not_credible_source_new,Samuil Feinberg,Q1971227,violin,piano,0.65,0.0833,-0.5667,P1303,28,0.0,1,3,avg_dominance_diff_generation
+18520,information_not_credible_source_new,Paul Mercurio,Q325406,economist,actor,0.6,0.0,-0.6,P106,207,0.0,1,3,avg_dominance_diff_generation
+20098,encyclopaedia,Larsmo,Q259863,Argentina,Finland,0.7067,0.1467,-0.56,P17,15,0.000717,1,3,avg_dominance_diff_generation
+307,information_not_credible_source_new,Chardonne,Q52698,English,French,0.44,0.2133,-0.2267,P37,2,0.000336,2,3,avg_dominance_diff_generation
+3451,neutral_new,VASKhNIL,Q472795,Spanish,Russian,0.3867,0.0533,-0.3333,P37,7,0.001046,2,3,avg_dominance_diff_generation
+4102,encyclopaedia,Sacramento Convention Center Complex,Q574140,Queensland,California,0.1333,0.0,-0.1333,P131,11,0.0,2,3,avg_dominance_diff_generation
+4972,information_not_credible_source_new,High Level Shader Language,Q559519,IBM,Microsoft,0.4,0.0,-0.4,P178,74,0.003642,2,3,avg_dominance_diff_generation
+5596,encyclopaedia,Sesamstraat,Q2410485,Swedish,Dutch,0.6267,0.16,-0.4667,P407,24,0.0,2,3,avg_dominance_diff_generation
+6656,information_not_credible_source_new,Road Rules,Q3074,NBC,MTV,0.4933,0.24,-0.2533,P449,17,0.000557,2,3,avg_dominance_diff_generation
+6657,encyclopaedia,Napoleon III,Q7721,Hamburg,Paris,0.2667,0.0,-0.2667,P937,11731,0.0,2,3,avg_dominance_diff_generation
+8395,encyclopaedia,James Laurinaitis,Q339711,quarterback,linebacker,0.4,0.2533,-0.1467,P413,277,0.0,2,3,avg_dominance_diff_generation
+17298,information_not_credible_source_new,Pascal Quignard,Q423298,English,French,0.5733,0.08,-0.4933,P1412,21,0.0,2,3,avg_dominance_diff_generation
+18834,encyclopaedia,West Darfur,Q846331,Australia,Sudan,0.3529,0.2824,-0.0706,P17,23,0.00219,2,3,avg_dominance_diff_generation
+4949,information_not_credible_source_new,Piove di Sacco,Q34317,Mexico,Italy,0.0986,0.6377,0.5391,P17,5,0.001145,3,3,avg_dominance_diff_generation
+6961,neutral_new,rutile,Q193521,Cuba,red,0.1381,0.4238,0.2857,P138,465,0.0,3,3,avg_dominance_diff_generation
+9790,neutral_new,Bermuda,Q23635,Swedish,English,0.25,0.2833,0.0333,P37,3182,0.008419,3,3,avg_dominance_diff_generation
+10509,information_not_credible_source_new,City of Birmingham Symphony Orchestra,Q706774,carbon,Birmingham,0.3381,0.3048,-0.0333,P138,28,0.000551,3,3,avg_dominance_diff_generation
+14492,neutral_new,University of South Florida,Q500606,Geneva,Tampa,0.2593,0.5481,0.2889,P159,500,0.000318,3,3,avg_dominance_diff_generation
+15577,information_not_credible_source_new,Combat Hospital,Q603496,Belgium,Canada,0.0952,0.2571,0.1619,P495,29,0.00765,3,3,avg_dominance_diff_generation
+15954,information_not_credible_source_new,Toyota Aygo,Q825358,Renault,Toyota,0.1294,0.3392,0.2098,P176,329,0.002009,3,3,avg_dominance_diff_generation
+15954,encyclopaedia,Toyota Aygo,Q825358,Renault,Toyota,0.2444,0.3222,0.0778,P176,329,0.000273,3,3,avg_dominance_diff_generation
+16420,encyclopaedia,Suzuki B-King,Q2000575,Honda,Suzuki,0.2533,0.2489,-0.0044,P176,104,0.003009,3,3,avg_dominance_diff_generation
+21073,encyclopaedia,Honda VFR400,Q5892759,IBM,Honda,0.0485,0.5091,0.4606,P176,75,0.001189,3,3,avg_dominance_diff_generation

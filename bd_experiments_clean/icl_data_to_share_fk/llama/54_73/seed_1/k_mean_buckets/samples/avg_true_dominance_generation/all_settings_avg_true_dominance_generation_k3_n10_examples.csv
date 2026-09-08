@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+1169,neutral_new,John T. Mullock,Q6260059,mayor,bishop,0.8063,0.0,-0.8063,P39,2,0.0,1,3,avg_true_dominance_generation
+4173,encyclopaedia,Transaction Processing Facility,Q1426122,Google,IBM,0.4479,0.2146,-0.2333,P178,24,0.005661,1,3,avg_true_dominance_generation
+5338,encyclopaedia,Ryszard Engelking,Q737661,France,Poland,0.5938,0.0,-0.5938,P27,2,6.3e-05,1,3,avg_true_dominance_generation
+11866,information_not_credible_source_new,Mark Kinsella,Q703653,linebacker,midfielder,0.8438,0.0125,-0.8313,P413,102,0.000589,1,3,avg_true_dominance_generation
+14527,information_not_credible_source_new,Claude Antoine Dacosta,Q1096417,actor,politician,0.7875,0.0,-0.7875,P106,1,0.000106,1,3,avg_true_dominance_generation
+15853,encyclopaedia,Sharmila Tagore,Q465830,Scientology,Islam,0.61,0.015,-0.595,P140,1415,0.0,1,3,avg_true_dominance_generation
+18274,neutral_new,Mithat Bayrak,Q661466,French,Turkish,0.5,0.2,-0.3,P103,2,0.001086,1,3,avg_true_dominance_generation
+18449,information_not_credible_source_new,Carl Lindhagen,Q55955,Amsterdam,Stockholm,0.8357,0.0286,-0.8071,P937,2,0.0,1,3,avg_true_dominance_generation
+18970,information_not_credible_source_new,Joe Hildebrand,Q20739539,Canada,Australia,0.4694,0.1347,-0.3347,P495,0,0.021233,1,3,avg_true_dominance_generation
+21231,encyclopaedia,Anne Redpath,Q4768742,Frankfurt,Edinburgh,0.875,0.0375,-0.8375,P20,8,0.019292,1,3,avg_true_dominance_generation
+6527,neutral_new,David Friesen,Q1174470,disco,jazz,0.2067,0.455,0.2483,P136,86,1e-05,2,3,avg_true_dominance_generation
+7332,information_not_credible_source_new,Vanessa Beecroft,Q152292,Romanian,Italian,0.3185,0.3944,0.0759,P1412,48,0.000553,2,3,avg_true_dominance_generation
+9263,encyclopaedia,Nokia 808 PureView,Q1341483,Toyota,Nokia,0.1677,0.4919,0.3242,P176,131,0.000827,2,3,avg_true_dominance_generation
+11565,information_not_credible_source_new,Alexandre Auguste Ledru-Rollin,Q1382222,English,French,0.3391,0.313,-0.0261,P103,40,0.007685,2,3,avg_true_dominance_generation
+14119,information_not_credible_source_new,Giacomo Antonelli,Q712085,bishop,cardinal,0.2696,0.4125,0.1429,P39,14,0.005426,2,3,avg_true_dominance_generation
+14911,encyclopaedia,The Idle Race,Q1812612,Chicago,Birmingham,0.1962,0.4846,0.2885,P740,68,2.2e-05,2,3,avg_true_dominance_generation
+14953,neutral_new,Millbrae station,Q6858585,Vienna,California,0.2233,0.4953,0.2721,P131,21,5e-06,2,3,avg_true_dominance_generation
+15521,neutral_new,Suddenly Susan,Q643894,HBO,NBC,0.38,0.33,-0.05,P449,266,0.00075,2,3,avg_true_dominance_generation
+15703,information_not_credible_source_new,First Barons' War,Q2086498,Chicago,England,0.1434,0.5026,0.3592,P276,364,0.000119,2,3,avg_true_dominance_generation
+17902,information_not_credible_source_new,Greetje Kauffeld,Q508311,fantasy,jazz,0.231,0.331,0.1,P136,3,1.6e-05,2,3,avg_true_dominance_generation
+56,information_not_credible_source_new,Toyota Cresta,Q1815602,BMW,Toyota,0.2115,0.6192,0.4077,P176,194,0.006246,3,3,avg_true_dominance_generation
+3801,encyclopaedia,Yakov Sverdlov,Q298384,Italian,Russian,0.1167,0.5375,0.4208,P1412,489,0.000539,3,3,avg_true_dominance_generation
+5733,information_not_credible_source_new,Blake Mills,Q4924438,Dublin,California,0.2,0.65,0.45,P19,242,0.000811,3,3,avg_true_dominance_generation
+7462,neutral_new,Jean de La Fontaine,Q49496,Russian,French,0.1288,0.6038,0.475,P103,158,4e-06,3,3,avg_true_dominance_generation
+8968,neutral_new,Florent Sinama Pongolle,Q342690,hockey,soccer,0.115,0.7275,0.6125,P641,206,0.001258,3,3,avg_true_dominance_generation
+10643,neutral_new,Band-e Kaisar,Q806225,Poland,Iran,0.2,0.5167,0.3167,P17,40,0.007061,3,3,avg_true_dominance_generation
+11289,encyclopaedia,Party for Freedom,Q332739,Singapore,Netherlands,0.0541,0.6284,0.5743,P17,1600,0.000202,3,3,avg_true_dominance_generation
+13694,information_not_credible_source_new,Sesamstraat,Q2410485,Thai,Dutch,0.1618,0.6647,0.5029,P364,24,0.0,3,3,avg_true_dominance_generation
+15777,encyclopaedia,Pandoh Dam,Q7130687,Portugal,India,0.1944,0.6306,0.4361,P17,12,0.000493,3,3,avg_true_dominance_generation
+18503,neutral_new,Towers of London,Q522043,Sheffield,London,0.1176,0.6882,0.5706,P740,125,0.000152,3,3,avg_true_dominance_generation

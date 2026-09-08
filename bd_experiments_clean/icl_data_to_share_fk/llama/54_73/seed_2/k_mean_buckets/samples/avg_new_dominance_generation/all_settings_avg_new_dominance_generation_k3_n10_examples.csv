@@ -1,0 +1,31 @@
+case_id,setting,subject,subject_id,target_new,target_true,avg_new_dominance_generation,avg_true_dominance_generation,avg_dominance_diff_generation,relation_id,popularity_score,avg_conflict_pos,bucket,k,score_column
+2538,information_not_credible_source_new,Brisbane Airport,Q45523,Thor,Brisbane,0.2571,0.6196,0.3625,P138,346,0.0,1,3,avg_new_dominance_generation
+4752,information_not_credible_source_new,Gustave de Beaumont,Q326145,Latin,French,0.1608,0.5716,0.4108,P103,14,0.006472,1,3,avg_new_dominance_generation
+5343,neutral_new,The Rockford Files,Q283660,HBO,NBC,0.1315,0.3981,0.2667,P449,622,7e-06,1,3,avg_new_dominance_generation
+5746,neutral_new,John Harkes,Q936196,quarterback,midfielder,0.1786,0.6643,0.4857,P413,84,0.000389,1,3,avg_new_dominance_generation
+7585,information_not_credible_source_new,East River Greenway,Q5036759,Leeds,Manhattan,0.056,0.436,0.38,P131,26,0.0,1,3,avg_new_dominance_generation
+7669,encyclopaedia,Svenska Hollywoodfruar,Q4353133,Japan,Sweden,0.2261,0.3522,0.1261,P495,18,0.004852,1,3,avg_new_dominance_generation
+13359,information_not_credible_source_new,Frankie Knuckles,Q205322,Oslo,Chicago,0.2308,0.5115,0.2808,P20,266,0.0,1,3,avg_new_dominance_generation
+14911,neutral_new,The Idle Race,Q1812612,Chicago,Birmingham,0.2308,0.4769,0.2462,P740,68,9.7e-05,1,3,avg_new_dominance_generation
+15777,neutral_new,Pandoh Dam,Q7130687,Portugal,India,0.113,0.6037,0.4907,P17,12,0.000109,1,3,avg_new_dominance_generation
+17902,neutral_new,Greetje Kauffeld,Q508311,fantasy,jazz,0.2347,0.45,0.2153,P136,3,0.000273,1,3,avg_new_dominance_generation
+21,encyclopaedia,Argentine Football Association,Q496548,NATO,FIFA,0.2981,0.3288,0.0308,P463,203,0.0,2,3,avg_new_dominance_generation
+3543,neutral_new,Liverpool Hope University,Q1818020,Paris,Liverpool,0.3554,0.4679,0.1125,P159,46,0.000839,2,3,avg_new_dominance_generation
+3583,encyclopaedia,Fernandel,Q129092,Copenhagen,Paris,0.33,0.545,0.215,P20,79,0.021051,2,3,avg_new_dominance_generation
+3642,information_not_credible_source_new,Yehoshafat Harkabi,Q2561928,Libya,Jerusalem,0.325,0.3167,-0.0083,P20,15,0.0,2,3,avg_new_dominance_generation
+6531,neutral_new,Gregory XII,Q227694,bishop,pope,0.5171,0.4592,-0.0579,P39,79,0.040119,2,3,avg_new_dominance_generation
+11565,neutral_new,Alexandre Auguste Ledru-Rollin,Q1382222,English,French,0.2981,0.4056,0.1074,P103,40,0.014063,2,3,avg_new_dominance_generation
+15584,neutral_new,Buichi Terasawa,Q2630137,France,Japan,0.4136,0.2568,-0.1568,P27,24,0.006127,2,3,avg_new_dominance_generation
+16208,encyclopaedia,Errico Petrella,Q555720,English,Italian,0.4031,0.2214,-0.1816,P1412,1,0.005284,2,3,avg_new_dominance_generation
+18530,information_not_credible_source_new,Brighton Centre,Q4967617,London,Brighton,0.2615,0.4365,0.175,P276,41,0.007429,2,3,avg_new_dominance_generation
+20087,neutral_new,Clement X,Q155956,bishop,pope,0.3609,0.2283,-0.1326,P39,40,0.018222,2,3,avg_new_dominance_generation
+1169,encyclopaedia,John T. Mullock,Q6260059,mayor,bishop,0.5409,0.0,-0.5409,P39,2,0.0,3,3,avg_new_dominance_generation
+2165,encyclopaedia,Carsten Dahl,Q38051142,London,Copenhagen,0.9875,0.025,-0.9625,P19,0,0.010101,3,3,avg_new_dominance_generation
+5338,encyclopaedia,Ryszard Engelking,Q737661,France,Poland,0.5938,0.0,-0.5938,P27,2,6.3e-05,3,3,avg_new_dominance_generation
+9384,encyclopaedia,Kasabian,Q272517,Seattle,Leicester,0.6353,0.25,-0.3853,P740,565,0.000435,3,3,avg_new_dominance_generation
+12789,encyclopaedia,Carolyn Franklin,Q5045362,trumpet,piano,0.63,0.36,-0.27,P1303,172,0.023583,3,3,avg_new_dominance_generation
+14527,information_not_credible_source_new,Claude Antoine Dacosta,Q1096417,actor,politician,0.7875,0.0,-0.7875,P106,1,0.000106,3,3,avg_new_dominance_generation
+15733,neutral_new,Ark II,Q109659711,HBO,CBS,0.7125,0.0,-0.7125,P449,0,0.000686,3,3,avg_new_dominance_generation
+15853,neutral_new,Sharmila Tagore,Q465830,Scientology,Islam,0.6071,0.0857,-0.5214,P140,1415,0.0,3,3,avg_new_dominance_generation
+16208,neutral_new,Errico Petrella,Q555720,English,Italian,0.5464,0.0321,-0.5143,P1412,1,0.002526,3,3,avg_new_dominance_generation
+20186,encyclopaedia,Paul Anka,Q216563,guitar,piano,0.6559,0.1441,-0.5118,P1303,2872,0.025199,3,3,avg_new_dominance_generation
