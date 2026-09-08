@@ -6,7 +6,7 @@ Now published in COLM 2026.
 
 # Steering Awareness
 
-The root experiment is a reproduction and modification of ![Emergent Introspective Awareness in Large Language Models](https://transformer-circuits.pub/2025/introspection/index.html) where the model is asked to report whether a "thought" was injected into its activations. We add a third setting to this experiment where we do a "gaslight" intervention i.e. steering using a text prompt. 
+The root experiment is a reproduction and modification of [Emergent Introspective Awareness in Large Language Models](https://transformer-circuits.pub/2025/introspection/index.html) where the model is asked to report whether a "thought" was injected into its activations. We add a third setting to this experiment where we do a "gaslight" intervention i.e. steering using a text prompt. 
 Like in the original experiment all trials are completely independent i.e. the model never sees a trial and a control in the same context. 
 
 
@@ -69,15 +69,15 @@ a subset of the stages. `./run_full_pipeline.sh --help` lists all options.
 
 # Neurofeedback experiments
 
-These are experiments built on top of ![Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations](https://arxiv.org/abs/2505.13763v1)
+These are experiments built on top of [Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations](https://arxiv.org/abs/2505.13763v1)
 
 Details for the neurofeedback experiments are in the `llm_neurofeedback/`
 folder (a submodule) — see `llm_neurofeedback/SCRIPTS.md` for its pipeline and
-driver scripts. The `llm_neurofeedback/README.md` is from the original repository from that paper: ![https://github.com/sakimarquis/llm_neurofeedback](https://github.com/sakimarquis/llm_neurofeedback)
+driver scripts. The `llm_neurofeedback/README.md` is from the original repository from that paper: [https://github.com/sakimarquis/llm_neurofeedback](https://github.com/sakimarquis/llm_neurofeedback)
 
 
 # BD Experiments 
 
-Experiments based on ![Indications of Belief-Guided Agency and Meta-Cognitive Monitoring in Large Language Models](https://arxiv.org/abs/2602.02467) can be found in `bd_experiments_clean`. 
+Experiments based on [Indications of Belief-Guided Agency and Meta-Cognitive Monitoring in Large Language Models](https://arxiv.org/abs/2602.02467) can be found in `bd_experiments_clean`. 
 The authors graciously released their experimental data that can be found in the same directory. 
 
